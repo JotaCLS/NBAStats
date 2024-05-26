@@ -15,7 +15,7 @@
 
 --insert into Team values (1, 'Mavericks', 'Dallas', '50-32', 6)
 --insert into Team values (2, 'Timberwolves', 'Minnesota', '56-26', 4)
---select * from Team
+select * from Team
 
 --insert into Sponsor values (1, 'Chime', 'www.chime.com', 1)
 --insert into Sponsor values (2, 'Aura', 'www.aura.com', 2)
@@ -64,7 +64,7 @@
 --(28, 'Karl-Anthony Towns', 28, 'C/PF', 213, 112),
 --(29, 'Leonard Miller', 20, 'SF', 208, 95),
 --(30, 'Luka Garza', 25, 'C', 208, 106)
---select * from Player
+select * from Player
 
 --insert into Game values (1, '2024-05-22', 1, 1)
 --select * from Game
@@ -97,4 +97,4 @@
 --(16, 1, '00:17:07', 5, 8, 1, 3, 0, 0, 1, 1, 2, 0, 0, 0, 2, 11, 0),
 --(22, 1, '00:16:03', 1, 6, 0, 4, 0, 0, 0, 1, 2, 0, 0, 0, 1, 2, -5)
 --(22, 1, '00:16:03', 1, 6, 0, 4, 0, 0, 0, 1, 2, 0, 0, 0, 1, 2, -5)
-select * from Statistics_Player
+--select * from Statistics_Player

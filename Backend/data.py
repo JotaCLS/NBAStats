@@ -1,13 +1,19 @@
-from nba_api.stats.endpoints import scoreboardv2, boxscoretraditionalv2
+from nba_api.stats.endpoints import leaguestandings, commonteamroster, scoreboardv2, boxscoretraditionalv2
+from nba_api.stats.static import teams
 from datetime import datetime, timedelta
 
 Game_Stats = None
 Statistics_Away_Team = None
 Statistics_Home_Team = None
 Statistics_Player = None
+Team_data = None
+Player_data = None 
+Coach_data = None
 
 firstday = '2023-10-24'
 lastday = '2024-04-14'
+
+divisions = ['Atlantic', 'Central', 'Southeast', 'Northwest', 'Pacific', 'Southwest']
 
 def get_season_dates():
     start_date = datetime.strptime(firstday, '%Y-%m-%d')
@@ -23,7 +29,7 @@ def get_season_dates():
     return date_list
 
 
-def main():
+def game_data():
     sat_id = 1
     sht_id = 1
 
@@ -99,6 +105,30 @@ def main():
     sht_file.close()
     gw_file.close()
     sp_file.close()
+
+def team_data():
+    team_file = open('teamdata.txt', 'w')
+    standings = leaguestandings.LeagueStandings().get_dict()
+    nba_teams = standings['resultSets'][0]['rowSet']
+    # print(nba_teams)
+
+    for team in nba_teams:
+        # print(team)
+        team_id = team[2]
+        team_name = team[4]
+        team_city = team[3]
+        print(f'{team_id}, {team_name}, {team_city}, {team[16]}, {divisions.index(team[9]) + 1}')
+        
+        roster = commonteamroster.CommonTeamRoster(team_id=team_id).get_dict()
+        # print(roster['resultSets'][0]['headers'])
+        for player in roster['resultSets'][0]['rowSet']:
+            print(f'{player[14]}, {player[3]}, {int(str(player[11]).split('.')[0])}, {player[7]}, {player[8]}, {player[9]}')
+        #     break
+        # break
+
+def main():
+    # game_data()
+    team_data()
 
 if __name__ == '__main__':
     main()
