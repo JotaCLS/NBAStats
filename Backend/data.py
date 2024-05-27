@@ -9,6 +9,9 @@ Statistics_Player = None
 Team_data = None
 Player_data = None 
 Coach_data = None
+Squad_data = None
+Squad_Player_data = None
+Squad_Coach_data = None
 
 firstday = '2023-10-24'
 lastday = '2024-04-14'
@@ -107,28 +110,82 @@ def game_data():
     sp_file.close()
 
 def team_data():
+    squad_id = 1
+    
     team_file = open('teamdata.txt', 'w')
+    player_file = open('playerdata.txt', 'w')
+    squad_file = open('squaddata.txt', 'w')
+    coach_file = open('coachdata.txt', 'w')
+    squad_player_file = open('squadplayerdata.txt', 'w')
+    squad_coach_file = open('squadcoachdata.txt', 'w')
     standings = leaguestandings.LeagueStandings().get_dict()
     nba_teams = standings['resultSets'][0]['rowSet']
     # print(nba_teams)
+
 
     for team in nba_teams:
         # print(team)
         team_id = team[2]
         team_name = team[4]
         team_city = team[3]
-        print(f'{team_id}, {team_name}, {team_city}, {team[16]}, {divisions.index(team[9]) + 1}')
+        Team_data = f'{team_id}, {team_name}, {team_city}, {team[16]}, {divisions.index(team[9]) + 1}'
+        # print(Team_data)
+        team_file.write(Team_data)
+        team_file.write('\n')
+
+        Squad_data = f'{squad_id}, 2024, {team_id}'
+        # print(Squad_data)
+        squad_file.write(Squad_data)
+        squad_file.write('\n')
         
         roster = commonteamroster.CommonTeamRoster(team_id=team_id).get_dict()
-        # print(roster['resultSets'][0]['headers'])
+        # print(roster['resultSets'][0])
         for player in roster['resultSets'][0]['rowSet']:
-            print(f'{player[14]}, {player[3]}, {int(str(player[11]).split('.')[0])}, {player[7]}, {player[8]}, {player[9]}')
-        #     break
+            Player_data = f'{player[14]}, {player[3]}, {int(str(player[11]).split('.')[0])}, {player[7]}, {feet_inches_to_cm(player[8]):.0f}, {pounds_to_kg(int(player[9])):.0f}'
+            # print(Player_data)
+            player_file.write(Player_data)
+            player_file.write('\n')
+
+            Squad_Player_data = f'{squad_id}, {player[14]}'
+            # print(Squad_Player_data)
+            squad_player_file.write(Squad_Player_data)
+            squad_player_file.write('\n')
+            # break
+
+        coach = roster['resultSets'][1]['rowSet'][0]
+        Coach_data = f'{coach[2]}, {coach[5]}, {int(-1)}'
+        # print(Coach_data)
+        coach_file.write(Coach_data)
+        coach_file.write('\n')
+
+        Squad_Coach_data = f'{squad_id}, {coach[2]}'
+        # print(Squad_Coach_data)
+        squad_coach_file.write(Squad_Coach_data)
+        squad_coach_file.write('\n')
+
+        squad_id = squad_id + 1
         # break
 
+    team_file.close()
+    player_file.close()
+    squad_file.close()
+    coach_file.close()
+    squad_player_file.close()
+    squad_coach_file.close()
+
+def pounds_to_kg(pounds):
+    return pounds * 0.453592
+
+def feet_inches_to_cm(feet_inches_str):
+    feet, inches = map(int, feet_inches_str.split('-'))
+    total_inches = (feet * 12) + inches
+    total_cm = total_inches * 2.54  # 1 inch = 2.54 cm
+    return total_cm
+
 def main():
-    # game_data()
+    game_data()
     team_data()
+    print('Done')
 
 if __name__ == '__main__':
     main()
