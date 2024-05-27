@@ -48,7 +48,7 @@ namespace NBAproject
 
         public override string ToString()
         {
-            return base.ToString();
+            return TeamName;
         }
 
         public Team() : base() { }
