@@ -23,6 +23,7 @@ namespace NBAproject
             loadData();
             InitializeComboBox1();
             InitializeComboBox2();
+            InitializeComboBox3();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -57,7 +58,7 @@ namespace NBAproject
             if (!verifySGBDConnection())
                 return;
 
-            SqlCommand cmd = new SqlCommand("SELECT * FROM Team", cn);
+            SqlCommand cmd = new SqlCommand("SELECT id, teamName, cityName, wins_losses, division_id FROM Team", cn);
             SqlDataReader reader = cmd.ExecuteReader();
             teams.Items.Clear();
 
@@ -77,25 +78,90 @@ namespace NBAproject
 
             currentTeam = 0;
             ShowTeam();
-
-
         }
+
 
         public void ShowTeam()
         {
-            if (teams.Items.Count == 0 | currentTeam < 0)
+            if (teams.Items.Count == 0 || currentTeam < 0)
                 return;
-            Team team = new Team();
-            team = (Team)teams.Items[currentTeam];
-            txtId.Text = team.TeamId;
+
+            Team team = (Team)teams.Items[currentTeam];
             txtName.Text = team.TeamName;
             txtCity.Text = team.TeamCity;
             txtWL.Text = team.Wins_losses;
-            txtDivisionId.Text = team.DivisionId;
 
             LoadGames(team.TeamId);
+            LoadAdditionalTeamData(team.TeamId);
 
+            if (comboBox3.SelectedItem != null)
+            {
+                string selectedYear = comboBox3.SelectedItem.ToString();
+                if (!string.IsNullOrEmpty(selectedYear))
+                {
+                    LoadSquad(team.TeamId, int.Parse(selectedYear));
+                }
+            }
+            else
+            {
+                LoadSquad(team.TeamId, DateTime.Now.Year);
+            }
         }
+
+        public void LoadSquad(string teamId, int year)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            SqlCommand cmd = new SqlCommand("GetSquadByTeam", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TeamId", teamId);
+            cmd.Parameters.AddWithValue("@Year", year);
+            SqlDataReader reader = cmd.ExecuteReader();
+            squad_list.Items.Clear();
+
+            while (reader.Read())
+            {
+                Player player = new Player();
+                player.PlayerId = reader["PlayerId"].ToString();
+                player.PlayerName = reader["playerName"].ToString();
+                player.PlayerAge = Convert.ToInt32(reader["playerAge"]);
+                player.PlayerPosition = reader["playerPosition"].ToString();
+                player.PlayerHeight = Convert.ToSingle(reader["playerHeight"]);
+                player.PlayerWeight = Convert.ToSingle(reader["playerWeight"]);
+
+                squad_list.Items.Add(player);
+            }
+
+            cn.Close();
+        }
+
+        public void LoadAdditionalTeamData(string teamId)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            SqlCommand cmd = new SqlCommand("GetTeamDetails", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TeamId", teamId);
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            if (reader.Read())
+            {
+                Team team = (Team)teams.Items[currentTeam];
+                team.TeamCoach = reader["coachName"].ToString();
+                team.TeamConference = reader["conferenceName"].ToString();
+                team.TeamDivision = reader["divisionName"].ToString();
+
+                txtCoach.Text = team.TeamCoach;
+                txtConference.Text = team.TeamConference;
+                txtDivision.Text = team.TeamDivision;
+            }
+
+            cn.Close();
+        }
+
+
 
         private void LoadGames(string teamId)
         {
@@ -344,6 +410,148 @@ namespace NBAproject
         }
 
         private void games_list_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void squad_list_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (squad_list.SelectedIndex >= 0)
+            {
+                Player selectedPlayer = (Player)squad_list.SelectedItem;
+                LoadPlayerStatistics(selectedPlayer.PlayerId);
+            }
+        }
+
+        private void LoadPlayerStatistics(string playerId)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            SqlCommand cmd = new SqlCommand("GetPlayerStatistics", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@PlayerId", playerId);
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            PlayerStats stats = new PlayerStats();
+
+            if (reader.Read())
+            {
+                stats.Minutes = reader["avg_seconds"] != DBNull.Value ? Convert.ToSingle(reader["avg_seconds"]) / 60 : 0;
+                stats.FGM = reader["fgm"] != DBNull.Value ? Convert.ToSingle(reader["fgm"]) : 0;
+                stats.FGA = reader["fga"] != DBNull.Value ? Convert.ToSingle(reader["fga"]) : 0;
+                stats.ThreePTM = reader["threeptm"] != DBNull.Value ? Convert.ToSingle(reader["threeptm"]) : 0;
+                stats.ThreePTA = reader["threepta"] != DBNull.Value ? Convert.ToSingle(reader["threepta"]) : 0;
+                stats.FTM = reader["ftm"] != DBNull.Value ? Convert.ToSingle(reader["ftm"]) : 0;
+                stats.FTA = reader["fta"] != DBNull.Value ? Convert.ToSingle(reader["fta"]) : 0;
+                stats.OffReb = reader["offreb"] != DBNull.Value ? Convert.ToSingle(reader["offreb"]) : 0;
+                stats.DefReb = reader["defreb"] != DBNull.Value ? Convert.ToSingle(reader["defreb"]) : 0;
+                stats.Assists = reader["assists"] != DBNull.Value ? Convert.ToSingle(reader["assists"]) : 0;
+                stats.Steals = reader["steals"] != DBNull.Value ? Convert.ToSingle(reader["steals"]) : 0;
+                stats.Blocks = reader["blocks"] != DBNull.Value ? Convert.ToSingle(reader["blocks"]) : 0;
+                stats.TOV = reader["tov"] != DBNull.Value ? Convert.ToSingle(reader["tov"]) : 0;
+                stats.Fouls = reader["fouls"] != DBNull.Value ? Convert.ToSingle(reader["fouls"]) : 0;
+                stats.Points = reader["points"] != DBNull.Value ? Convert.ToSingle(reader["points"]) : 0;
+                stats.PlusMinus = reader["plus_minus"] != DBNull.Value ? Convert.ToSingle(reader["plus_minus"]) : 0;
+            }
+
+            cn.Close();
+
+            DisplayPlayerStatistics(stats);
+        }
+
+        private void DisplayPlayerStatistics(PlayerStats stats)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            
+            int totalSeconds = (int)(stats.Minutes * 60);
+            int minutes = totalSeconds / 60;
+            int seconds = totalSeconds % 60;
+
+            sb.AppendLine($"Minutes: {minutes}:{seconds:D2}");
+            sb.AppendLine($"FGM: {stats.FGM:F2}");
+            sb.AppendLine($"FGA: {stats.FGA:F2}");
+            sb.AppendLine($"3PTM: {stats.ThreePTM:F2}");
+            sb.AppendLine($"3PTA: {stats.ThreePTA:F2}");
+            sb.AppendLine($"FTM: {stats.FTM:F2}");
+            sb.AppendLine($"FTA: {stats.FTA:F2}");
+            sb.AppendLine($"Offensive Rebounds: {stats.OffReb:F2}");
+            sb.AppendLine($"Defensive Rebounds: {stats.DefReb:F2}");
+            sb.AppendLine($"Assists: {stats.Assists:F2}");
+            sb.AppendLine($"Steals: {stats.Steals:F2}");
+            sb.AppendLine($"Blocks: {stats.Blocks:F2}");
+            sb.AppendLine($"Turnovers: {stats.TOV:F2}");
+            sb.AppendLine($"Fouls: {stats.Fouls:F2}");
+            sb.AppendLine($"Points: {stats.Points:F2}");
+            sb.AppendLine($"Plus/Minus: {stats.PlusMinus:F2}");
+
+            statistics_players.Text = sb.ToString();
+        }
+
+
+
+
+        private void comboBox3_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (teams.SelectedIndex < 0)
+            {
+                MessageBox.Show("Por favor, selecione uma equipe!", "Alerta", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            Team selectedTeam = (Team)teams.SelectedItem;
+            string selectedYear = (string)comboBox3.SelectedItem;
+
+            filtrarYear(selectedTeam.TeamId, int.Parse(selectedYear));
+        }
+
+        public void filtrarYear(string teamId, int year)
+        {
+
+            if (!verifySGBDConnection())
+                return;
+
+            SqlCommand cmd = new SqlCommand("GetSquadByTeam", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TeamId", teamId);
+            cmd.Parameters.AddWithValue("@Year", year);
+            SqlDataReader reader = cmd.ExecuteReader();
+            squad_list.Items.Clear();
+
+            while (reader.Read())
+            {
+                Player player = new Player();
+                player.PlayerId = reader["PlayerId"].ToString();
+                player.PlayerName = reader["playerName"].ToString();
+                player.PlayerAge = Convert.ToInt32(reader["playerAge"]);
+                player.PlayerPosition = reader["playerPosition"].ToString();
+                player.PlayerHeight = Convert.ToSingle(reader["playerHeight"]);
+                player.PlayerWeight = Convert.ToSingle(reader["playerWeight"]);
+
+                squad_list.Items.Add(player);
+            }
+
+            cn.Close();
+        }
+
+
+
+        private void InitializeComboBox3()
+        {
+            comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox3.Items.Add("2024");
+            comboBox3.Items.Add("2023");
+
+            this.comboBox3.SelectedIndexChanged += new System.EventHandler(comboBox3_SelectedIndexChanged);
+        }
+
+        private void statistics_players_TextChanged(object sender, EventArgs e)
         {
 
         }

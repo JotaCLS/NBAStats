@@ -9,19 +9,23 @@ namespace NBAproject
     [Serializable()]
     public class Team
     {
-        private string _teamId;
+        public string _teamId;
         private string _teamName;
         private string _teamCity;
-        private string _wins_losses;
         private string _divisionId;
+        private string _wins_losses;
+        private string _teamCoach;
+        private string _teamConference;
+        private string _teamDivision;
+        
 
 
+        
         public String TeamId
         {
             get { return _teamId; }
             set { _teamId = value; }
         }
-
         public String TeamName
         {
             get { return _teamName; }
@@ -40,11 +44,30 @@ namespace NBAproject
             set { if (_wins_losses != value) _wins_losses = value; }
         }
 
+        public String TeamCoach
+        {
+            get { return _teamCoach; }
+            set { if (_teamCoach != value) _teamCoach = value; }
+        }
+
+        public String TeamConference
+        {
+            get { return _teamConference; }
+            set { if (_teamConference != value) _teamConference = value; }
+        }
+
+        public String TeamDivision
+        {
+            get { return _teamDivision; }
+            set { if (_teamDivision != value) _teamDivision = value; }
+        }
+
         public String DivisionId
         {
             get { return _divisionId; }
-            set { _divisionId = value; }
+            set { if (_divisionId != value) _divisionId = value; }
         }
+
 
         public override string ToString()
         {
@@ -53,11 +76,15 @@ namespace NBAproject
 
         public Team() : base() { }
 
-        public Team(string teamName, string teamCity, string wins_losses)
+        public Team(string teamId, string teamName, string teamCity, string wins_losses, string teamCoach, string teamConference, string teamDivision)
         {
+            _teamId = teamId;
             _teamName = teamName;
             _teamCity = teamCity;
             _wins_losses = wins_losses;
+            _teamCoach = teamCoach;
+            _teamDivision = teamDivision;
+            _teamConference = teamConference;
         }
     }
 }
