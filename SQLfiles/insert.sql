@@ -90,16 +90,18 @@
 --drop table Statistics_Away_Team
 --truncate table Statistics_Away_Team
 --insert into Statistics_Away_Team values 
+--(1,22300061,1610612747,41,90,10,29,15,20,13,31,23,5,4,11,18,107)
 --(1, 1, 1, 43, 87, 6, 25, 16, 17, 11, 37, 21, 5, 8, 13, 15, 108)
-alter table Statistics_Away_Team
-add foreign key (game_id) references Game(id)
-alter table Statistics_Away_Team
-add foreign key (team_id) references Team(id)
+--alter table Statistics_Away_Team
+--add foreign key (game_id) references Game(id)
+--alter table Statistics_Away_Team
+--add foreign key (team_id) references Team(id)
 --select * from Statistics_Away_Team
 
 --drop table Statistics_Home_Team
 --truncate table Statistics_Home_Team
 --insert into Statistics_Home_Team values
+--(1,22300061,1610612743,48,91,14,34,9,12,9,33,29,9,6,11,15,119)
 --(1, 1, 2, 38, 89, 18, 49, 11, 18, 10, 30, 23, 8, 3, 10, 17, 105)
 --select * from Statistics_Home_Team
 
