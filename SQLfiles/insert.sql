@@ -13,26 +13,40 @@
 --insert into Division values (6, 'Southwest', 2)
 --select * from Division
 
+--delete from Team
 --insert into Team values (1, 'Mavericks', 'Dallas', '50-32', 6)
 --insert into Team values (2, 'Timberwolves', 'Minnesota', '56-26', 4)
+--bulk insert Team
+--from 'C:\Users\le13k\Documents\NBAStats\Backend\teamdata.csv'
+--with (
+--	firstrow = 2,
+--	fieldterminator = ',',
+--	rowterminator = '\n',
+--	tablock
+--);
 --select * from Team
 
+--truncate table Sponsor
 --insert into Sponsor values (1, 'Chime', 'www.chime.com', 1)
 --insert into Sponsor values (2, 'Aura', 'www.aura.com', 2)
 --select * from Sponsor
 
+--delete from Coach
 --insert into Coach values (1, 'Chris Finch', 54)
 --insert into Coach values (2, 'Jason Kidd', 51)
 --select * from Coach
 
+--delete from Squad
 --insert into Squad values (1, 2024, 1)
 --insert into Squad values (2, 2024, 2)
 --select * from Squad
 
+--truncate table Squad_Coach
 --insert into Squad_Coach values (1, 2)
 --insert into Squad_Coach values (2, 1)
 --select * from Squad_Coach
 
+--delete from Player
 --insert into Player values 
 --(1, 'Dante Exum', 28, 'PG', 196, 97),
 --(2, 'Jaden Hardy', 21, 'SG', 193, 89),
@@ -66,19 +80,31 @@
 --(30, 'Luka Garza', 25, 'C', 208, 106)
 --select * from Player
 
-
+--truncate table Squad_Player
 --select * from Squad_Player
+
+--delete from Game 
 --insert into Game values (1, '2024-05-22', 1, 1)
 --select * from Game
 
+--drop table Statistics_Away_Team
+--truncate table Statistics_Away_Team
 --insert into Statistics_Away_Team values 
 --(1, 1, 1, 43, 87, 6, 25, 16, 17, 11, 37, 21, 5, 8, 13, 15, 108)
+alter table Statistics_Away_Team
+add foreign key (game_id) references Game(id)
+alter table Statistics_Away_Team
+add foreign key (team_id) references Team(id)
 --select * from Statistics_Away_Team
 
+--drop table Statistics_Home_Team
+--truncate table Statistics_Home_Team
 --insert into Statistics_Home_Team values
 --(1, 1, 2, 38, 89, 18, 49, 11, 18, 10, 30, 23, 8, 3, 10, 17, 105)
 --select * from Statistics_Home_Team
 
+--drop table Statistics_Player
+--truncate table Statistics_Player
 --insert into Statistics_Player values
 --(11, 1, '00:40:50', 4, 10, 2, 8, 3, 3, 0, 7, 0, 0, 2, 3, 4, 12, 12),
 --(14, 1, '00:40:45', 12, 26, 3, 10, 6, 7, 0, 6, 8, 3, 1, 4, 2, 33, -9),
