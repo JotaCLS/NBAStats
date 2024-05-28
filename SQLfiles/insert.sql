@@ -23,15 +23,15 @@
 
 --insert into Coach values (1, 'Chris Finch', 54)
 --insert into Coach values (2, 'Jason Kidd', 51)
-select * from Coach
+--select * from Coach
 
 --insert into Squad values (1, 2024, 1)
 --insert into Squad values (2, 2024, 2)
-select * from Squad
+--select * from Squad
 
 --insert into Squad_Coach values (1, 2)
 --insert into Squad_Coach values (2, 1)
-select * from Squad_Coach
+--select * from Squad_Coach
 
 --insert into Player values 
 --(1, 'Dante Exum', 28, 'PG', 196, 97),
@@ -67,7 +67,7 @@ select * from Squad_Coach
 --select * from Player
 
 
-select * from Squad_Player
+--select * from Squad_Player
 --insert into Game values (1, '2024-05-22', 1, 1)
 --select * from Game
 
