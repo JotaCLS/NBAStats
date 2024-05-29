@@ -10,10 +10,10 @@ namespace NBAproject
     {
         public string PlayerId { get; set; }
         public string PlayerName { get; set; }
-        public int PlayerAge { get; set; }
+        public string PlayerAge { get; set; }
         public string PlayerPosition { get; set; }
-        public float PlayerHeight { get; set; }
-        public float PlayerWeight { get; set; }
+        public string PlayerHeight { get; set; }
+        public string PlayerWeight { get; set; }
 
         public override string ToString()
         {

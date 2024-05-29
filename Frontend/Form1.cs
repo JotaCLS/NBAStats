@@ -16,9 +16,11 @@ namespace NBAproject
     {
         private SqlConnection cn;
         private int currentTeam;
+        bool search = false;
 
         public Form1()
         {
+            
             InitializeComponent();
             loadData();
             InitializeComboBox1();
@@ -99,42 +101,57 @@ namespace NBAproject
                 string selectedYear = comboBox3.SelectedItem.ToString();
                 if (!string.IsNullOrEmpty(selectedYear))
                 {
-                    LoadSquad(team.TeamId, int.Parse(selectedYear));
+                    LoadSquad(team.TeamId, int.Parse(selectedYear), search);
                 }
             }
             else
             {
-                LoadSquad(team.TeamId, DateTime.Now.Year);
+                LoadSquad(team.TeamId, DateTime.Now.Year, search);
             }
         }
 
-        public void LoadSquad(string teamId, int year)
+        public void LoadSquad(string teamId, int year, bool search)
         {
             if (!verifySGBDConnection())
                 return;
 
-            SqlCommand cmd = new SqlCommand("GetSquadByTeam", cn);
-            cmd.CommandType = CommandType.StoredProcedure;
-            cmd.Parameters.AddWithValue("@TeamId", teamId);
-            cmd.Parameters.AddWithValue("@Year", year);
-            SqlDataReader reader = cmd.ExecuteReader();
-            squad_list.Items.Clear();
-
-            while (reader.Read())
+            using (SqlCommand cmd = new SqlCommand("GetSquadByTeam", cn))
             {
-                Player player = new Player();
-                player.PlayerId = reader["PlayerId"].ToString();
-                player.PlayerName = reader["playerName"].ToString();
-                player.PlayerAge = Convert.ToInt32(reader["playerAge"]);
-                player.PlayerPosition = reader["playerPosition"].ToString();
-                player.PlayerHeight = Convert.ToSingle(reader["playerHeight"]);
-                player.PlayerWeight = Convert.ToSingle(reader["playerWeight"]);
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@TeamId", teamId);
+                cmd.Parameters.AddWithValue("@Year", year);
 
-                squad_list.Items.Add(player);
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    
+                     
+                     
+                    squad_list.Items.Clear(); 
+                    
+                    
+
+                    while (reader.Read())
+                    {
+                        Player player = new Player();
+                        player.PlayerId = reader["PlayerId"].ToString();
+                        player.PlayerName = reader["playerName"].ToString();
+                        player.PlayerAge = reader["playerAge"].ToString();
+                        player.PlayerPosition = reader["playerPosition"].ToString();
+                        player.PlayerHeight = reader["playerHeight"].ToString();
+                        player.PlayerWeight = reader["playerWeight"].ToString();
+
+                        
+                        
+                        squad_list.Items.Add(player);
+                        
+                        
+                    }
+                }
             }
 
             cn.Close();
         }
+
 
         public void LoadAdditionalTeamData(string teamId)
         {
@@ -529,10 +546,10 @@ namespace NBAproject
                 Player player = new Player();
                 player.PlayerId = reader["PlayerId"].ToString();
                 player.PlayerName = reader["playerName"].ToString();
-                player.PlayerAge = Convert.ToInt32(reader["playerAge"]);
+                player.PlayerAge = reader["playerAge"].ToString();
                 player.PlayerPosition = reader["playerPosition"].ToString();
-                player.PlayerHeight = Convert.ToSingle(reader["playerHeight"]);
-                player.PlayerWeight = Convert.ToSingle(reader["playerWeight"]);
+                player.PlayerHeight = reader["playerHeight"].ToString();
+                player.PlayerWeight = reader["playerWeight"].ToString();
 
                 squad_list.Items.Add(player);
             }
@@ -545,6 +562,7 @@ namespace NBAproject
         private void InitializeComboBox3()
         {
             comboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox3.Items.Add("");
             comboBox3.Items.Add("2024");
             comboBox3.Items.Add("2023");
 
@@ -555,5 +573,267 @@ namespace NBAproject
         {
 
         }
+
+        private void label7_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCoach_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlayerName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlayerAge_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlayerPosition_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlayerHeight_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void PlayerWeight_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void player_list_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (player_list.SelectedItem != null)
+            {
+                Player selectedPlayer = (Player)player_list.SelectedItem;
+                DisplayPlayerDetails(selectedPlayer);
+            }
+        }
+
+        private void DisplayPlayerDetails(Player player)
+        {
+            PlayerId.Text = player.PlayerId;
+            PlayerName.Text = player.PlayerName;
+            PlayerAge.Text = player.PlayerAge;
+            PlayerPosition.Text = player.PlayerPosition;
+            PlayerHeight.Text = player.PlayerHeight;
+            PlayerWeight.Text = player.PlayerWeight;
+        }
+
+        private void SearchTeam_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CoachEdit_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Search_Click(object sender, EventArgs e)
+        {
+            string teamName = SearchTeam.Text.Trim();
+            
+            if (string.IsNullOrEmpty(teamName))
+            {
+                MessageBox.Show("Please enter a team name to search.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            LoadTeamDetails(teamName);
+        }
+
+        private void LoadTeamDetails(string teamName)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            SqlCommand cmd = new SqlCommand("GetTeamByName", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TeamName", teamName);
+            SqlDataReader reader = cmd.ExecuteReader();
+
+            if (reader.Read())
+            {
+                string teamId = reader["id"].ToString();
+                CoachEdit.Text = reader["coachName"].ToString();
+
+                
+                reader.Close();
+                search = true;
+                LoadSquadSearch(teamId, DateTime.Now.Year, search);
+            }
+            else
+            {
+                reader.Close(); 
+                MessageBox.Show("Team not found.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            cn.Close();
+        }
+
+        public void LoadSquadSearch(string teamId, int year, bool search)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            using (SqlCommand cmd = new SqlCommand("GetSquadByTeam", cn))
+            {
+                cmd.CommandType = CommandType.StoredProcedure;
+                cmd.Parameters.AddWithValue("@TeamId", teamId);
+                cmd.Parameters.AddWithValue("@Year", year);
+
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+
+                    
+                    
+                    player_list.Items.Clear();
+                    
+                    
+
+
+                    while (reader.Read())
+                    {
+                        Player player = new Player();
+                        player.PlayerId = reader["PlayerId"].ToString();
+                        player.PlayerName = reader["playerName"].ToString();
+                        player.PlayerAge = reader["playerAge"].ToString();
+                        player.PlayerPosition = reader["playerPosition"].ToString();
+                        player.PlayerHeight = reader["playerHeight"].ToString();
+                        player.PlayerWeight = reader["playerWeight"].ToString();
+
+
+                        
+                        player_list.Items.Add(player);
+                        
+
+                    }
+                }
+            }
+
+            cn.Close();
+        }
+
+        private void Add_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                string playerName = PlayerName.Text.Trim();
+                int playerAge = int.Parse(PlayerAge.Text);
+                string playerPosition = PlayerPosition.Text.Trim();
+                int playerHeight = int.Parse(PlayerHeight.Text);
+                int playerWeight = int.Parse(PlayerWeight.Text);
+                string teamName = SearchTeam.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("AddPlayer", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@PlayerName", playerName);
+                    cmd.Parameters.AddWithValue("@PlayerAge", playerAge);
+                    cmd.Parameters.AddWithValue("@PlayerPosition", playerPosition);
+                    cmd.Parameters.AddWithValue("@PlayerHeight", playerHeight);
+                    cmd.Parameters.AddWithValue("@PlayerWeight", playerWeight);
+                    cmd.Parameters.AddWithValue("@TeamName", teamName);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                
+                cn.Close();
+            }
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                int playerId = int.Parse(PlayerId.Text.Trim());
+                string teamName = SearchTeam.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("DeletePlayerById", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@PlayerId", playerId);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void Edit_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                int playerId = int.Parse(PlayerId.Text.Trim());
+                string playerName = PlayerName.Text.Trim();
+                int playerAge = int.Parse(PlayerAge.Text);
+                string playerPosition = PlayerPosition.Text.Trim();
+                int playerHeight = int.Parse(PlayerHeight.Text);
+                int playerWeight = int.Parse(PlayerWeight.Text);
+                string teamName = SearchTeam.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("EditPlayer", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@PlayerId", playerId);
+                    cmd.Parameters.AddWithValue("@PlayerName", playerName);
+                    cmd.Parameters.AddWithValue("@PlayerAge", playerAge);
+                    cmd.Parameters.AddWithValue("@PlayerPosition", playerPosition);
+                    cmd.Parameters.AddWithValue("@PlayerHeight", playerHeight);
+                    cmd.Parameters.AddWithValue("@PlayerWeight", playerWeight);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
     }
 }
