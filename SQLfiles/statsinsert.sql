@@ -1,3 +1,3707 @@
+--delete from Statistics_Away_Team
+
+--insert into Statistics_Away_Team values
+--(1,22300061,1610612747,41,90,10,29,15,20,13,31,23,5,4,11,18,107)
+--insert into Statistics_Away_Team values
+--(2,22300062,1610612756,42,95,11,33,13,17,17,43,23,5,7,19,22,108)
+--insert into Statistics_Away_Team values
+--(3,22300063,1610612766,43,86,11,37,19,26,12,39,34,5,3,19,21,116)
+--insert into Statistics_Away_Team values
+--(4,22300064,1610612764,44,96,9,24,23,29,11,34,28,6,9,14,11,120)
+--insert into Statistics_Away_Team values
+--(5,22300065,1610612752,36,97,18,41,14,26,17,30,24,9,0,9,22,104)
+--insert into Statistics_Away_Team values
+--(6,22300066,1610612753,42,87,9,34,23,26,17,40,19,8,6,14,20,116)
+--insert into Statistics_Away_Team values
+--(7,22300067,1610612739,44,94,17,43,9,10,9,29,25,10,6,10,23,114)
+--insert into Statistics_Away_Team values
+--(8,22300068,1610612748,37,92,8,22,21,26,16,32,22,11,3,7,18,103)
+--insert into Statistics_Away_Team values
+--(9,22300069,1610612761,36,90,14,35,11,16,8,39,27,9,11,14,18,97)
+--insert into Statistics_Away_Team values
+--(10,22300070,1610612760,45,82,19,39,15,18,5,38,30,6,4,15,19,124)
+--insert into Statistics_Away_Team values
+--(11,22300071,1610612740,40,85,14,32,17,22,11,41,22,8,5,21,21,111)
+--insert into Statistics_Away_Team values
+--(12,22300072,1610612762,41,91,9,28,23,31,16,38,22,6,2,14,20,114)
+--insert into Statistics_Away_Team values
+--(13,22300073,1610612759,46,89,11,35,16,22,9,36,33,8,5,19,23,119)
+--insert into Statistics_Away_Team values
+--(14,22300074,1610612757,44,93,10,32,13,17,15,25,20,10,4,17,20,111)
+--insert into Statistics_Away_Team values
+--(15,22300075,1610612755,41,80,16,35,19,28,4,35,25,8,4,15,28,117)
+--insert into Statistics_Away_Team values
+--(16,22300076,1610612756,34,81,9,31,18,23,10,39,16,7,3,20,21,95)
+--insert into Statistics_Away_Team values
+--(17,22300077,1610612765,40,88,10,30,21,25,12,41,28,7,6,23,29,111)
+--insert into Statistics_Away_Team values
+--(18,22300078,1610612763,37,84,10,33,20,24,13,35,22,13,7,20,23,104)
+--insert into Statistics_Away_Team values
+--(19,22300079,1610612752,43,90,20,44,20,28,12,33,30,9,6,16,21,126)
+--insert into Statistics_Away_Team values
+--(20,22300080,1610612748,38,89,16,33,19,23,11,34,24,8,6,12,16,111)
+--insert into Statistics_Away_Team values
+--(21,22300081,1610612760,40,87,13,26,15,19,6,41,22,8,10,18,17,108)
+--insert into Statistics_Away_Team values
+--(22,22300082,1610612761,39,84,9,36,16,25,8,45,25,5,2,21,29,103)
+--insert into Statistics_Away_Team values
+--(23,22300083,1610612759,46,94,13,42,21,28,12,31,32,11,4,18,17,126)
+--insert into Statistics_Away_Team values
+--(24,22300084,1610612742,44,91,15,36,22,28,8,32,20,5,2,9,15,125)
+--insert into Statistics_Away_Team values
+--(25,22300085,1610612762,42,96,16,41,20,22,17,28,27,7,4,14,24,120)
+--insert into Statistics_Away_Team values
+--(26,22300086,1610612757,35,88,9,32,18,21,15,32,15,6,1,16,24,97)
+--insert into Statistics_Away_Team values
+--(27,22300087,1610612758,41,94,12,40,20,29,10,31,24,10,3,14,16,114)
+--insert into Statistics_Away_Team values
+--(28,22300088,1610612765,45,86,12,28,16,20,15,38,29,4,4,15,18,118)
+--insert into Statistics_Away_Team values
+--(29,22300089,1610612764,40,93,16,46,17,22,11,34,25,9,5,11,15,113)
+--insert into Statistics_Away_Team values
+--(30,22300090,1610612752,33,90,7,37,14,18,16,43,19,7,3,18,17,87)
+--insert into Statistics_Away_Team values
+--(31,22300091,1610612754,48,98,15,38,14,17,11,37,36,3,4,7,20,125)
+--insert into Statistics_Away_Team values
+--(32,22300092,1610612761,38,87,17,32,14,19,13,28,28,5,5,13,19,107)
+--insert into Statistics_Away_Team values
+--(33,22300093,1610612750,44,86,12,34,6,8,7,40,30,9,3,14,17,106)
+--insert into Statistics_Away_Team values
+--(34,22300094,1610612762,40,91,12,37,12,14,15,30,26,6,5,18,20,104)
+--insert into Statistics_Away_Team values
+--(35,22300095,1610612760,37,90,6,32,15,18,7,22,22,8,4,9,14,95)
+--insert into Statistics_Away_Team values
+--(36,22300096,1610612745,34,90,9,33,18,19,10,32,22,7,4,7,20,95)
+--insert into Statistics_Away_Team values
+--(37,22300097,1610612749,39,86,16,44,16,20,12,27,22,10,3,23,22,110)
+--insert into Statistics_Away_Team values
+--(38,22300098,1610612757,36,94,7,31,19,22,14,28,19,10,9,15,26,98)
+--insert into Statistics_Away_Team values
+--(39,22300099,1610612759,30,80,11,33,12,16,6,31,21,9,6,25,23,83)
+--insert into Statistics_Away_Team values
+--(40,22300100,1610612758,49,104,17,48,17,24,6,41,30,6,7,10,28,132)
+--insert into Statistics_Away_Team values
+--(41,22300101,1610612766,47,96,8,31,19,20,8,31,33,8,5,9,23,121)
+--insert into Statistics_Away_Team values
+--(42,22300102,1610612754,36,88,12,46,21,25,11,36,26,7,5,17,24,105)
+--insert into Statistics_Away_Team values
+--(43,22300103,1610612764,39,87,11,36,18,26,11,29,26,12,4,15,13,107)
+--insert into Statistics_Away_Team values
+--(44,22300104,1610612750,44,90,16,33,9,15,10,28,24,5,5,10,17,113)
+--insert into Statistics_Away_Team values
+--(45,22300105,1610612761,38,94,4,29,11,15,14,33,19,10,4,11,17,91)
+--insert into Statistics_Away_Team values
+--(46,22300106,1610612763,42,92,14,37,12,20,10,34,22,9,4,12,22,110)
+--insert into Statistics_Away_Team values
+--(47,22300107,1610612749,44,87,12,37,22,30,9,34,24,8,5,14,23,122)
+--insert into Statistics_Away_Team values
+--(48,22300108,1610612740,38,93,10,39,16,26,14,25,23,8,3,11,18,102)
+--insert into Statistics_Away_Team values
+--(49,22300109,1610612760,44,83,13,29,23,28,6,38,21,9,10,15,19,124)
+--insert into Statistics_Away_Team values
+--(50,22300110,1610612762,42,98,11,37,7,15,17,34,30,6,2,12,21,102)
+--insert into Statistics_Away_Team values
+--(51,22300111,1610612753,38,95,14,35,13,18,12,32,28,10,3,11,22,103)
+--insert into Statistics_Away_Team values
+--(52,22300112,1610612752,38,86,13,34,20,25,12,36,18,9,1,14,17,109)
+--insert into Statistics_Away_Team values
+--(53,22300113,1610612759,43,92,14,37,15,20,8,29,25,10,9,12,17,115)
+--insert into Statistics_Away_Team values
+--(54,22300114,1610612753,38,81,7,30,19,33,7,33,23,9,3,16,24,102)
+--insert into Statistics_Away_Team values
+--(55,22300115,1610612757,38,81,7,20,27,33,7,37,23,10,7,17,15,110)
+--insert into Statistics_Away_Team values
+--(56,22300116,1610612761,51,91,15,38,13,14,15,35,35,7,6,16,25,130)
+--insert into Statistics_Away_Team values
+--(57,22300117,1610612764,51,101,10,40,9,14,6,29,32,14,3,11,25,121)
+--insert into Statistics_Away_Team values
+--(58,22300118,1610612754,46,101,5,37,7,12,8,23,26,6,6,9,20,104)
+--insert into Statistics_Away_Team values
+--(59,22300119,1610612748,39,91,13,38,14,18,11,35,22,10,5,16,20,105)
+--insert into Statistics_Away_Team values
+--(60,22300120,1610612752,32,92,5,30,20,30,16,34,18,10,3,13,16,89)
+--insert into Statistics_Away_Team values
+--(61,22300121,1610612760,38,88,7,34,23,25,6,43,23,6,5,14,24,106)
+--insert into Statistics_Away_Team values
+--(62,22300122,1610612745,44,84,21,37,19,23,7,31,35,10,2,17,22,128)
+--insert into Statistics_Away_Team values
+--(63,22300123,1610612750,38,83,8,21,26,27,8,39,20,9,5,13,15,110)
+--insert into Statistics_Away_Team values
+--(64,22300124,1610612742,37,81,20,48,20,28,13,32,23,7,2,13,11,114)
+--insert into Statistics_Away_Team values
+--(65,22300125,1610612762,47,87,22,43,17,24,10,40,35,7,3,21,22,133)
+--insert into Statistics_Away_Team values
+--(66,22300126,1610612758,36,88,11,35,18,23,14,34,24,8,4,12,17,101)
+--insert into Statistics_Away_Team values
+--(67,22300127,1610612747,46,90,11,32,27,36,9,42,28,10,9,14,24,130)
+--insert into Statistics_Away_Team values
+--(68,22300128,1610612761,38,79,10,28,13,19,9,32,30,4,3,19,20,99)
+--insert into Statistics_Away_Team values
+--(69,22300129,1610612740,39,80,14,32,33,35,7,29,27,5,7,12,18,125)
+--insert into Statistics_Away_Team values
+--(70,22300130,1610612762,41,89,12,33,19,26,13,35,27,9,7,20,27,113)
+--insert into Statistics_Away_Team values
+--(71,22300131,1610612759,51,98,18,37,12,13,9,32,37,7,5,8,21,132)
+--insert into Statistics_Away_Team values
+--(72,22300001,1610612754,45,86,15,31,16,24,7,33,28,7,5,18,18,121)
+--insert into Statistics_Away_Team values
+--(73,22300002,1610612752,38,96,10,39,19,25,16,40,18,6,1,10,22,105)
+--insert into Statistics_Away_Team values
+--(74,22300003,1610612764,46,81,13,28,9,17,4,26,33,7,4,20,18,114)
+--insert into Statistics_Away_Team values
+--(75,22300004,1610612741,43,89,11,28,10,14,9,33,21,4,4,10,13,107)
+--insert into Statistics_Away_Team values
+--(76,22300005,1610612760,50,83,15,29,24,30,7,25,26,3,1,19,20,139)
+--insert into Statistics_Away_Team values
+--(77,22300006,1610612743,49,93,13,30,14,19,19,32,33,11,6,17,17,125)
+--insert into Statistics_Away_Team values
+--(78,22300007,1610612757,39,96,9,32,28,36,15,35,19,12,7,14,15,115)
+--insert into Statistics_Away_Team values
+--(79,22300132,1610612756,32,89,9,35,27,33,15,27,22,11,12,10,11,100)
+--insert into Statistics_Away_Team values
+--(80,22300133,1610612754,45,93,22,45,12,16,11,25,31,7,5,14,18,124)
+--insert into Statistics_Away_Team values
+--(81,22300134,1610612753,46,101,12,33,16,19,19,32,29,6,9,15,18,120)
+--insert into Statistics_Away_Team values
+--(82,22300135,1610612740,40,84,8,31,17,21,9,26,24,9,7,9,15,105)
+--insert into Statistics_Away_Team values
+--(83,22300136,1610612738,43,90,15,45,23,27,10,40,22,4,6,11,17,124)
+--insert into Statistics_Away_Team values
+--(84,22300137,1610612758,32,84,11,41,14,19,8,35,20,5,6,11,19,89)
+--insert into Statistics_Away_Team values
+--(85,22300138,1610612762,35,91,12,43,13,17,17,22,20,3,7,18,20,95)
+--insert into Statistics_Away_Team values
+--(86,22300139,1610612743,42,81,16,36,23,30,10,39,31,10,4,11,18,123)
+--insert into Statistics_Away_Team values
+--(87,22300140,1610612756,43,86,8,21,26,29,14,29,29,8,10,18,13,120)
+--insert into Statistics_Away_Team values
+--(88,22300141,1610612761,44,97,19,48,16,26,13,34,29,12,6,14,15,123)
+--insert into Statistics_Away_Team values
+--(89,22300142,1610612744,34,94,16,41,20,30,17,27,26,10,4,13,18,104)
+--insert into Statistics_Away_Team values
+--(90,22300143,1610612742,43,91,14,42,24,32,9,38,31,3,6,10,19,124)
+--insert into Statistics_Away_Team values
+--(91,22300144,1610612757,37,95,14,45,12,15,16,31,23,11,5,14,21,100)
+--insert into Statistics_Away_Team values
+--(92,22300145,1610612744,46,97,12,41,16,21,17,27,26,8,4,11,14,120)
+--insert into Statistics_Away_Team values
+--(93,22300146,1610612759,40,94,8,26,23,30,12,24,26,7,5,11,15,111)
+--insert into Statistics_Away_Team values
+--(94,22300147,1610612753,40,85,8,27,14,18,6,32,27,6,4,20,24,102)
+--insert into Statistics_Away_Team values
+--(95,22300148,1610612764,49,96,14,34,16,20,10,28,31,6,10,19,26,128)
+--insert into Statistics_Away_Team values
+--(96,22300149,1610612749,46,96,16,48,21,24,12,36,26,6,2,10,13,129)
+--insert into Statistics_Away_Team values
+--(97,22300150,1610612748,41,88,12,37,14,16,11,33,30,11,4,17,14,108)
+--insert into Statistics_Away_Team values
+--(98,22300151,1610612752,41,88,12,31,17,18,18,30,28,13,1,19,13,111)
+--insert into Statistics_Away_Team values
+--(99,22300152,1610612762,41,86,16,43,15,17,17,35,32,1,7,22,20,113)
+--insert into Statistics_Away_Team values
+--(100,22300153,1610612758,36,81,14,40,11,20,12,22,22,5,2,13,22,97)
+--insert into Statistics_Away_Team values
+--(101,22300154,1610612750,44,85,13,37,13,25,6,39,26,7,5,23,26,114)
+--insert into Statistics_Away_Team values
+--(102,22300155,1610612760,45,94,14,35,22,23,11,38,27,7,7,13,22,126)
+--insert into Statistics_Away_Team values
+--(103,22300156,1610612740,45,90,13,30,13,15,8,30,24,6,2,13,18,116)
+--insert into Statistics_Away_Team values
+--(104,22300157,1610612764,47,97,18,43,20,25,13,27,26,10,6,10,26,132)
+--insert into Statistics_Away_Team values
+--(105,22300158,1610612762,45,96,11,27,17,18,16,31,26,3,5,21,17,118)
+--insert into Statistics_Away_Team values
+--(106,22300159,1610612755,42,95,9,34,13,15,12,44,20,7,7,12,16,106)
+--insert into Statistics_Away_Team values
+--(107,22300160,1610612746,36,91,8,36,13,13,11,40,22,10,8,15,15,93)
+--insert into Statistics_Away_Team values
+--(108,22300161,1610612759,44,90,9,34,8,13,11,35,31,2,7,13,22,105)
+--insert into Statistics_Away_Team values
+--(109,22300162,1610612756,38,90,19,48,21,25,13,41,32,7,10,21,20,116)
+--insert into Statistics_Away_Team values
+--(110,22300163,1610612747,36,85,7,25,15,24,5,29,20,7,6,9,18,94)
+--insert into Statistics_Away_Team values
+--(111,22300164,1610612748,35,77,11,28,27,32,9,35,22,9,8,19,24,108)
+--insert into Statistics_Away_Team values
+--(112,22300165,1610612749,41,90,11,37,27,32,5,31,19,8,7,10,18,120)
+--insert into Statistics_Away_Team values
+--(113,22300166,1610612740,36,93,8,28,21,22,11,29,23,6,1,17,23,101)
+--insert into Statistics_Away_Team values
+--(114,22300167,1610612760,44,86,12,28,28,30,12,29,23,10,8,14,27,128)
+--insert into Statistics_Away_Team values
+--(115,22300168,1610612761,49,99,11,36,18,27,15,35,27,10,4,11,25,127)
+--insert into Statistics_Away_Team values
+--(116,22300169,1610612744,37,86,11,35,20,26,11,38,21,5,0,9,20,105)
+--insert into Statistics_Away_Team values
+--(117,22300170,1610612758,41,89,11,37,28,38,15,35,32,11,6,21,24,121)
+--insert into Statistics_Away_Team values
+--(118,22300171,1610612749,46,87,9,27,23,26,5,36,23,6,5,14,19,124)
+--insert into Statistics_Away_Team values
+--(119,22300172,1610612753,42,90,10,27,25,35,18,29,19,12,6,19,24,119)
+--insert into Statistics_Away_Team values
+--(120,22300008,1610612755,35,83,9,28,35,41,11,35,23,13,5,8,23,114)
+--insert into Statistics_Away_Team values
+--(121,22300009,1610612764,43,88,14,38,17,20,7,29,28,4,6,15,23,117)
+--insert into Statistics_Away_Team values
+--(122,22300010,1610612738,41,94,19,52,20,28,17,35,29,5,3,7,13,121)
+--insert into Statistics_Away_Team values
+--(123,22300011,1610612740,34,75,8,25,25,34,8,41,12,6,6,18,26,101)
+--insert into Statistics_Away_Team values
+--(124,22300012,1610612762,41,76,18,37,27,29,8,30,28,10,12,19,17,127)
+--insert into Statistics_Away_Team values
+--(125,22300013,1610612759,43,92,12,34,12,19,7,31,29,9,8,14,21,110)
+--insert into Statistics_Away_Team values
+--(126,22300014,1610612746,43,88,8,27,32,36,19,28,21,7,2,14,27,126)
+--insert into Statistics_Away_Team values
+--(127,22300015,1610612756,42,94,15,37,20,27,17,35,22,9,1,13,24,119)
+--insert into Statistics_Away_Team values
+--(128,22300016,1610612758,38,91,13,47,16,21,16,36,28,10,9,17,22,105)
+--insert into Statistics_Away_Team values
+--(129,22300173,1610612753,36,84,10,26,30,35,15,28,24,9,2,13,17,112)
+--insert into Statistics_Away_Team values
+--(130,22300174,1610612761,35,91,10,37,14,16,7,30,25,8,1,8,14,94)
+--insert into Statistics_Away_Team values
+--(131,22300175,1610612748,41,84,12,38,23,25,7,32,23,10,4,15,14,117)
+--insert into Statistics_Away_Team values
+--(132,22300176,1610612744,37,90,13,38,23,30,15,40,26,5,3,20,29,110)
+--insert into Statistics_Away_Team values
+--(133,22300177,1610612752,47,87,15,36,20,30,10,30,25,8,4,9,18,129)
+--insert into Statistics_Away_Team values
+--(134,22300178,1610612764,33,88,10,41,18,25,7,35,20,14,3,12,15,94)
+--insert into Statistics_Away_Team values
+--(135,22300179,1610612763,37,88,13,41,18,24,11,30,25,7,6,16,23,105)
+--insert into Statistics_Away_Team values
+--(136,22300180,1610612755,53,105,14,33,17,20,23,31,28,5,7,11,15,137)
+--insert into Statistics_Away_Team values
+--(137,22300181,1610612765,38,88,11,32,21,26,16,33,26,4,6,16,19,108)
+--insert into Statistics_Away_Team values
+--(138,22300182,1610612745,37,87,10,32,23,29,12,33,20,7,4,9,16,107)
+--insert into Statistics_Away_Team values
+--(139,22300183,1610612740,47,92,17,36,13,22,13,41,31,2,3,18,20,124)
+--insert into Statistics_Away_Team values
+--(140,22300184,1610612759,42,91,19,44,10,12,11,39,35,3,6,17,21,113)
+--insert into Statistics_Away_Team values
+--(141,22300185,1610612756,32,83,9,29,26,31,16,35,20,4,7,17,19,99)
+--insert into Statistics_Away_Team values
+--(142,22300186,1610612750,43,82,9,27,21,30,9,38,27,8,6,14,19,116)
+--insert into Statistics_Away_Team values
+--(143,22300187,1610612757,45,90,13,37,7,9,5,33,29,2,8,15,25,110)
+--insert into Statistics_Away_Team values
+--(144,22300188,1610612752,33,79,15,35,17,24,12,25,17,5,2,8,16,98)
+--insert into Statistics_Away_Team values
+--(145,22300189,1610612764,43,84,12,26,9,12,8,30,32,11,5,22,22,107)
+--insert into Statistics_Away_Team values
+--(146,22300190,1610612749,42,89,15,47,19,27,13,40,23,3,5,15,23,118)
+--insert into Statistics_Away_Team values
+--(147,22300191,1610612758,49,83,20,42,14,22,8,29,32,3,4,10,19,132)
+--insert into Statistics_Away_Team values
+--(148,22300017,1610612748,40,83,8,31,23,28,10,32,26,12,5,7,19,111)
+--insert into Statistics_Away_Team values
+--(149,22300018,1610612765,47,90,10,29,16,23,14,28,36,9,6,17,20,120)
+--insert into Statistics_Away_Team values
+--(150,22300019,1610612755,43,86,6,22,34,35,5,33,22,5,3,16,26,126)
+--insert into Statistics_Away_Team values
+--(151,22300020,1610612753,36,82,16,46,16,21,9,28,23,9,4,14,16,104)
+--insert into Statistics_Away_Team values
+--(152,22300021,1610612759,36,93,9,30,6,9,13,30,24,7,6,24,13,87)
+--insert into Statistics_Away_Team values
+--(153,22300022,1610612740,49,94,14,38,19,26,12,30,33,17,6,12,20,131)
+--insert into Statistics_Away_Team values
+--(154,22300023,1610612762,44,95,13,43,14,15,16,36,26,11,6,12,18,115)
+--insert into Statistics_Away_Team values
+--(155,22300024,1610612746,37,86,13,29,21,24,14,28,21,10,1,10,24,108)
+--insert into Statistics_Away_Team values
+--(156,22300025,1610612750,36,81,14,34,18,21,9,33,24,9,5,19,19,104)
+--insert into Statistics_Away_Team values
+--(157,22300026,1610612763,39,106,20,53,9,12,13,20,28,8,9,9,15,107)
+--insert into Statistics_Away_Team values
+--(158,22300192,1610612764,43,89,12,36,19,23,8,38,23,6,1,12,22,117)
+--insert into Statistics_Away_Team values
+--(159,22300193,1610612752,45,94,16,34,10,11,14,28,29,9,2,16,20,116)
+--insert into Statistics_Away_Team values
+--(160,22300194,1610612755,39,85,11,30,18,22,10,31,18,5,1,9,14,107)
+--insert into Statistics_Away_Team values
+--(161,22300195,1610612761,38,96,9,33,27,31,26,29,28,10,8,14,19,112)
+--insert into Statistics_Away_Team values
+--(162,22300196,1610612753,32,82,8,28,24,30,12,34,20,12,3,13,21,96)
+--insert into Statistics_Away_Team values
+--(163,22300197,1610612756,51,85,17,31,14,15,5,27,31,1,4,9,21,133)
+--insert into Statistics_Away_Team values
+--(164,22300198,1610612758,48,96,16,44,13,17,11,34,31,20,1,15,20,125)
+--insert into Statistics_Away_Team values
+--(165,22300199,1610612757,34,91,13,38,14,16,8,22,24,9,3,12,21,95)
+--insert into Statistics_Away_Team values
+--(166,22300200,1610612748,42,81,15,35,23,24,7,25,26,8,3,9,20,122)
+--insert into Statistics_Away_Team values
+--(167,22300201,1610612760,44,87,19,32,21,23,7,35,31,10,3,12,20,128)
+--insert into Statistics_Away_Team values
+--(168,22300027,1610612749,49,89,22,45,10,13,4,45,32,4,7,13,21,130)
+--insert into Statistics_Away_Team values
+--(169,22300028,1610612764,37,82,10,32,15,16,7,25,25,4,4,14,18,99)
+--insert into Statistics_Away_Team values
+--(170,22300029,1610612755,43,88,13,30,27,28,13,30,32,9,4,15,20,126)
+--insert into Statistics_Away_Team values
+--(171,22300030,1610612765,39,91,9,35,13,15,18,33,20,8,6,17,19,100)
+--insert into Statistics_Away_Team values
+--(172,22300031,1610612761,42,87,12,33,9,14,5,36,29,4,1,13,11,105)
+--insert into Statistics_Away_Team values
+--(173,22300032,1610612759,43,92,15,36,19,23,6,36,33,7,3,15,21,120)
+--insert into Statistics_Away_Team values
+--(174,22300033,1610612753,38,79,11,34,16,23,10,36,24,7,7,17,22,103)
+--insert into Statistics_Away_Team values
+--(175,22300034,1610612740,46,88,12,23,11,21,4,35,33,8,5,9,13,115)
+--insert into Statistics_Away_Team values
+--(176,22300035,1610612762,43,85,16,36,26,31,10,29,27,3,10,8,23,128)
+--insert into Statistics_Away_Team values
+--(177,22300036,1610612757,36,89,10,37,13,18,19,29,17,11,2,18,17,95)
+--insert into Statistics_Away_Team values
+--(178,22300037,1610612746,36,83,13,34,21,30,8,39,22,10,7,12,19,106)
+--insert into Statistics_Away_Team values
+--(179,22300202,1610612752,46,91,16,37,14,19,13,34,27,7,4,12,13,122)
+--insert into Statistics_Away_Team values
+--(180,22300203,1610612740,44,86,12,29,20,23,13,27,27,9,5,17,26,120)
+--insert into Statistics_Away_Team values
+--(181,22300204,1610612748,33,77,12,36,19,23,5,29,23,9,0,15,18,97)
+--insert into Statistics_Away_Team values
+--(182,22300205,1610612749,49,94,17,45,17,20,5,36,29,8,3,6,16,132)
+--insert into Statistics_Away_Team values
+--(183,22300206,1610612759,36,83,15,40,21,26,12,28,26,5,9,15,28,108)
+--insert into Statistics_Away_Team values
+--(184,22300207,1610612760,52,100,8,23,18,20,9,38,26,8,7,10,16,130)
+--insert into Statistics_Away_Team values
+--(185,22300208,1610612755,44,94,16,35,17,18,10,34,32,8,4,4,18,121)
+--insert into Statistics_Away_Team values
+--(186,22300211,1610612761,55,102,14,36,18,29,12,35,44,10,5,7,23,142)
+--insert into Statistics_Away_Team values
+--(187,22300209,1610612753,43,87,7,20,35,42,8,34,21,10,10,15,23,128)
+--insert into Statistics_Away_Team values
+--(188,22300210,1610612743,39,82,14,29,17,23,9,24,23,7,5,11,21,109)
+--insert into Statistics_Away_Team values
+--(189,22300212,1610612758,48,90,17,40,16,21,14,34,34,9,3,12,20,129)
+--insert into Statistics_Away_Team values
+--(190,22300213,1610612763,37,95,17,44,9,10,14,28,28,7,5,9,21,100)
+--insert into Statistics_Away_Team values
+--(191,22300214,1610612762,48,115,15,46,26,32,27,32,27,11,5,18,27,137)
+--insert into Statistics_Away_Team values
+--(192,22300215,1610612757,34,85,9,34,14,21,13,18,21,10,2,17,15,91)
+--insert into Statistics_Away_Team values
+--(193,22300216,1610612747,39,83,6,29,21,29,10,32,26,13,1,17,13,105)
+--insert into Statistics_Away_Team values
+--(194,22300217,1610612766,46,104,13,39,16,17,17,40,29,9,7,13,18,121)
+--insert into Statistics_Away_Team values
+--(195,22300218,1610612765,36,81,7,21,24,26,11,32,21,7,5,18,24,103)
+--insert into Statistics_Away_Team values
+--(196,22300219,1610612764,55,99,10,29,9,11,5,21,29,6,4,4,19,129)
+--insert into Statistics_Away_Team values
+--(197,22300220,1610612748,42,84,17,35,17,20,9,34,31,7,1,8,19,118)
+--insert into Statistics_Away_Team values
+--(198,22300221,1610612752,32,92,9,38,27,34,17,33,16,8,3,10,23,100)
+--insert into Statistics_Away_Team values
+--(199,22300222,1610612758,33,87,11,45,16,24,9,27,27,4,5,13,21,93)
+--insert into Statistics_Away_Team values
+--(200,22300223,1610612759,39,90,10,38,11,14,13,36,23,4,7,16,17,99)
+--insert into Statistics_Away_Team values
+--(201,22300224,1610612745,44,95,13,41,15,19,15,33,28,6,3,8,24,116)
+--insert into Statistics_Away_Team values
+--(202,22300038,1610612761,38,75,14,28,17,22,5,33,29,6,6,23,20,107)
+--insert into Statistics_Away_Team values
+--(203,22300039,1610612754,57,94,22,45,21,28,7,22,35,7,11,13,25,157)
+--insert into Statistics_Away_Team values
+--(204,22300040,1610612755,40,96,11,35,28,34,14,30,19,12,8,14,25,119)
+--insert into Statistics_Away_Team values
+--(205,22300041,1610612757,38,87,14,31,17,20,12,18,20,8,3,13,20,107)
+--insert into Statistics_Away_Team values
+--(206,22300042,1610612762,38,98,11,44,12,16,13,29,25,6,3,14,22,99)
+--insert into Statistics_Away_Team values
+--(207,22300225,1610612764,44,97,11,32,15,18,11,36,26,7,3,10,18,114)
+--insert into Statistics_Away_Team values
+--(208,22300226,1610612753,44,81,10,29,26,30,11,30,27,9,7,12,21,124)
+--insert into Statistics_Away_Team values
+--(209,22300227,1610612751,55,113,15,35,20,24,22,37,28,8,6,16,24,145)
+--insert into Statistics_Away_Team values
+--(210,22300228,1610612749,45,101,13,34,13,17,13,34,23,9,2,9,19,116)
+--insert into Statistics_Away_Team values
+--(211,22300229,1610612748,46,88,20,35,17,21,10,31,30,11,7,10,19,129)
+--insert into Statistics_Away_Team values
+--(212,22300230,1610612761,48,90,11,27,25,30,13,33,26,7,3,17,15,132)
+--insert into Statistics_Away_Team values
+--(213,22300231,1610612763,27,82,7,32,30,35,9,37,17,3,7,9,19,91)
+--insert into Statistics_Away_Team values
+--(214,22300232,1610612755,34,87,7,32,24,30,16,32,21,9,12,14,23,99)
+--insert into Statistics_Away_Team values
+--(215,22300233,1610612758,34,76,15,44,29,35,4,34,22,3,1,15,25,112)
+--insert into Statistics_Away_Team values
+--(216,22300234,1610612760,37,75,11,29,31,38,11,34,24,4,12,12,17,116)
+--insert into Statistics_Away_Team values
+--(217,22300235,1610612759,35,91,11,38,21,23,10,34,26,8,6,13,24,102)
+--insert into Statistics_Away_Team values
+--(218,22300236,1610612756,34,76,11,28,44,52,11,32,22,9,8,15,22,123)
+--insert into Statistics_Away_Team values
+--(219,22300237,1610612762,37,79,10,31,21,26,14,30,25,7,3,21,13,105)
+--insert into Statistics_Away_Team values
+--(220,22300238,1610612747,39,84,11,29,12,19,9,42,26,1,2,11,17,101)
+--insert into Statistics_Away_Team values
+--(221,22300043,1610612753,43,85,11,28,16,22,13,35,23,5,3,18,28,113)
+--insert into Statistics_Away_Team values
+--(222,22300044,1610612756,39,76,11,31,21,28,7,34,22,10,6,12,12,110)
+--insert into Statistics_Away_Team values
+--(223,22300045,1610612752,39,81,10,29,12,18,6,40,21,7,2,18,14,100)
+--insert into Statistics_Away_Team values
+--(224,22300046,1610612761,44,83,13,39,20,27,13,27,32,8,6,14,14,121)
+--insert into Statistics_Away_Team values
+--(225,22300047,1610612754,49,102,16,38,22,24,15,25,24,7,8,8,21,136)
+--insert into Statistics_Away_Team values
+--(226,22300048,1610612745,40,82,12,29,13,15,6,43,25,9,9,14,21,105)
+--insert into Statistics_Away_Team values
+--(227,22300049,1610612764,48,100,15,37,17,21,12,34,29,3,4,8,24,128)
+--insert into Statistics_Away_Team values
+--(228,22300050,1610612758,49,100,17,35,9,11,14,32,25,7,4,13,19,124)
+--insert into Statistics_Away_Team values
+--(229,22300051,1610612759,45,100,12,47,10,12,15,31,28,10,3,19,18,112)
+--insert into Statistics_Away_Team values
+--(230,22300052,1610612740,43,88,10,24,20,27,12,38,26,6,5,15,19,116)
+--insert into Statistics_Away_Team values
+--(231,22300239,1610612755,38,83,14,41,37,45,17,32,30,2,9,12,26,127)
+--insert into Statistics_Away_Team values
+--(232,22300240,1610612748,38,87,11,34,10,13,13,31,24,6,3,17,18,97)
+--insert into Statistics_Away_Team values
+--(233,22300241,1610612764,43,88,10,38,12,12,8,33,33,5,6,20,17,108)
+--insert into Statistics_Away_Team values
+--(234,22300242,1610612747,47,90,9,27,18,21,9,35,34,9,8,18,15,121)
+--insert into Statistics_Away_Team values
+--(235,22300243,1610612762,38,87,15,43,14,17,14,38,23,8,6,23,13,105)
+--insert into Statistics_Away_Team values
+--(236,22300244,1610612746,38,88,8,29,23,31,17,40,25,2,6,12,16,107)
+--insert into Statistics_Away_Team values
+--(237,22300245,1610612757,37,91,13,32,15,20,11,29,21,15,4,17,26,102)
+--insert into Statistics_Away_Team values
+--(238,22300246,1610612738,42,95,13,47,16,20,18,40,24,9,3,12,19,113)
+--insert into Statistics_Away_Team values
+--(239,22300247,1610612756,42,91,16,38,16,21,18,29,27,4,11,11,25,116)
+--insert into Statistics_Away_Team values
+--(240,22300248,1610612753,47,87,10,27,26,33,7,37,33,10,3,14,26,130)
+--insert into Statistics_Away_Team values
+--(241,22300249,1610612750,43,81,15,34,18,23,6,36,30,5,5,14,26,119)
+--insert into Statistics_Away_Team values
+--(242,22300250,1610612741,40,83,12,32,17,22,10,30,21,3,2,11,18,109)
+--insert into Statistics_Away_Team values
+--(243,22300251,1610612761,37,89,8,32,20,29,17,33,17,9,3,12,11,102)
+--insert into Statistics_Away_Team values
+--(244,22300252,1610612759,42,93,14,37,22,26,10,25,34,10,6,15,22,120)
+--insert into Statistics_Away_Team values
+--(245,22300253,1610612764,45,89,10,29,26,28,6,40,29,8,6,15,19,126)
+--insert into Statistics_Away_Team values
+--(246,22300254,1610612757,40,85,9,18,25,31,9,29,20,6,4,16,21,114)
+--insert into Statistics_Away_Team values
+--(247,22300255,1610612755,47,93,22,46,22,26,15,33,33,11,2,5,17,138)
+--insert into Statistics_Away_Team values
+--(248,22300256,1610612762,37,88,17,48,23,28,9,34,31,6,4,10,23,114)
+--insert into Statistics_Away_Team values
+--(249,22300257,1610612746,35,85,6,20,28,34,16,33,18,6,9,13,23,104)
+--insert into Statistics_Away_Team values
+--(250,22300053,1610612741,39,90,9,28,10,18,9,28,25,11,7,8,13,97)
+--insert into Statistics_Away_Team values
+--(251,22300054,1610612761,39,101,13,36,12,19,15,31,27,11,3,7,21,103)
+--insert into Statistics_Away_Team values
+--(252,22300055,1610612739,50,93,13,36,15,17,12,43,27,8,12,16,20,128)
+--insert into Statistics_Away_Team values
+--(253,22300056,1610612749,47,88,13,35,24,27,8,37,26,3,4,9,21,131)
+--insert into Statistics_Away_Team values
+--(254,22300057,1610612752,41,88,15,38,18,20,15,39,21,10,7,16,12,115)
+--insert into Statistics_Away_Team values
+--(255,22300058,1610612760,37,90,11,30,18,23,9,27,22,8,4,8,23,103)
+--insert into Statistics_Away_Team values
+--(256,22300059,1610612745,42,85,8,29,23,29,10,30,33,2,6,12,27,115)
+--insert into Statistics_Away_Team values
+--(257,22300060,1610612758,41,91,15,44,27,42,12,34,25,8,7,10,23,124)
+--insert into Statistics_Away_Team values
+--(258,22300258,1610612747,45,88,12,34,31,38,8,41,28,7,10,12,12,133)
+--insert into Statistics_Away_Team values
+--(259,22300259,1610612764,41,87,11,29,27,35,7,22,28,14,3,10,20,120)
+--insert into Statistics_Away_Team values
+--(260,22300260,1610612761,42,93,10,27,18,21,15,34,25,7,5,9,22,112)
+--insert into Statistics_Away_Team values
+--(261,22300261,1610612762,34,90,16,39,7,12,12,27,26,8,8,17,14,91)
+--insert into Statistics_Away_Team values
+--(262,22300262,1610612755,42,81,14,34,16,18,8,22,28,8,7,21,26,114)
+--insert into Statistics_Away_Team values
+--(263,22300263,1610612745,47,86,16,41,14,19,8,27,27,3,5,8,20,124)
+--insert into Statistics_Away_Team values
+--(264,22300264,1610612758,40,86,13,41,24,28,13,34,22,1,1,14,20,117)
+--insert into Statistics_Away_Team values
+--(265,22300265,1610612757,39,77,14,35,11,11,9,31,29,10,4,22,17,103)
+--insert into Statistics_Away_Team values
+--(266,22300266,1610612766,46,91,21,36,16,16,13,28,30,6,7,9,16,129)
+--insert into Statistics_Away_Team values
+--(267,22300267,1610612748,48,86,8,21,38,45,10,38,25,4,1,14,28,142)
+--insert into Statistics_Away_Team values
+--(268,22300268,1610612752,41,88,16,41,20,28,12,29,25,8,3,11,17,118)
+--insert into Statistics_Away_Team values
+--(269,22300269,1610612749,44,98,16,48,9,13,9,34,28,12,6,20,21,113)
+--insert into Statistics_Away_Team values
+--(270,22300270,1610612762,33,87,11,34,13,14,13,38,22,6,4,19,19,90)
+--insert into Statistics_Away_Team values
+--(271,22300271,1610612760,50,94,14,42,19,22,8,40,29,9,6,7,24,133)
+--insert into Statistics_Away_Team values
+--(272,22300272,1610612759,48,89,18,41,21,23,11,36,34,4,7,21,22,135)
+--insert into Statistics_Away_Team values
+--(273,22300273,1610612746,42,95,12,32,18,24,15,28,26,5,1,6,21,114)
+--insert into Statistics_Away_Team values
+--(274,22300274,1610612764,45,89,13,28,22,31,8,32,25,8,5,14,29,125)
+--insert into Statistics_Away_Team values
+--(275,22300275,1610612755,43,94,16,35,17,23,15,27,16,16,5,16,24,119)
+--insert into Statistics_Away_Team values
+--(276,22300276,1610612761,44,100,6,32,12,17,19,29,32,7,6,12,19,106)
+--insert into Statistics_Away_Team values
+--(277,22300277,1610612763,44,90,11,34,9,11,13,39,27,8,12,14,23,108)
+--insert into Statistics_Away_Team values
+--(278,22300278,1610612759,38,83,16,39,14,17,8,31,28,5,5,19,21,106)
+--insert into Statistics_Away_Team values
+--(279,22300279,1610612756,39,84,9,27,24,26,8,35,22,4,9,12,17,111)
+--insert into Statistics_Away_Team values
+--(280,22300280,1610612746,44,90,13,39,12,14,5,35,31,5,6,11,21,113)
+--insert into Statistics_Away_Team values
+--(281,22300281,1610612750,43,84,11,31,26,30,10,31,26,5,3,11,16,123)
+--insert into Statistics_Away_Team values
+--(282,22300282,1610612753,35,88,9,29,22,27,8,29,24,3,5,11,27,101)
+--insert into Statistics_Away_Team values
+--(283,22300283,1610612765,39,83,8,30,15,23,10,39,24,9,3,16,20,101)
+--insert into Statistics_Away_Team values
+--(284,22300284,1610612748,48,89,12,25,21,24,6,22,27,3,1,10,22,129)
+--insert into Statistics_Away_Team values
+--(285,22300285,1610612740,41,82,8,25,28,35,13,26,20,10,1,12,17,118)
+--insert into Statistics_Away_Team values
+--(286,22300286,1610612749,53,89,14,33,12,15,8,36,33,5,6,15,19,132)
+--insert into Statistics_Away_Team values
+--(287,22300287,1610612760,44,100,20,44,18,22,16,34,24,8,5,12,24,126)
+--insert into Statistics_Away_Team values
+--(288,22300288,1610612756,36,83,9,26,35,43,12,32,24,10,5,16,21,116)
+--insert into Statistics_Away_Team values
+--(289,22300289,1610612762,46,94,7,34,19,24,16,40,27,5,11,17,21,118)
+--insert into Statistics_Away_Team values
+--(290,22300290,1610612758,48,99,16,34,11,15,9,38,33,7,5,11,14,123)
+--insert into Statistics_Away_Team values
+--(291,22300291,1610612747,40,89,8,27,19,27,9,39,24,11,7,9,17,107)
+--insert into Statistics_Away_Team values
+--(292,22301202,1610612754,43,94,19,40,17,21,7,34,28,8,4,6,15,122)
+--insert into Statistics_Away_Team values
+--(293,22301204,1610612758,38,85,14,41,27,33,11,27,29,8,2,13,18,117)
+--insert into Statistics_Away_Team values
+--(294,22301201,1610612752,43,87,7,23,29,33,12,24,27,8,4,16,17,122)
+--insert into Statistics_Away_Team values
+--(295,22301203,1610612756,37,75,12,25,17,21,8,36,25,8,5,20,21,103)
+--insert into Statistics_Away_Team values
+--(296,22301205,1610612753,41,84,2,23,27,37,7,29,22,10,6,11,21,111)
+--insert into Statistics_Away_Team values
+--(297,22301206,1610612763,47,91,11,26,11,14,9,37,26,10,8,14,9,116)
+--insert into Statistics_Away_Team values
+--(298,22301208,1610612764,52,92,14,35,8,8,2,30,39,8,6,11,22,126)
+--insert into Statistics_Away_Team values
+--(299,22301207,1610612761,37,86,14,37,15,17,8,38,29,3,8,14,18,103)
+--insert into Statistics_Away_Team values
+--(300,22301209,1610612751,43,94,11,27,17,24,12,33,24,7,6,12,19,114)
+--insert into Statistics_Away_Team values
+--(301,22301210,1610612759,38,101,8,36,10,15,13,36,23,7,4,11,17,94)
+--insert into Statistics_Away_Team values
+--(302,22301211,1610612741,38,90,12,25,23,29,21,36,23,6,6,16,16,111)
+--insert into Statistics_Away_Team values
+--(303,22301212,1610612760,37,87,8,29,19,24,4,26,22,14,10,8,21,101)
+--insert into Statistics_Away_Team values
+--(304,22301213,1610612762,35,87,12,33,15,18,11,32,22,6,3,19,20,97)
+--insert into Statistics_Away_Team values
+--(305,22301214,1610612757,39,95,16,46,12,16,11,29,22,8,3,10,30,106)
+--insert into Statistics_Away_Team values
+--(306,22301215,1610612746,40,87,12,27,19,25,13,38,21,7,9,11,14,111)
+--insert into Statistics_Away_Team values
+--(307,22301229,1610612749,43,96,12,33,21,28,12,34,19,3,9,12,17,119)
+--insert into Statistics_Away_Team values
+--(308,22301230,1610612740,34,95,7,31,14,20,12,30,22,7,5,12,21,89)
+--insert into Statistics_Away_Team values
+--(309,22301216,1610612761,47,93,6,32,16,21,14,28,32,7,2,14,21,116)
+--insert into Statistics_Away_Team values
+--(310,22301217,1610612753,49,89,10,26,15,19,6,39,26,5,4,9,20,123)
+--insert into Statistics_Away_Team values
+--(311,22301218,1610612755,42,87,11,30,30,37,14,34,24,6,8,10,14,125)
+--insert into Statistics_Away_Team values
+--(312,22301219,1610612764,38,91,6,33,15,21,12,29,19,4,7,16,19,97)
+--insert into Statistics_Away_Team values
+--(313,22301227,1610612752,44,88,15,37,20,27,12,32,28,4,3,13,20,123)
+--insert into Statistics_Away_Team values
+--(314,22301220,1610612748,37,86,15,42,10,15,7,30,23,5,5,18,23,99)
+--insert into Statistics_Away_Team values
+--(315,22301221,1610612750,44,88,15,38,24,26,15,39,30,4,8,13,17,127)
+--insert into Statistics_Away_Team values
+--(316,22301222,1610612760,51,98,5,29,31,36,11,28,15,17,7,9,22,138)
+--insert into Statistics_Away_Team values
+--(317,22301223,1610612759,39,83,17,42,17,20,10,34,35,4,9,12,20,112)
+--insert into Statistics_Away_Team values
+--(318,22301224,1610612745,35,82,13,39,31,42,11,36,21,3,3,9,20,114)
+--insert into Statistics_Away_Team values
+--(319,22301228,1610612758,42,92,14,39,16,20,15,35,25,7,0,12,22,114)
+--insert into Statistics_Away_Team values
+--(320,22301225,1610612762,38,84,9,31,18,24,8,32,23,10,10,13,17,103)
+--insert into Statistics_Away_Team values
+--(321,22301226,1610612757,39,105,18,53,16,18,18,30,20,9,1,15,24,112)
+--insert into Statistics_Away_Team values
+--(322,62300001,1610612747,47,88,2,13,27,35,12,43,25,5,10,18,25,123)
+--insert into Statistics_Away_Team values
+--(323,22300292,1610612748,37,77,15,35,27,34,8,35,31,7,3,10,22,116)
+--insert into Statistics_Away_Team values
+--(324,22300293,1610612754,52,92,13,31,14,19,11,32,33,8,5,18,20,131)
+--insert into Statistics_Away_Team values
+--(325,22300294,1610612753,39,84,7,26,19,25,12,31,22,7,8,12,22,104)
+--insert into Statistics_Away_Team values
+--(326,22300295,1610612764,36,85,9,31,20,31,13,31,21,5,2,22,19,101)
+--insert into Statistics_Away_Team values
+--(327,22300296,1610612743,47,88,12,29,23,29,14,35,29,9,8,16,19,129)
+--insert into Statistics_Away_Team values
+--(328,22300297,1610612761,47,96,14,39,22,30,17,21,32,12,0,10,21,130)
+--insert into Statistics_Away_Team values
+--(329,22300298,1610612759,31,87,5,41,15,22,9,42,20,9,5,17,14,82)
+--insert into Statistics_Away_Team values
+--(330,22300299,1610612763,41,89,18,44,13,16,10,28,26,9,5,17,19,113)
+--insert into Statistics_Away_Team values
+--(331,22300300,1610612749,44,86,15,37,30,37,6,42,34,5,4,11,21,133)
+--insert into Statistics_Away_Team values
+--(332,22300301,1610612740,40,82,10,27,31,40,10,37,27,7,7,13,20,121)
+--insert into Statistics_Away_Team values
+--(333,22300302,1610612762,44,92,12,38,20,21,9,32,32,9,9,15,21,120)
+--insert into Statistics_Away_Team values
+--(334,22300303,1610612758,48,94,25,45,10,14,10,33,38,4,3,13,24,131)
+--insert into Statistics_Away_Team values
+--(335,22300304,1610612757,43,90,19,40,22,26,11,25,25,5,4,12,21,127)
+--insert into Statistics_Away_Team values
+--(336,22300305,1610612739,44,92,19,45,6,9,6,29,27,6,4,12,18,113)
+--insert into Statistics_Away_Team values
+--(337,22300306,1610612747,49,91,15,29,12,18,10,30,34,4,4,15,20,125)
+--insert into Statistics_Away_Team values
+--(338,22300307,1610612743,39,83,14,30,22,32,15,31,28,4,4,10,20,114)
+--insert into Statistics_Away_Team values
+--(339,22300308,1610612756,38,84,14,39,29,34,7,34,27,8,7,14,22,119)
+--insert into Statistics_Away_Team values
+--(340,22300309,1610612758,36,86,10,37,17,24,7,31,27,8,2,14,19,99)
+--insert into Statistics_Away_Team values
+--(341,22300310,1610612755,45,87,11,30,28,34,10,43,28,6,4,10,20,129)
+--insert into Statistics_Away_Team values
+--(342,22300311,1610612764,42,82,19,44,19,24,3,30,28,7,6,15,16,122)
+--insert into Statistics_Away_Team values
+--(343,22300312,1610612748,41,86,15,30,18,19,17,30,29,10,3,22,12,115)
+--insert into Statistics_Away_Team values
+--(344,22300313,1610612761,50,87,18,34,17,24,9,38,39,3,9,14,18,135)
+--insert into Statistics_Away_Team values
+--(345,22300314,1610612763,35,82,10,38,24,34,5,34,25,7,4,11,30,104)
+--insert into Statistics_Away_Team values
+--(346,22300315,1610612749,48,89,7,27,37,48,12,31,27,8,8,15,24,140)
+--insert into Statistics_Away_Team values
+--(347,22300316,1610612759,45,96,16,37,13,18,10,36,28,8,6,17,16,119)
+--insert into Statistics_Away_Team values
+--(348,22300317,1610612756,40,84,9,28,23,27,14,35,28,5,4,12,20,112)
+--insert into Statistics_Away_Team values
+--(349,22300318,1610612762,43,98,16,42,15,21,15,38,31,5,4,15,27,117)
+--insert into Statistics_Away_Team values
+--(350,22300319,1610612739,40,83,11,33,16,17,9,30,21,7,1,16,18,107)
+--insert into Statistics_Away_Team values
+--(351,22300320,1610612748,37,80,15,34,27,35,8,34,26,2,1,10,20,116)
+--insert into Statistics_Away_Team values
+--(352,22300321,1610612750,44,88,14,31,17,25,12,33,30,9,4,15,19,119)
+--insert into Statistics_Away_Team values
+--(353,22300322,1610612743,47,99,12,36,18,21,12,36,31,13,6,8,15,124)
+--insert into Statistics_Away_Team values
+--(354,22300323,1610612762,49,92,11,33,13,14,13,32,27,9,9,11,14,122)
+--insert into Statistics_Away_Team values
+--(355,22300324,1610612758,47,95,18,45,16,21,11,36,32,6,4,17,22,128)
+--insert into Statistics_Away_Team values
+--(356,22300325,1610612746,41,81,13,32,26,30,10,30,27,6,9,13,20,121)
+--insert into Statistics_Away_Team values
+--(357,22300326,1610612740,38,80,9,27,27,32,11,38,24,4,5,15,17,112)
+--insert into Statistics_Away_Team values
+--(358,22300327,1610612755,41,98,14,37,28,31,16,38,24,17,8,11,23,124)
+--insert into Statistics_Away_Team values
+--(359,22300328,1610612764,52,92,13,27,20,26,8,39,36,7,8,17,18,137)
+--insert into Statistics_Away_Team values
+--(360,22300329,1610612753,42,87,14,35,13,18,13,32,25,5,2,21,22,111)
+--insert into Statistics_Away_Team values
+--(361,22300330,1610612761,40,77,10,31,14,25,3,29,30,8,6,14,19,104)
+--insert into Statistics_Away_Team values
+--(362,22300331,1610612759,47,95,18,42,17,19,9,36,35,5,5,8,19,129)
+--insert into Statistics_Away_Team values
+--(363,22300332,1610612763,37,92,11,40,11,15,13,35,19,4,8,17,24,96)
+--insert into Statistics_Away_Team values
+--(364,22300333,1610612756,47,90,11,28,17,21,10,23,30,4,3,11,17,122)
+--insert into Statistics_Away_Team values
+--(365,22300334,1610612749,50,88,19,42,27,32,8,41,24,5,8,14,24,146)
+--insert into Statistics_Away_Team values
+--(366,22300335,1610612755,53,88,14,31,15,17,5,40,30,10,6,10,17,135)
+--insert into Statistics_Away_Team values
+--(367,22300336,1610612739,49,101,16,42,13,15,18,31,32,8,3,10,22,127)
+--insert into Statistics_Away_Team values
+--(368,22300337,1610612748,43,83,13,35,19,25,8,23,26,7,2,10,19,118)
+--insert into Statistics_Away_Team values
+--(369,22300338,1610612750,48,86,18,30,13,16,8,28,33,10,4,15,16,127)
+--insert into Statistics_Away_Team values
+--(370,22300339,1610612744,44,91,17,32,19,20,13,29,29,7,5,14,15,124)
+--insert into Statistics_Away_Team values
+--(371,22300340,1610612760,43,84,7,21,25,30,9,31,22,4,9,10,19,118)
+--insert into Statistics_Away_Team values
+--(372,22300341,1610612757,47,94,7,32,19,22,10,34,17,8,2,11,21,120)
+--insert into Statistics_Away_Team values
+--(373,22300342,1610612762,38,86,12,37,16,21,9,28,28,8,3,12,12,104)
+--insert into Statistics_Away_Team values
+--(374,22300343,1610612752,44,94,11,35,23,26,12,27,20,7,4,10,22,122)
+--insert into Statistics_Away_Team values
+--(375,22300344,1610612753,34,89,11,36,18,24,10,33,18,7,4,8,16,97)
+--insert into Statistics_Away_Team values
+--(376,22300345,1610612759,40,94,15,42,15,21,9,30,29,6,6,13,15,110)
+--insert into Statistics_Away_Team values
+--(377,22300346,1610612749,45,90,13,36,25,32,16,30,25,4,1,15,23,128)
+--insert into Statistics_Away_Team values
+--(378,22300347,1610612764,39,95,14,46,16,20,10,34,24,8,6,10,25,108)
+--insert into Statistics_Away_Team values
+--(379,22300348,1610612757,40,85,13,35,21,23,9,28,23,10,4,13,20,114)
+--insert into Statistics_Away_Team values
+--(380,22300349,1610612745,47,102,12,33,24,27,15,32,34,9,5,13,32,130)
+--insert into Statistics_Away_Team values
+--(381,22300350,1610612746,56,98,19,38,20,23,14,32,26,4,9,11,19,151)
+--insert into Statistics_Away_Team values
+--(382,22300351,1610612755,38,88,11,32,17,19,9,35,23,8,8,12,17,104)
+--insert into Statistics_Away_Team values
+--(383,22300352,1610612765,48,94,9,22,19,27,12,24,23,7,3,13,26,124)
+--insert into Statistics_Away_Team values
+--(384,22300353,1610612750,42,85,11,29,17,19,12,33,27,10,9,13,19,112)
+--insert into Statistics_Away_Team values
+--(385,22300354,1610612761,44,86,8,29,18,22,15,36,30,4,4,17,16,114)
+--insert into Statistics_Away_Team values
+--(386,22300355,1610612760,42,92,11,36,21,23,10,43,31,11,10,12,18,116)
+--insert into Statistics_Away_Team values
+--(387,22300356,1610612743,49,87,14,26,18,22,9,37,29,7,4,8,19,130)
+--insert into Statistics_Away_Team values
+--(388,22300357,1610612762,45,91,14,34,21,24,12,39,30,6,8,14,20,125)
+--insert into Statistics_Away_Team values
+--(389,22300358,1610612764,44,85,18,38,25,30,5,34,26,3,6,11,21,131)
+--insert into Statistics_Away_Team values
+--(390,22300359,1610612752,42,88,10,30,20,23,11,41,21,5,6,15,16,114)
+--insert into Statistics_Away_Team values
+--(391,22300360,1610612740,40,85,11,25,22,24,11,28,23,4,3,11,23,113)
+--insert into Statistics_Away_Team values
+--(392,22300361,1610612759,46,96,9,30,18,21,8,44,27,4,4,16,17,119)
+--insert into Statistics_Away_Team values
+--(393,22300362,1610612744,50,109,20,50,12,14,18,41,29,4,5,10,15,132)
+--insert into Statistics_Away_Team values
+--(394,22300363,1610612757,39,87,14,28,17,19,10,32,23,8,4,15,18,109)
+--insert into Statistics_Away_Team values
+--(395,22300364,1610612762,40,78,13,30,23,28,6,32,24,5,6,16,22,116)
+--insert into Statistics_Away_Team values
+--(396,22300365,1610612754,49,80,18,39,28,30,8,30,37,6,8,13,20,144)
+--insert into Statistics_Away_Team values
+--(397,22300366,1610612753,41,89,9,36,15,19,15,34,29,8,5,11,24,106)
+--insert into Statistics_Away_Team values
+--(398,22300367,1610612755,45,84,8,22,29,32,7,29,20,9,3,12,25,127)
+--insert into Statistics_Away_Team values
+--(399,22300368,1610612752,44,95,13,33,20,25,12,42,24,8,7,11,15,121)
+--insert into Statistics_Away_Team values
+--(400,22300369,1610612761,43,90,9,27,9,13,10,31,26,3,5,11,12,104)
+--insert into Statistics_Away_Team values
+--(401,22300370,1610612747,42,94,12,37,12,15,8,32,27,7,7,13,11,108)
+--insert into Statistics_Away_Team values
+--(402,22300371,1610612745,44,89,16,34,23,23,8,29,25,4,6,8,23,127)
+--insert into Statistics_Away_Team values
+--(403,22300372,1610612746,43,77,11,31,23,25,7,37,27,6,4,12,22,120)
+--insert into Statistics_Away_Team values
+--(404,22300373,1610612758,43,91,21,44,12,23,12,25,29,4,8,7,15,119)
+--insert into Statistics_Away_Team values
+--(405,22300374,1610612762,43,94,11,30,22,24,15,29,26,15,7,12,18,119)
+--insert into Statistics_Away_Team values
+--(406,22300375,1610612740,47,86,15,35,14,16,7,33,32,7,4,9,15,123)
+--insert into Statistics_Away_Team values
+--(407,22300376,1610612759,37,81,10,30,11,16,9,32,24,6,7,19,11,95)
+--insert into Statistics_Away_Team values
+--(408,22300377,1610612763,43,84,16,35,14,21,8,33,27,8,7,18,14,116)
+--insert into Statistics_Away_Team values
+--(409,22300378,1610612753,45,99,8,33,16,23,13,32,26,6,9,7,23,114)
+--insert into Statistics_Away_Team values
+--(410,22300379,1610612760,51,87,16,34,16,18,6,32,35,9,5,11,11,134)
+--insert into Statistics_Away_Team values
+--(411,22300380,1610612750,42,87,14,36,20,25,9,31,32,13,7,14,19,118)
+--insert into Statistics_Away_Team values
+--(412,22300381,1610612764,42,84,12,30,22,32,7,30,26,9,6,11,17,118)
+--insert into Statistics_Away_Team values
+--(413,22300382,1610612761,39,87,9,33,24,28,11,35,30,9,6,12,16,111)
+--insert into Statistics_Away_Team values
+--(414,22300383,1610612743,45,87,11,26,21,25,8,33,29,6,5,6,19,122)
+--insert into Statistics_Away_Team values
+--(415,22300384,1610612748,40,86,17,39,25,30,12,36,21,7,2,17,18,122)
+--insert into Statistics_Away_Team values
+--(416,22300385,1610612745,46,95,11,38,19,23,12,51,21,7,3,16,22,122)
+--insert into Statistics_Away_Team values
+--(417,22300386,1610612764,44,97,11,35,19,24,9,30,25,7,4,9,16,118)
+--insert into Statistics_Away_Team values
+--(418,22300387,1610612758,44,83,12,38,20,26,7,30,32,7,7,12,24,120)
+--insert into Statistics_Away_Team values
+--(419,22300388,1610612752,41,93,9,29,20,21,11,30,17,5,2,11,22,111)
+--insert into Statistics_Away_Team values
+--(420,22300389,1610612746,41,89,11,34,15,15,9,25,25,4,4,10,24,108)
+--insert into Statistics_Away_Team values
+--(421,22300390,1610612743,39,90,12,30,12,14,12,36,25,11,13,14,21,102)
+--insert into Statistics_Away_Team values
+--(422,22300391,1610612753,39,73,6,18,33,41,10,29,22,9,5,13,18,117)
+--insert into Statistics_Away_Team values
+--(423,22300392,1610612740,38,82,8,31,20,29,13,33,21,9,7,16,22,104)
+--insert into Statistics_Away_Team values
+--(424,22300393,1610612763,50,97,11,33,14,22,15,36,29,6,7,11,16,125)
+--insert into Statistics_Away_Team values
+--(425,22300394,1610612765,39,79,15,35,22,29,6,30,26,5,3,13,25,115)
+--insert into Statistics_Away_Team values
+--(426,22300395,1610612762,48,91,17,38,13,14,8,33,35,7,5,11,17,126)
+--insert into Statistics_Away_Team values
+--(427,22300396,1610612739,39,88,12,45,19,26,15,33,28,7,4,12,16,109)
+--insert into Statistics_Away_Team values
+--(428,22300397,1610612760,46,95,13,41,15,19,11,31,24,6,7,9,17,120)
+--insert into Statistics_Away_Team values
+--(429,22300398,1610612759,44,98,14,45,17,24,8,34,32,9,3,10,16,119)
+--insert into Statistics_Away_Team values
+--(430,22300399,1610612757,38,84,13,35,17,25,8,22,26,13,3,11,20,106)
+--insert into Statistics_Away_Team values
+--(431,22300400,1610612758,37,85,8,33,16,21,8,32,23,10,2,11,20,98)
+--insert into Statistics_Away_Team values
+--(432,22300401,1610612752,50,92,8,26,21,26,7,34,27,7,4,11,18,129)
+--insert into Statistics_Away_Team values
+--(433,22300402,1610612744,40,87,14,40,20,23,9,30,23,7,3,13,23,114)
+--insert into Statistics_Away_Team values
+--(434,22300403,1610612747,43,90,13,32,16,21,13,30,24,4,1,12,19,115)
+--insert into Statistics_Away_Team values
+--(435,22300404,1610612755,40,94,17,45,16,25,5,31,23,11,4,7,22,113)
+--insert into Statistics_Away_Team values
+--(436,22300405,1610612756,40,90,14,41,20,25,14,33,28,5,2,15,21,114)
+--insert into Statistics_Away_Team values
+--(437,22300406,1610612765,40,90,9,25,23,32,16,36,20,6,4,13,27,112)
+--insert into Statistics_Away_Team values
+--(438,22300407,1610612764,43,87,16,42,17,21,10,37,27,10,8,20,21,119)
+--insert into Statistics_Away_Team values
+--(439,22300408,1610612741,42,92,7,25,27,31,18,30,23,10,2,8,17,118)
+--insert into Statistics_Away_Team values
+--(440,22300409,1610612754,43,82,19,43,18,21,10,35,28,5,7,20,22,123)
+--insert into Statistics_Away_Team values
+--(441,22300410,1610612740,42,97,10,31,21,33,10,36,18,12,6,14,26,115)
+--insert into Statistics_Away_Team values
+--(442,22300411,1610612760,49,81,18,39,13,16,3,26,35,9,7,11,24,129)
+--insert into Statistics_Away_Team values
+--(443,22300412,1610612762,47,95,16,43,20,22,13,40,34,4,7,14,21,130)
+--insert into Statistics_Away_Team values
+--(444,22300413,1610612758,45,93,10,42,13,16,11,29,25,5,7,10,16,113)
+--insert into Statistics_Away_Team values
+--(445,22300414,1610612746,40,85,14,34,19,25,11,34,24,7,3,13,14,113)
+--insert into Statistics_Away_Team values
+--(446,22300415,1610612755,45,96,10,28,12,17,12,36,14,10,8,10,19,112)
+--insert into Statistics_Away_Team values
+--(447,22300416,1610612764,42,90,8,33,10,15,10,24,25,11,3,16,17,102)
+--insert into Statistics_Away_Team values
+--(448,22300417,1610612749,52,89,23,51,17,23,8,33,41,6,8,10,18,144)
+--insert into Statistics_Away_Team values
+--(449,22300418,1610612756,47,82,14,33,21,26,8,36,28,4,11,19,17,129)
+--insert into Statistics_Away_Team values
+--(450,22300419,1610612760,49,90,14,32,17,22,3,24,20,6,10,4,21,129)
+--insert into Statistics_Away_Team values
+--(451,22300420,1610612742,39,88,10,37,22,26,7,30,21,12,7,10,21,110)
+--insert into Statistics_Away_Team values
+--(452,22300421,1610612765,48,101,14,43,12,19,19,38,27,7,4,18,21,122)
+--insert into Statistics_Away_Team values
+--(453,22300422,1610612754,43,85,19,42,15,22,6,41,30,6,9,13,21,120)
+--insert into Statistics_Away_Team values
+--(454,22300423,1610612750,38,74,17,33,25,34,6,32,23,9,10,22,21,118)
+--insert into Statistics_Away_Team values
+--(455,22300424,1610612762,36,85,12,39,21,25,17,25,27,5,3,18,15,105)
+--insert into Statistics_Away_Team values
+--(456,22300425,1610612763,37,89,13,35,18,25,11,25,23,8,5,11,13,105)
+--insert into Statistics_Away_Team values
+--(457,22300426,1610612748,44,91,10,31,16,22,10,34,26,6,1,7,19,114)
+--insert into Statistics_Away_Team values
+--(458,22300427,1610612759,41,85,10,36,26,28,7,35,33,9,10,11,20,118)
+--insert into Statistics_Away_Team values
+--(459,22300428,1610612747,52,97,15,30,14,14,5,37,41,11,7,11,21,133)
+--insert into Statistics_Away_Team values
+--(460,22300429,1610612753,40,89,7,33,30,40,14,35,24,10,6,15,20,117)
+--insert into Statistics_Away_Team values
+--(461,22300430,1610612764,46,91,15,38,3,7,8,35,28,5,5,6,19,110)
+--insert into Statistics_Away_Team values
+--(462,22300431,1610612758,46,89,17,45,8,15,5,33,35,9,3,12,20,117)
+--insert into Statistics_Away_Team values
+--(463,22300432,1610612761,44,95,17,44,13,20,9,29,29,10,6,4,15,118)
+--insert into Statistics_Away_Team values
+--(464,22300433,1610612749,41,80,12,29,25,28,7,36,26,5,6,17,15,119)
+--insert into Statistics_Away_Team values
+--(465,22300434,1610612755,45,86,12,33,29,33,11,19,22,10,5,10,21,131)
+--insert into Statistics_Away_Team values
+--(466,22300435,1610612760,46,91,12,35,15,16,10,41,29,10,8,11,20,119)
+--insert into Statistics_Away_Team values
+--(467,22300436,1610612756,46,74,18,30,23,24,6,33,34,3,11,14,14,133)
+--insert into Statistics_Away_Team values
+--(468,22300437,1610612759,48,94,14,33,18,25,13,29,31,9,3,14,19,128)
+--insert into Statistics_Away_Team values
+--(469,22300438,1610612763,38,87,13,40,17,20,3,30,29,10,4,12,22,106)
+--insert into Statistics_Away_Team values
+--(470,22300439,1610612762,43,93,11,41,20,28,9,34,29,8,6,10,25,117)
+--insert into Statistics_Away_Team values
+--(471,22300440,1610612761,46,91,12,24,23,28,6,27,26,9,5,7,27,127)
+--insert into Statistics_Away_Team values
+--(472,22300441,1610612752,45,95,17,37,19,27,15,27,24,12,2,13,19,126)
+--insert into Statistics_Away_Team values
+--(473,22300442,1610612755,36,92,9,38,11,15,12,24,24,12,5,7,22,92)
+--insert into Statistics_Away_Team values
+--(474,22300443,1610612750,38,76,12,34,20,24,7,38,24,8,8,19,26,108)
+--insert into Statistics_Away_Team values
+--(475,22300444,1610612744,47,103,19,48,9,13,16,31,32,8,3,10,21,122)
+--insert into Statistics_Away_Team values
+--(476,22300445,1610612764,46,98,17,53,17,21,6,36,35,5,9,9,21,126)
+--insert into Statistics_Away_Team values
+--(477,22300446,1610612740,45,87,17,34,22,27,12,35,33,9,6,11,22,129)
+--insert into Statistics_Away_Team values
+--(478,22300447,1610612760,45,83,18,33,16,20,5,41,31,1,6,13,24,124)
+--insert into Statistics_Away_Team values
+--(479,22300448,1610612759,40,94,12,45,9,12,9,30,28,6,1,12,17,101)
+--insert into Statistics_Away_Team values
+--(480,22300449,1610612758,47,92,16,33,13,17,9,50,28,2,4,12,22,123)
+--insert into Statistics_Away_Team values
+--(481,22300450,1610612756,44,88,8,27,16,19,6,29,21,11,4,6,17,112)
+--insert into Statistics_Away_Team values
+--(482,22300451,1610612752,39,89,12,34,22,28,16,33,23,7,4,13,24,112)
+--insert into Statistics_Away_Team values
+--(483,22300452,1610612761,42,87,11,30,29,40,10,37,25,5,4,11,22,124)
+--insert into Statistics_Away_Team values
+--(484,22300453,1610612745,51,91,15,35,19,24,6,33,34,11,1,9,19,136)
+--insert into Statistics_Away_Team values
+--(485,22300454,1610612749,41,93,10,40,21,26,8,38,27,4,8,11,26,113)
+--insert into Statistics_Away_Team values
+--(486,22300455,1610612743,41,83,15,38,14,18,4,40,27,9,9,10,15,111)
+--insert into Statistics_Away_Team values
+--(487,22300456,1610612757,33,80,8,30,14,19,6,30,21,6,10,18,19,88)
+--insert into Statistics_Away_Team values
+--(488,22300457,1610612762,49,96,12,44,17,18,7,46,37,9,6,12,15,127)
+--insert into Statistics_Away_Team values
+--(489,22300458,1610612748,35,83,11,34,23,29,12,23,24,7,3,13,17,104)
+--insert into Statistics_Away_Team values
+--(490,22300459,1610612755,38,80,12,30,22,30,6,37,28,9,6,17,22,110)
+--insert into Statistics_Away_Team values
+--(491,22300460,1610612759,36,85,10,31,16,23,6,34,21,6,8,14,24,98)
+--insert into Statistics_Away_Team values
+--(492,22300461,1610612740,41,88,16,39,14,18,17,36,23,10,9,16,12,112)
+--insert into Statistics_Away_Team values
+--(493,22300462,1610612760,48,91,18,40,13,17,10,28,34,7,10,10,22,127)
+--insert into Statistics_Away_Team values
+--(494,22300463,1610612753,41,92,14,36,19,23,16,25,19,8,4,17,24,115)
+--insert into Statistics_Away_Team values
+--(495,22300464,1610612758,40,92,14,36,10,17,15,33,23,8,2,20,23,104)
+--insert into Statistics_Away_Team values
+--(496,22300465,1610612764,42,101,12,35,5,11,12,24,23,8,5,8,14,101)
+--insert into Statistics_Away_Team values
+--(497,22300466,1610612749,46,92,14,37,24,32,10,32,30,6,4,13,25,130)
+--insert into Statistics_Away_Team values
+--(498,22300467,1610612760,50,91,18,36,20,26,9,28,30,10,1,13,23,138)
+--insert into Statistics_Away_Team values
+--(499,22300469,1610612745,37,76,19,39,19,27,5,43,27,5,4,16,19,112)
+--insert into Statistics_Away_Team values
+--(500,22300470,1610612761,41,85,12,26,22,27,7,39,25,5,6,12,20,116)
+--insert into Statistics_Away_Team values
+--(501,22300471,1610612740,45,81,12,26,15,17,9,32,30,7,5,12,24,117)
+--insert into Statistics_Away_Team values
+--(502,22300468,1610612752,46,89,15,38,9,11,13,39,29,6,7,15,17,116)
+--insert into Statistics_Away_Team values
+--(503,22300472,1610612757,34,87,13,40,16,22,10,36,23,4,3,22,34,97)
+--insert into Statistics_Away_Team values
+--(504,22300473,1610612756,42,79,15,35,23,26,10,22,23,9,2,16,23,122)
+--insert into Statistics_Away_Team values
+--(505,22300474,1610612762,53,103,16,32,32,35,15,28,28,11,8,12,22,154)
+--insert into Statistics_Away_Team values
+--(506,22300475,1610612748,41,93,16,42,12,17,7,32,30,14,3,8,23,110)
+--insert into Statistics_Away_Team values
+--(507,22300476,1610612758,51,105,15,40,21,31,18,40,36,9,3,17,21,138)
+--insert into Statistics_Away_Team values
+--(508,22300477,1610612759,46,95,14,40,15,17,10,32,31,10,8,11,16,121)
+--insert into Statistics_Away_Team values
+--(509,22300478,1610612744,49,90,15,36,14,16,9,24,35,4,3,8,20,127)
+--insert into Statistics_Away_Team values
+--(510,22300479,1610612762,34,94,6,34,23,34,16,41,23,11,2,18,24,97)
+--insert into Statistics_Away_Team values
+--(511,22300480,1610612754,60,94,19,39,11,13,8,31,50,12,3,14,24,150)
+--insert into Statistics_Away_Team values
+--(512,22300481,1610612760,45,84,9,31,16,24,7,29,29,8,5,13,26,115)
+--insert into Statistics_Away_Team values
+--(513,22300482,1610612764,35,84,9,30,11,15,7,24,19,12,8,16,19,90)
+--insert into Statistics_Away_Team values
+--(514,22300483,1610612755,33,81,6,23,20,27,8,30,22,8,9,14,18,92)
+--insert into Statistics_Away_Team values
+--(515,22300484,1610612741,40,74,10,28,14,17,4,37,29,7,6,14,17,104)
+--insert into Statistics_Away_Team values
+--(516,22300485,1610612750,46,88,14,33,16,20,9,43,31,12,7,14,18,122)
+--insert into Statistics_Away_Team values
+--(517,22300486,1610612740,33,92,12,29,17,23,14,29,22,9,5,9,17,95)
+--insert into Statistics_Away_Team values
+--(518,22300487,1610612757,39,95,13,40,12,17,10,32,27,9,3,18,15,103)
+--insert into Statistics_Away_Team values
+--(519,22300488,1610612753,41,82,17,36,23,34,11,29,25,9,3,14,20,122)
+--insert into Statistics_Away_Team values
+--(520,22300489,1610612756,44,87,14,35,11,17,9,35,30,13,5,9,18,113)
+--insert into Statistics_Away_Team values
+--(521,22300490,1610612744,38,82,16,38,21,25,7,38,24,3,5,16,18,113)
+--insert into Statistics_Away_Team values
+--(522,22300491,1610612763,44,82,23,45,16,20,6,38,33,8,4,17,20,127)
+--insert into Statistics_Away_Team values
+--(523,22300492,1610612761,47,87,13,37,23,27,8,29,31,5,10,14,20,130)
+--insert into Statistics_Away_Team values
+--(524,22300493,1610612754,38,92,8,42,17,22,10,28,23,12,2,9,18,101)
+--insert into Statistics_Away_Team values
+--(525,22300494,1610612764,40,85,13,37,12,20,12,33,33,5,3,20,20,105)
+--insert into Statistics_Away_Team values
+--(526,22300495,1610612762,46,80,8,30,20,24,9,39,30,4,4,23,18,120)
+--insert into Statistics_Away_Team values
+--(527,22300496,1610612749,35,76,9,34,29,42,4,37,20,7,4,11,24,108)
+--insert into Statistics_Away_Team values
+--(528,22300497,1610612759,41,86,14,37,19,22,8,32,22,10,6,11,18,115)
+--insert into Statistics_Away_Team values
+--(529,22300498,1610612757,45,95,20,38,24,30,9,29,21,5,5,9,20,134)
+--insert into Statistics_Away_Team values
+--(530,22300499,1610612753,43,98,17,41,14,22,13,44,25,8,3,11,24,117)
+--insert into Statistics_Away_Team values
+--(531,22300500,1610612758,38,91,15,45,9,12,8,17,28,9,2,9,12,100)
+--insert into Statistics_Away_Team values
+--(532,22300501,1610612750,41,94,13,41,13,21,18,33,22,6,4,13,22,108)
+--insert into Statistics_Away_Team values
+--(533,22300502,1610612765,42,89,9,24,21,30,13,24,28,6,0,11,20,114)
+--insert into Statistics_Away_Team values
+--(534,22300503,1610612756,46,102,8,28,15,22,16,34,29,5,6,12,27,115)
+--insert into Statistics_Away_Team values
+--(535,22300504,1610612761,55,94,15,33,8,14,9,36,38,7,6,7,14,133)
+--insert into Statistics_Away_Team values
+--(536,22300505,1610612747,42,82,11,29,11,16,8,32,23,9,6,19,11,106)
+--insert into Statistics_Away_Team values
+--(537,22300506,1610612741,45,92,9,26,20,24,12,39,27,7,7,13,18,119)
+--insert into Statistics_Away_Team values
+--(538,22300507,1610612754,48,91,19,40,18,22,9,30,29,6,7,13,23,133)
+--insert into Statistics_Away_Team values
+--(539,22300508,1610612764,44,89,15,32,25,29,12,26,32,7,5,14,23,128)
+--insert into Statistics_Away_Team values
+--(540,22300509,1610612748,41,82,15,36,23,32,10,35,30,6,5,11,21,120)
+--insert into Statistics_Away_Team values
+--(541,22300510,1610612762,47,90,20,44,18,22,10,37,33,6,8,10,15,132)
+--insert into Statistics_Away_Team values
+--(542,22300511,1610612756,38,77,10,30,25,29,5,20,17,6,4,14,20,111)
+--insert into Statistics_Away_Team values
+--(543,22300512,1610612758,54,94,13,33,10,14,10,34,39,8,6,17,21,131)
+--insert into Statistics_Away_Team values
+--(544,22300513,1610612753,34,94,13,42,11,18,16,30,20,13,5,12,22,92)
+--insert into Statistics_Away_Team values
+--(545,22300514,1610612757,33,86,6,29,12,18,12,31,19,8,7,15,17,84)
+--insert into Statistics_Away_Team values
+--(546,22300515,1610612763,44,91,14,37,18,21,18,36,27,7,3,16,18,120)
+--insert into Statistics_Away_Team values
+--(547,22300516,1610612761,53,94,17,35,8,13,5,32,34,8,4,12,26,131)
+--insert into Statistics_Away_Team values
+--(548,22300517,1610612750,44,95,14,34,18,20,8,39,22,4,6,9,27,120)
+--insert into Statistics_Away_Team values
+--(549,22300518,1610612758,46,89,13,35,18,23,14,39,24,2,8,9,15,123)
+--insert into Statistics_Away_Team values
+--(550,22300519,1610612759,49,94,9,27,23,27,10,36,36,7,4,5,15,130)
+--insert into Statistics_Away_Team values
+--(551,22300520,1610612764,38,88,7,31,21,30,13,33,24,8,8,13,23,104)
+--insert into Statistics_Away_Team values
+--(552,22300521,1610612755,46,102,12,34,28,33,13,38,26,8,9,11,28,132)
+--insert into Statistics_Away_Team values
+--(553,22300522,1610612760,51,86,14,33,12,16,4,38,36,4,4,12,19,128)
+--insert into Statistics_Away_Team values
+--(554,22300523,1610612745,48,101,11,45,12,20,9,41,29,9,4,14,18,119)
+--insert into Statistics_Away_Team values
+--(555,22300525,1610612740,54,94,19,40,14,19,13,34,37,11,7,11,19,141)
+--insert into Statistics_Away_Team values
+--(556,22300524,1610612762,46,83,13,33,19,23,7,33,34,12,8,16,19,124)
+--insert into Statistics_Away_Team values
+--(557,22300526,1610612761,46,84,12,30,16,18,7,30,31,4,2,14,17,120)
+--insert into Statistics_Away_Team values
+--(558,22300527,1610612739,32,82,13,44,34,43,12,35,16,11,6,11,24,111)
+--insert into Statistics_Away_Team values
+--(559,22300528,1610612749,52,92,18,42,13,16,12,42,34,3,6,9,22,135)
+--insert into Statistics_Away_Team values
+--(560,22300529,1610612757,28,101,11,49,10,16,13,29,16,8,8,9,19,77)
+--insert into Statistics_Away_Team values
+--(561,22300530,1610612752,44,89,14,42,22,28,13,32,27,7,2,14,25,124)
+--insert into Statistics_Away_Team values
+--(562,22300531,1610612756,46,93,14,39,21,23,13,33,23,12,3,12,16,127)
+--insert into Statistics_Away_Team values
+--(563,22300532,1610612758,32,95,8,38,21,26,23,31,20,6,4,16,18,93)
+--insert into Statistics_Away_Team values
+--(564,22300533,1610612754,53,79,11,18,9,12,10,35,41,12,9,25,21,126)
+--insert into Statistics_Away_Team values
+--(565,22300534,1610612745,41,90,8,30,22,25,10,31,21,8,5,9,16,112)
+--insert into Statistics_Away_Team values
+--(566,22300535,1610612753,36,82,12,40,12,20,10,28,26,10,8,11,20,96)
+--insert into Statistics_Away_Team values
+--(567,22300536,1610612744,49,94,20,47,22,30,13,31,39,7,4,3,16,140)
+--insert into Statistics_Away_Team values
+--(568,22300537,1610612763,41,95,18,44,19,27,17,29,30,5,4,9,21,119)
+--insert into Statistics_Away_Team values
+--(569,22300538,1610612757,30,77,10,28,23,34,10,28,18,8,5,19,19,93)
+--insert into Statistics_Away_Team values
+--(570,22300541,1610612759,45,87,18,38,27,34,7,38,31,9,7,14,20,135)
+--insert into Statistics_Away_Team values
+--(571,22300540,1610612762,52,93,21,43,20,26,14,42,34,7,8,13,23,145)
+--insert into Statistics_Away_Team values
+--(572,22300539,1610612740,42,89,13,33,16,22,8,27,30,9,3,8,10,113)
+--insert into Statistics_Away_Team values
+--(573,22300542,1610612745,40,99,7,30,26,30,15,35,20,10,3,12,18,113)
+--insert into Statistics_Away_Team values
+--(574,22300543,1610612764,47,97,12,32,21,26,12,42,32,10,9,12,22,127)
+--insert into Statistics_Away_Team values
+--(575,22300544,1610612752,40,83,13,38,13,19,15,41,25,11,11,22,15,106)
+--insert into Statistics_Away_Team values
+--(576,22300545,1610612749,51,94,13,31,14,17,14,36,33,6,5,12,15,129)
+--insert into Statistics_Away_Team values
+--(577,22300546,1610612753,39,84,7,35,15,24,11,39,21,5,8,15,22,100)
+--insert into Statistics_Away_Team values
+--(578,22300547,1610612740,39,79,12,30,28,37,14,30,29,7,4,10,20,118)
+--insert into Statistics_Away_Team values
+--(579,22300548,1610612759,39,95,18,46,20,23,12,35,26,7,4,8,19,116)
+--insert into Statistics_Away_Team values
+--(580,22300549,1610612762,42,93,12,37,36,39,13,39,28,7,5,10,20,132)
+--insert into Statistics_Away_Team values
+--(581,22300550,1610612754,43,92,8,29,15,22,14,23,28,11,1,13,21,109)
+--insert into Statistics_Away_Team values
+--(582,22300551,1610612748,40,81,11,25,13,16,4,40,27,6,6,14,15,104)
+--insert into Statistics_Away_Team values
+--(583,22300552,1610612758,55,105,17,41,15,20,9,38,34,6,2,9,19,142)
+--insert into Statistics_Away_Team values
+--(584,22300553,1610612750,38,67,13,26,20,31,6,35,25,8,5,17,23,109)
+--insert into Statistics_Away_Team values
+--(585,22300554,1610612757,40,89,20,42,16,22,12,24,23,8,1,13,21,116)
+--insert into Statistics_Away_Team values
+--(586,22300555,1610612755,40,83,15,31,29,34,8,33,25,8,4,10,24,124)
+--insert into Statistics_Away_Team values
+--(587,22300556,1610612740,41,81,7,23,31,41,8,29,21,9,2,9,28,120)
+--insert into Statistics_Away_Team values
+--(588,22300557,1610612753,38,85,8,29,14,21,13,33,26,2,3,7,20,98)
+--insert into Statistics_Away_Team values
+--(589,22300558,1610612764,44,95,19,41,10,11,8,25,30,8,7,8,19,117)
+--insert into Statistics_Away_Team values
+--(590,22300559,1610612759,38,95,11,42,12,17,9,35,27,10,8,17,18,99)
+--insert into Statistics_Away_Team values
+--(591,22300560,1610612763,32,86,20,54,32,40,11,31,24,13,10,11,12,116)
+--insert into Statistics_Away_Team values
+--(592,22300561,1610612739,39,95,20,57,11,11,13,35,28,9,3,11,14,109)
+--insert into Statistics_Away_Team values
+--(593,22300562,1610612748,33,87,8,31,22,25,6,48,22,6,4,12,16,96)
+--insert into Statistics_Away_Team values
+--(594,22300563,1610612761,38,95,4,32,16,21,9,43,25,6,2,7,21,96)
+--insert into Statistics_Away_Team values
+--(595,22300564,1610612762,45,81,11,25,31,35,10,36,29,5,8,14,17,132)
+--insert into Statistics_Away_Team values
+--(596,22300565,1610612760,40,96,15,49,10,11,13,27,23,11,6,11,18,105)
+--insert into Statistics_Away_Team values
+--(597,22300566,1610612755,43,76,15,31,25,34,5,27,27,6,7,8,21,126)
+--insert into Statistics_Away_Team values
+--(598,22300567,1610612758,46,92,18,40,7,12,5,26,34,7,4,14,20,117)
+--insert into Statistics_Away_Team values
+--(599,22300568,1610612760,42,83,16,34,17,20,9,26,30,5,5,12,19,117)
+--insert into Statistics_Away_Team values
+--(600,22300569,1610612750,47,93,15,30,15,21,9,33,32,7,5,9,14,124)
+--insert into Statistics_Away_Team values
+--(601,22300570,1610612753,39,88,10,35,16,22,16,24,18,16,8,13,22,104)
+--insert into Statistics_Away_Team values
+--(602,22300571,1610612759,39,93,7,34,13,16,11,30,26,5,3,10,15,98)
+--insert into Statistics_Away_Team values
+--(603,22300572,1610612749,38,95,12,42,7,10,9,27,19,6,6,10,18,95)
+--insert into Statistics_Away_Team values
+--(604,22300573,1610612752,39,87,13,37,18,22,12,39,24,6,5,12,20,109)
+--insert into Statistics_Away_Team values
+--(605,22300574,1610612761,45,88,20,38,11,18,13,32,34,9,4,10,14,121)
+--insert into Statistics_Away_Team values
+--(606,22300575,1610612740,44,88,25,47,19,23,16,34,32,11,3,12,14,132)
+--insert into Statistics_Away_Team values
+--(607,22300577,1610612747,49,91,12,28,17,24,9,36,33,8,1,10,15,127)
+--insert into Statistics_Away_Team values
+--(608,22300578,1610612757,42,86,9,27,12,14,10,31,21,2,2,9,16,105)
+--insert into Statistics_Away_Team values
+--(609,22300579,1610612764,41,90,10,31,17,22,9,37,31,9,4,12,24,109)
+--insert into Statistics_Away_Team values
+--(610,22300580,1610612761,42,83,10,38,16,20,7,31,31,7,5,14,18,110)
+--insert into Statistics_Away_Team values
+--(611,22300581,1610612762,43,89,13,32,30,36,11,27,33,7,4,14,21,129)
+--insert into Statistics_Away_Team values
+--(612,22300582,1610612750,45,82,12,28,16,21,6,33,30,8,9,14,13,118)
+--insert into Statistics_Away_Team values
+--(613,22300583,1610612758,44,85,15,37,18,32,8,30,27,7,6,11,20,121)
+--insert into Statistics_Away_Team values
+--(614,22300584,1610612759,47,84,15,32,11,17,7,27,36,9,3,13,17,120)
+--insert into Statistics_Away_Team values
+--(615,22300585,1610612755,42,87,13,30,27,29,16,26,23,11,5,7,23,124)
+--insert into Statistics_Away_Team values
+--(616,22300586,1610612743,42,81,8,31,10,13,10,37,20,0,3,9,13,102)
+--insert into Statistics_Away_Team values
+--(617,22300587,1610612748,38,82,12,31,20,22,13,31,21,7,2,16,17,108)
+--insert into Statistics_Away_Team values
+--(618,22300588,1610612756,46,93,15,41,16,21,7,41,32,7,3,8,17,123)
+--insert into Statistics_Away_Team values
+--(619,22300590,1610612757,42,84,4,12,30,35,9,38,18,3,11,9,21,118)
+--insert into Statistics_Away_Team values
+--(620,22300591,1610612747,40,90,12,33,20,24,10,34,31,7,3,14,11,112)
+--insert into Statistics_Away_Team values
+--(621,22300592,1610612749,47,85,12,32,35,49,8,41,30,6,6,10,18,141)
+--insert into Statistics_Away_Team values
+--(622,22300593,1610612755,36,85,5,25,20,24,6,40,21,7,6,10,12,97)
+--insert into Statistics_Away_Team values
+--(623,22300594,1610612764,49,103,9,29,20,23,14,32,28,10,4,11,21,127)
+--insert into Statistics_Away_Team values
+--(624,22300595,1610612739,43,85,16,43,14,16,4,45,32,7,6,13,16,116)
+--insert into Statistics_Away_Team values
+--(625,22300596,1610612761,38,92,11,34,13,23,11,20,29,10,5,10,18,100)
+--insert into Statistics_Away_Team values
+--(626,22300597,1610612763,32,75,13,42,19,23,3,29,28,6,4,15,13,96)
+--insert into Statistics_Away_Team values
+--(627,22300598,1610612762,48,105,13,43,17,22,16,43,28,4,8,17,24,126)
+--insert into Statistics_Away_Team values
+--(628,22300599,1610612760,32,81,8,24,30,35,9,28,21,12,4,8,20,102)
+--insert into Statistics_Away_Team values
+--(629,22300600,1610612746,42,83,13,26,28,33,8,37,26,6,5,10,18,125)
+--insert into Statistics_Away_Team values
+--(630,22300601,1610612753,37,78,9,28,22,28,12,32,21,5,5,14,16,105)
+--insert into Statistics_Away_Team values
+--(631,22300602,1610612764,39,91,8,27,18,22,12,28,31,6,9,13,23,104)
+--insert into Statistics_Away_Team values
+--(632,22300603,1610612745,41,94,10,35,15,22,11,38,26,9,3,15,17,107)
+--insert into Statistics_Away_Team values
+--(633,22300604,1610612756,47,82,8,25,15,18,6,38,25,7,5,16,24,117)
+--insert into Statistics_Away_Team values
+--(634,22300605,1610612757,42,90,9,29,17,20,10,25,24,7,5,12,21,110)
+--insert into Statistics_Away_Team values
+--(635,22300606,1610612749,42,94,10,39,28,34,10,39,26,7,8,9,22,122)
+--insert into Statistics_Away_Team values
+--(636,22300607,1610612753,34,74,11,29,20,30,8,26,25,7,0,15,17,99)
+--insert into Statistics_Away_Team values
+--(637,22300608,1610612759,43,93,13,41,24,27,13,30,29,3,3,8,22,123)
+--insert into Statistics_Away_Team values
+--(638,22300609,1610612761,35,79,8,23,22,23,12,35,31,7,8,17,14,100)
+--insert into Statistics_Away_Team values
+--(639,22300610,1610612750,44,84,18,41,19,25,6,30,34,4,1,13,15,125)
+--insert into Statistics_Away_Team values
+--(640,22300611,1610612742,43,97,14,40,10,14,10,38,24,4,4,10,20,110)
+--insert into Statistics_Away_Team values
+--(641,22300612,1610612756,44,85,14,34,13,17,5,34,32,5,5,7,13,115)
+--insert into Statistics_Away_Team values
+--(642,22300613,1610612758,43,93,12,38,24,27,10,41,22,8,2,8,21,122)
+--insert into Statistics_Away_Team values
+--(643,22300614,1610612754,43,87,5,21,18,21,7,31,24,4,1,10,16,109)
+--insert into Statistics_Away_Team values
+--(644,22300615,1610612752,40,86,10,29,18,19,11,31,21,8,8,13,13,108)
+--insert into Statistics_Away_Team values
+--(645,22300616,1610612762,43,92,12,36,26,32,6,32,27,4,8,8,15,124)
+--insert into Statistics_Away_Team values
+--(646,22300617,1610612757,37,86,18,39,17,21,12,34,27,6,6,19,19,109)
+--insert into Statistics_Away_Team values
+--(647,22300618,1610612747,45,92,11,32,15,22,13,28,27,9,8,15,15,116)
+--insert into Statistics_Away_Team values
+--(648,22300619,1610612765,43,86,15,38,12,20,5,39,26,4,0,11,17,113)
+--insert into Statistics_Away_Team values
+--(649,22300620,1610612764,37,77,10,24,23,29,7,42,31,2,3,21,22,107)
+--insert into Statistics_Away_Team values
+--(650,22300621,1610612748,33,82,11,34,19,25,11,33,21,9,9,17,17,96)
+--insert into Statistics_Away_Team values
+--(651,22300623,1610612757,50,98,15,35,22,24,13,35,31,6,4,12,18,137)
+--insert into Statistics_Away_Team values
+--(652,22300624,1610612749,45,90,11,29,25,28,10,36,24,9,3,11,16,126)
+--insert into Statistics_Away_Team values
+--(653,22300625,1610612756,51,85,14,34,16,22,11,38,30,10,4,15,20,132)
+--insert into Statistics_Away_Team values
+--(654,22300622,1610612759,43,86,9,32,19,25,12,26,30,7,11,18,14,114)
+--insert into Statistics_Away_Team values
+--(655,22300626,1610612744,51,91,16,33,16,22,11,38,26,6,9,10,18,134)
+--insert into Statistics_Away_Team values
+--(656,22300627,1610612755,42,87,7,29,31,43,6,25,24,13,6,12,20,122)
+--insert into Statistics_Away_Team values
+--(657,22300628,1610612764,43,88,7,30,15,20,5,30,33,11,7,11,14,108)
+--insert into Statistics_Away_Team values
+--(658,22300629,1610612750,37,75,10,21,12,16,5,33,24,6,4,14,17,96)
+--insert into Statistics_Away_Team values
+--(659,22300630,1610612748,42,94,16,42,10,13,11,20,25,7,1,4,12,110)
+--insert into Statistics_Away_Team values
+--(660,22300631,1610612752,45,85,15,38,17,20,12,32,26,12,3,8,14,122)
+--insert into Statistics_Away_Team values
+--(661,22300632,1610612758,48,91,22,48,16,19,8,26,33,8,5,10,21,134)
+--insert into Statistics_Away_Team values
+--(662,22300633,1610612747,53,87,20,31,15,20,5,25,35,10,4,12,21,141)
+--insert into Statistics_Away_Team values
+--(663,22300634,1610612742,51,85,19,35,27,32,6,31,28,3,5,13,25,148)
+--insert into Statistics_Away_Team values
+--(664,22300635,1610612745,50,89,13,33,25,31,11,42,34,7,10,12,20,138)
+--insert into Statistics_Away_Team values
+--(665,22300636,1610612756,51,89,13,30,16,18,7,31,24,8,5,20,17,131)
+--insert into Statistics_Away_Team values
+--(666,22300637,1610612761,44,96,6,32,13,22,15,30,26,6,3,11,18,107)
+--insert into Statistics_Away_Team values
+--(667,22300638,1610612753,38,81,9,34,21,29,9,31,21,8,4,11,14,106)
+--insert into Statistics_Away_Team values
+--(668,22300639,1610612749,35,87,13,34,17,24,12,39,21,6,4,18,24,100)
+--insert into Statistics_Away_Team values
+--(669,22300640,1610612760,42,88,10,33,13,14,6,39,22,11,5,11,11,107)
+--insert into Statistics_Away_Team values
+--(670,22300641,1610612759,42,92,10,34,22,26,17,42,30,12,5,17,11,116)
+--insert into Statistics_Away_Team values
+--(671,22300642,1610612764,45,100,11,34,17,21,16,34,26,10,4,9,19,118)
+--insert into Statistics_Away_Team values
+--(672,22300643,1610612752,45,87,17,33,18,26,11,35,25,6,3,7,15,125)
+--insert into Statistics_Away_Team values
+--(673,22300644,1610612755,43,81,6,22,13,16,6,33,25,5,6,11,29,105)
+--insert into Statistics_Away_Team values
+--(674,22300645,1610612745,37,94,10,37,20,23,15,40,20,6,3,17,29,104)
+--insert into Statistics_Away_Team values
+--(675,22300646,1610612746,45,102,10,40,15,18,15,43,28,8,8,7,20,115)
+--insert into Statistics_Away_Team values
+--(676,22300647,1610612762,52,93,17,41,13,17,15,34,38,6,6,13,18,134)
+--insert into Statistics_Away_Team values
+--(677,22300648,1610612740,40,85,9,23,28,36,9,34,20,5,3,14,17,117)
+--insert into Statistics_Away_Team values
+--(678,22300649,1610612759,46,84,13,30,8,15,14,25,35,7,7,15,14,113)
+--insert into Statistics_Away_Team values
+--(679,22300650,1610612747,49,101,9,27,38,43,7,48,33,9,5,19,21,145)
+--insert into Statistics_Away_Team values
+--(680,22300651,1610612758,43,80,11,30,23,30,6,33,27,4,10,13,20,120)
+--insert into Statistics_Away_Team values
+--(681,22300654,1610612760,44,92,8,28,8,12,11,32,17,7,5,10,18,104)
+--insert into Statistics_Away_Team values
+--(682,22300652,1610612763,38,82,11,30,23,31,13,32,20,5,7,13,20,110)
+--insert into Statistics_Away_Team values
+--(683,22300653,1610612761,41,89,15,31,28,32,15,31,29,12,3,14,30,125)
+--insert into Statistics_Away_Team values
+--(684,22300655,1610612756,41,73,4,14,12,21,6,33,19,4,5,22,19,98)
+--insert into Statistics_Away_Team values
+--(685,22300656,1610612757,32,79,6,33,26,29,7,41,22,2,5,13,21,96)
+--insert into Statistics_Away_Team values
+--(686,22300657,1610612752,44,84,12,37,13,16,7,35,25,5,3,9,16,113)
+--insert into Statistics_Away_Team values
+--(687,22300658,1610612746,38,80,11,34,21,28,6,31,28,8,3,12,21,108)
+--insert into Statistics_Away_Team values
+--(688,22300659,1610612740,46,91,10,35,10,13,9,31,21,7,6,12,14,112)
+--insert into Statistics_Away_Team values
+--(689,22300660,1610612762,39,86,9,27,27,34,12,32,23,3,7,17,14,114)
+--insert into Statistics_Away_Team values
+--(690,22300661,1610612756,46,94,14,40,12,17,10,37,30,8,8,7,16,118)
+--insert into Statistics_Away_Team values
+--(691,22300662,1610612747,45,91,13,35,16,26,4,31,26,10,6,12,13,119)
+--insert into Statistics_Away_Team values
+--(692,22300663,1610612758,43,84,11,38,6,10,11,40,24,10,1,19,17,103)
+--insert into Statistics_Away_Team values
+--(693,22300664,1610612760,35,79,14,35,17,22,8,30,21,5,7,12,17,101)
+--insert into Statistics_Away_Team values
+--(694,22300665,1610612764,46,86,9,25,17,24,14,31,32,9,8,18,15,118)
+--insert into Statistics_Away_Team values
+--(695,22300666,1610612753,45,88,18,38,21,28,12,23,27,7,1,11,33,129)
+--insert into Statistics_Away_Team values
+--(696,22300667,1610612749,36,84,16,40,19,25,7,33,24,3,7,12,22,107)
+--insert into Statistics_Away_Team values
+--(697,22300668,1610612757,46,84,12,28,26,29,11,28,29,7,5,13,24,130)
+--insert into Statistics_Away_Team values
+--(698,22300669,1610612747,48,90,12,33,14,25,7,30,28,12,3,14,16,122)
+--insert into Statistics_Away_Team values
+--(699,22300670,1610612754,50,108,12,39,12,15,19,31,33,4,2,7,21,124)
+--insert into Statistics_Away_Team values
+--(700,22300671,1610612762,39,86,12,36,13,17,15,28,23,3,5,14,16,103)
+--insert into Statistics_Away_Team values
+--(701,22300672,1610612761,43,83,14,29,18,20,9,29,34,10,4,19,20,118)
+--insert into Statistics_Away_Team values
+--(702,22300673,1610612755,39,85,13,30,16,21,13,26,11,14,2,16,24,107)
+--insert into Statistics_Away_Team values
+--(703,22300674,1610612741,45,87,11,29,16,22,11,33,28,4,7,9,13,117)
+--insert into Statistics_Away_Team values
+--(704,22300675,1610612765,45,81,16,31,15,19,7,28,27,8,3,17,17,121)
+--insert into Statistics_Away_Team values
+--(705,22300676,1610612764,45,97,9,29,10,15,12,33,19,4,10,13,19,109)
+--insert into Statistics_Away_Team values
+--(706,22300678,1610612758,41,93,12,40,12,18,12,32,26,6,3,9,17,106)
+--insert into Statistics_Away_Team values
+--(707,22300679,1610612740,41,82,11,34,17,24,12,44,20,3,6,16,22,110)
+--insert into Statistics_Away_Team values
+--(708,22300680,1610612750,45,80,13,30,18,30,9,36,31,6,4,10,24,121)
+--insert into Statistics_Away_Team values
+--(709,22300681,1610612759,36,80,9,31,17,24,7,34,24,9,9,17,20,98)
+--insert into Statistics_Away_Team values
+--(710,22300682,1610612760,37,87,11,26,20,25,15,38,24,2,9,11,14,105)
+--insert into Statistics_Away_Team values
+--(711,22300677,1610612756,49,79,14,28,24,32,9,33,35,5,6,15,12,136)
+--insert into Statistics_Away_Team values
+--(712,22300683,1610612757,49,92,12,28,9,9,9,30,26,9,1,11,20,119)
+--insert into Statistics_Away_Team values
+--(713,22300684,1610612747,38,94,19,36,19,26,15,37,30,11,2,7,8,114)
+--insert into Statistics_Away_Team values
+--(714,22300685,1610612752,41,103,8,38,19,25,24,36,15,8,7,10,14,109)
+--insert into Statistics_Away_Team values
+--(715,22300687,1610612763,37,90,12,38,15,17,7,36,25,9,12,12,19,101)
+--insert into Statistics_Away_Team values
+--(716,22300686,1610612762,45,87,12,36,22,25,10,33,36,3,9,9,15,124)
+--insert into Statistics_Away_Team values
+--(717,22300688,1610612746,53,89,14,29,16,19,7,29,31,12,5,9,21,136)
+--insert into Statistics_Away_Team values
+--(718,22300689,1610612764,37,90,11,42,17,21,6,37,28,5,4,8,25,102)
+--insert into Statistics_Away_Team values
+--(719,22300690,1610612756,47,88,14,37,12,14,8,30,31,6,5,16,17,120)
+--insert into Statistics_Away_Team values
+--(720,22300691,1610612758,51,90,13,34,18,28,9,29,26,15,3,16,17,133)
+--insert into Statistics_Away_Team values
+--(721,22300692,1610612761,40,91,11,33,15,20,8,29,17,11,5,14,18,106)
+--insert into Statistics_Away_Team values
+--(722,22300693,1610612763,35,87,14,46,17,24,9,28,30,7,4,13,20,101)
+--insert into Statistics_Away_Team values
+--(723,22300694,1610612753,39,85,9,25,21,26,10,32,24,11,4,13,17,108)
+--insert into Statistics_Away_Team values
+--(724,22300695,1610612760,44,75,17,36,21,27,3,41,31,10,10,16,17,126)
+--insert into Statistics_Away_Team values
+--(725,22300696,1610612759,46,96,10,39,11,18,18,37,35,6,10,18,16,113)
+--insert into Statistics_Away_Team values
+--(726,22300697,1610612757,37,80,10,28,24,30,13,24,14,7,4,8,16,108)
+--insert into Statistics_Away_Team values
+--(727,22300698,1610612755,44,96,12,29,21,27,11,33,26,7,1,5,17,121)
+--insert into Statistics_Away_Team values
+--(728,22300699,1610612744,50,112,18,56,16,20,14,43,26,4,7,14,23,134)
+--insert into Statistics_Away_Team values
+--(729,22300700,1610612758,42,84,15,39,24,29,4,36,33,12,1,16,18,123)
+--insert into Statistics_Away_Team values
+--(730,22300701,1610612752,41,100,10,35,13,15,18,33,21,1,4,7,20,105)
+--insert into Statistics_Away_Team values
+--(731,22300702,1610612749,50,88,12,30,17,25,5,31,34,13,2,11,21,129)
+--insert into Statistics_Away_Team values
+--(732,22300703,1610612759,36,98,12,40,17,21,14,40,23,6,6,11,13,101)
+--insert into Statistics_Away_Team values
+--(733,22300704,1610612753,45,84,10,24,11,15,7,30,22,7,3,10,18,111)
+--insert into Statistics_Away_Team values
+--(734,22300705,1610612764,47,96,7,32,11,17,13,22,32,11,4,18,19,112)
+--insert into Statistics_Away_Team values
+--(735,22300706,1610612763,35,92,11,38,10,12,16,30,19,5,3,20,15,91)
+--insert into Statistics_Away_Team values
+--(736,22300707,1610612754,45,92,11,33,14,18,11,38,34,5,4,11,15,115)
+--insert into Statistics_Away_Team values
+--(737,22300708,1610612748,38,91,8,30,11,12,12,33,24,9,0,10,19,95)
+--insert into Statistics_Away_Team values
+--(738,22300709,1610612750,40,90,11,30,20,27,11,47,21,6,11,15,19,111)
+--insert into Statistics_Away_Team values
+--(739,22300710,1610612761,48,101,14,35,17,21,11,37,38,6,5,11,16,127)
+--insert into Statistics_Away_Team values
+--(740,22300711,1610612762,43,89,17,44,20,24,12,40,31,3,3,16,24,123)
+--insert into Statistics_Away_Team values
+--(741,22300712,1610612757,39,85,11,31,14,15,15,27,29,6,3,13,16,103)
+--insert into Statistics_Away_Team values
+--(742,22300713,1610612747,50,89,8,34,16,19,7,41,36,5,6,16,12,124)
+--insert into Statistics_Away_Team values
+--(743,22300714,1610612758,43,93,17,44,7,12,10,30,28,5,1,12,18,110)
+--insert into Statistics_Away_Team values
+--(744,22300715,1610612755,40,93,8,29,14,20,16,35,20,8,5,11,21,102)
+--insert into Statistics_Away_Team values
+--(745,22300716,1610612746,52,89,21,35,24,31,8,28,32,8,5,7,19,149)
+--insert into Statistics_Away_Team values
+--(746,22300717,1610612744,43,93,4,22,19,23,16,44,24,7,8,13,17,109)
+--insert into Statistics_Away_Team values
+--(747,22300718,1610612761,40,84,10,31,10,15,10,28,27,4,6,18,12,100)
+--insert into Statistics_Away_Team values
+--(748,22300719,1610612754,54,86,15,32,9,14,5,20,35,7,7,12,20,132)
+--insert into Statistics_Away_Team values
+--(749,22300720,1610612742,46,91,19,43,8,13,6,39,25,7,3,10,12,119)
+--insert into Statistics_Away_Team values
+--(750,22300721,1610612753,35,80,10,35,15,21,8,31,25,7,3,18,17,95)
+--insert into Statistics_Away_Team values
+--(751,22300722,1610612752,48,86,11,27,16,20,8,29,28,12,5,10,12,123)
+--insert into Statistics_Away_Team values
+--(752,22300723,1610612750,42,92,20,45,19,26,10,32,28,6,5,13,25,123)
+--insert into Statistics_Away_Team values
+--(753,22300724,1610612762,46,89,14,35,18,20,15,33,29,9,8,17,17,124)
+--insert into Statistics_Away_Team values
+--(754,22300725,1610612756,44,87,8,28,18,27,8,41,17,8,5,13,19,114)
+--insert into Statistics_Away_Team values
+--(755,22300726,1610612761,43,81,17,33,20,24,7,34,30,5,3,9,17,123)
+--insert into Statistics_Away_Team values
+--(756,22300728,1610612764,42,94,16,40,6,9,12,35,27,10,5,15,23,106)
+--insert into Statistics_Away_Team values
+--(757,22300727,1610612755,41,98,8,32,14,14,11,29,21,7,8,14,16,104)
+--insert into Statistics_Away_Team values
+--(758,22300729,1610612738,49,93,17,49,10,11,6,39,33,6,9,14,16,125)
+--insert into Statistics_Away_Team values
+--(759,22300730,1610612759,41,90,12,37,10,17,6,40,30,6,2,14,21,104)
+--insert into Statistics_Away_Team values
+--(760,22300731,1610612740,47,88,12,32,11,16,8,30,30,13,5,12,17,117)
+--insert into Statistics_Away_Team values
+--(761,22300732,1610612758,45,95,15,44,15,22,5,28,31,7,6,4,20,120)
+--insert into Statistics_Away_Team values
+--(762,22300733,1610612754,39,81,12,31,19,27,7,23,31,11,6,14,17,109)
+--insert into Statistics_Away_Team values
+--(763,22300734,1610612759,42,81,11,35,16,17,4,23,29,7,5,14,16,111)
+--insert into Statistics_Away_Team values
+--(764,22300735,1610612739,43,80,15,37,17,17,7,41,26,8,13,15,18,118)
+--insert into Statistics_Away_Team values
+--(765,22300736,1610612752,42,94,14,37,10,11,14,32,27,5,2,14,19,108)
+--insert into Statistics_Away_Team values
+--(766,22300737,1610612763,42,91,18,46,8,13,9,25,26,8,4,9,24,110)
+--insert into Statistics_Away_Team values
+--(767,22300738,1610612750,48,87,21,41,12,16,12,31,34,8,3,8,17,129)
+--insert into Statistics_Away_Team values
+--(768,22300739,1610612762,41,94,12,35,21,31,19,33,28,7,7,15,14,115)
+--insert into Statistics_Away_Team values
+--(769,22300740,1610612747,41,89,8,25,16,22,10,29,27,12,10,7,10,106)
+--insert into Statistics_Away_Team values
+--(770,22300741,1610612757,41,89,11,30,29,33,11,27,29,9,7,15,27,122)
+--insert into Statistics_Away_Team values
+--(771,22300742,1610612755,42,98,15,45,22,29,18,31,24,7,6,9,24,121)
+--insert into Statistics_Away_Team values
+--(772,22300743,1610612764,45,95,20,47,19,21,5,34,32,8,1,12,25,129)
+--insert into Statistics_Away_Team values
+--(773,22300744,1610612761,40,95,10,33,17,19,16,25,24,14,8,11,17,107)
+--insert into Statistics_Away_Team values
+--(774,22300745,1610612749,41,94,18,52,20,24,10,43,26,8,5,5,24,120)
+--insert into Statistics_Away_Team values
+--(775,22300746,1610612758,51,87,17,34,16,18,6,36,32,11,1,16,22,135)
+--insert into Statistics_Away_Team values
+--(776,22300747,1610612740,46,89,11,29,19,23,10,31,28,5,7,13,22,122)
+--insert into Statistics_Away_Team values
+--(777,22300748,1610612760,38,98,17,47,18,21,12,28,23,5,4,10,23,111)
+--insert into Statistics_Away_Team values
+--(778,22300749,1610612746,37,82,13,39,25,26,0,35,20,9,6,11,13,112)
+--insert into Statistics_Away_Team values
+--(779,22300750,1610612759,36,91,11,34,20,21,15,26,20,5,3,14,11,103)
+--insert into Statistics_Away_Team values
+--(780,22300751,1610612763,43,92,16,44,4,8,9,23,33,12,5,12,13,106)
+--insert into Statistics_Away_Team values
+--(781,22300752,1610612753,41,88,13,39,19,26,13,35,23,4,6,15,18,114)
+--insert into Statistics_Away_Team values
+--(782,22300753,1610612764,42,86,13,35,16,21,7,32,28,7,8,15,23,113)
+--insert into Statistics_Away_Team values
+--(783,22300754,1610612745,44,100,13,43,12,19,16,42,22,6,6,17,26,113)
+--insert into Statistics_Away_Team values
+--(784,22300755,1610612752,40,84,10,32,21,23,5,27,16,7,4,9,15,111)
+--insert into Statistics_Away_Team values
+--(785,22300756,1610612761,35,87,9,31,16,23,12,28,22,7,3,11,14,95)
+--insert into Statistics_Away_Team values
+--(786,22300757,1610612756,43,94,11,34,15,16,9,33,28,9,8,14,13,112)
+--insert into Statistics_Away_Team values
+--(787,22300758,1610612757,33,76,6,21,12,17,11,31,19,7,4,17,14,84)
+--insert into Statistics_Away_Team values
+--(788,22300759,1610612748,40,97,12,40,14,15,14,31,21,4,2,7,14,106)
+--insert into Statistics_Away_Team values
+--(789,22300760,1610612758,44,90,16,42,9,13,10,30,32,5,5,18,22,113)
+--insert into Statistics_Away_Team values
+--(790,22300761,1610612754,42,83,8,30,10,16,2,30,31,9,3,11,11,102)
+--insert into Statistics_Away_Team values
+--(791,22300762,1610612755,48,88,11,26,16,19,11,31,25,5,4,10,22,123)
+--insert into Statistics_Away_Team values
+--(792,22300763,1610612741,51,92,13,28,21,29,7,36,29,6,2,6,22,136)
+--insert into Statistics_Away_Team values
+--(793,22300764,1610612761,39,98,8,31,13,16,16,31,25,11,4,19,20,99)
+--insert into Statistics_Away_Team values
+--(794,22300765,1610612752,42,92,12,36,7,12,19,32,19,4,4,16,23,103)
+--insert into Statistics_Away_Team values
+--(795,22300766,1610612740,32,78,13,35,19,24,12,37,21,12,4,17,18,96)
+--insert into Statistics_Away_Team values
+--(796,22300767,1610612749,42,84,16,34,12,18,9,42,30,8,6,12,19,112)
+--insert into Statistics_Away_Team values
+--(797,22300768,1610612764,44,106,7,32,9,15,12,40,27,9,7,15,25,104)
+--insert into Statistics_Away_Team values
+--(798,22300769,1610612762,41,92,11,32,14,16,9,35,23,8,7,17,17,107)
+--insert into Statistics_Away_Team values
+--(799,22300770,1610612750,46,86,11,34,18,19,9,32,33,9,7,11,20,121)
+--insert into Statistics_Away_Team values
+--(800,22300771,1610612738,43,83,15,37,17,23,7,32,31,6,1,13,24,118)
+--insert into Statistics_Away_Team values
+--(801,22300772,1610612753,41,91,11,36,20,25,14,34,29,6,3,16,19,113)
+--insert into Statistics_Away_Team values
+--(802,22300773,1610612749,37,83,13,39,10,11,5,33,24,8,4,18,12,97)
+--insert into Statistics_Away_Team values
+--(803,22300774,1610612758,49,95,9,31,18,24,15,35,27,8,6,13,27,125)
+--insert into Statistics_Away_Team values
+--(804,22300775,1610612757,39,87,11,29,20,25,12,32,26,5,1,16,29,109)
+--insert into Statistics_Away_Team values
+--(805,22300776,1610612747,43,84,14,35,25,30,7,40,32,6,11,15,14,125)
+--insert into Statistics_Away_Team values
+--(806,22300777,1610612766,44,89,15,37,19,20,12,34,27,7,4,12,18,122)
+--insert into Statistics_Away_Team values
+--(807,22300778,1610612753,48,76,12,26,10,11,7,27,25,7,7,12,22,118)
+--insert into Statistics_Away_Team values
+--(808,22300779,1610612755,41,86,10,35,12,16,6,33,29,3,1,14,20,104)
+--insert into Statistics_Away_Team values
+--(809,22300780,1610612738,52,91,22,45,10,12,10,41,32,6,5,8,13,136)
+--insert into Statistics_Away_Team values
+--(810,22300781,1610612739,40,83,12,37,16,21,6,30,31,6,2,8,18,108)
+--insert into Statistics_Away_Team values
+--(811,22300782,1610612761,50,98,6,26,19,26,15,41,30,6,7,15,20,125)
+--insert into Statistics_Away_Team values
+--(812,22300783,1610612763,39,79,15,35,28,41,8,38,27,8,11,11,20,121)
+--insert into Statistics_Away_Team values
+--(813,22300784,1610612764,44,92,21,45,17,20,15,27,35,7,3,19,22,126)
+--insert into Statistics_Away_Team values
+--(814,22300785,1610612759,36,100,10,40,11,15,13,31,29,8,7,11,9,93)
+--insert into Statistics_Away_Team values
+--(815,22300786,1610612758,39,89,9,33,15,19,10,38,21,7,5,14,18,102)
+--insert into Statistics_Away_Team values
+--(816,22300787,1610612756,35,77,10,31,36,44,9,45,28,15,11,23,20,116)
+--insert into Statistics_Away_Team values
+--(817,22300788,1610612762,49,101,14,45,10,13,15,29,29,5,7,13,21,122)
+--insert into Statistics_Away_Team values
+--(818,22300789,1610612746,44,88,13,38,29,37,12,36,28,6,4,12,21,130)
+--insert into Statistics_Away_Team values
+--(819,22300790,1610612749,42,90,11,44,15,20,11,33,24,10,5,13,22,110)
+--insert into Statistics_Away_Team values
+--(820,22300576,1610612762,43,93,22,49,29,32,17,31,33,10,3,16,22,137)
+--insert into Statistics_Away_Team values
+--(821,22300791,1610612757,31,83,8,29,21,30,9,26,18,8,5,15,23,91)
+--insert into Statistics_Away_Team values
+--(823,22300792,1610612753,43,84,14,25,16,18,10,23,26,8,3,13,23,116)
+--insert into Statistics_Away_Team values
+--(824,22300793,1610612754,50,94,13,30,16,19,7,35,36,10,5,13,15,129)
+--insert into Statistics_Away_Team values
+--(825,22300794,1610612755,37,84,10,29,12,14,7,31,23,7,3,18,23,96)
+--insert into Statistics_Away_Team values
+--(826,22300795,1610612761,41,84,14,31,25,30,7,38,24,10,6,10,18,121)
+--insert into Statistics_Away_Team values
+--(827,22300796,1610612756,40,83,15,36,18,24,11,30,20,7,4,16,21,113)
+--insert into Statistics_Away_Team values
+--(828,22300797,1610612741,44,94,10,28,14,16,13,32,30,6,2,13,17,112)
+--insert into Statistics_Away_Team values
+--(829,22300798,1610612740,50,96,16,41,11,18,9,34,35,16,6,13,21,127)
+--insert into Statistics_Away_Team values
+--(830,22300799,1610612760,50,90,17,35,12,17,8,36,24,9,11,12,16,129)
+--insert into Statistics_Away_Team values
+--(831,22300800,1610612764,40,104,17,38,13,23,14,26,30,14,1,14,15,110)
+--insert into Statistics_Away_Team values
+--(832,22300801,1610612762,37,86,9,39,24,27,15,39,26,3,2,19,21,107)
+--insert into Statistics_Away_Team values
+--(833,22300802,1610612747,43,88,10,35,14,21,10,31,28,5,9,11,18,110)
+--insert into Statistics_Away_Team values
+--(834,22300803,1610612759,50,98,11,25,11,16,11,31,37,9,5,8,12,122)
+--insert into Statistics_Away_Team values
+--(835,22300804,1610612761,50,102,15,39,8,8,11,36,37,3,7,11,20,123)
+--insert into Statistics_Away_Team values
+--(836,22300805,1610612755,40,90,12,29,12,15,9,42,20,6,7,9,25,104)
+--insert into Statistics_Away_Team values
+--(837,22300806,1610612756,38,95,7,31,27,35,19,39,23,10,8,10,20,110)
+--insert into Statistics_Away_Team values
+--(838,22300807,1610612763,38,91,8,35,11,16,14,27,26,12,3,12,17,95)
+--insert into Statistics_Away_Team values
+--(839,22300809,1610612764,41,104,9,38,15,21,16,27,20,10,3,14,17,106)
+--insert into Statistics_Away_Team values
+--(840,22300810,1610612740,39,104,7,32,10,13,18,36,20,6,7,11,19,95)
+--insert into Statistics_Away_Team values
+--(841,22300808,1610612750,43,98,13,35,8,13,16,36,23,8,4,13,18,107)
+--insert into Statistics_Away_Team values
+--(842,22300811,1610612744,38,89,13,42,8,10,13,40,28,7,7,21,15,97)
+--insert into Statistics_Away_Team values
+--(843,22300812,1610612757,46,101,8,25,12,18,19,26,25,11,2,10,17,112)
+--insert into Statistics_Away_Team values
+--(844,22300813,1610612759,42,96,15,38,19,23,16,31,33,9,7,14,14,118)
+--insert into Statistics_Away_Team values
+--(845,22300814,1610612753,43,87,12,24,14,21,13,33,25,9,9,10,15,112)
+--insert into Statistics_Away_Team values
+--(846,22300816,1610612752,37,82,13,38,15,16,15,24,21,1,3,13,15,102)
+--insert into Statistics_Away_Team values
+--(847,22300815,1610612750,36,84,12,38,17,23,6,45,22,6,9,12,14,101)
+--insert into Statistics_Away_Team values
+--(848,22300817,1610612755,36,97,16,46,10,11,13,28,24,12,5,10,18,98)
+--insert into Statistics_Away_Team values
+--(849,22300818,1610612756,44,93,17,40,18,19,14,37,32,6,9,12,12,123)
+--insert into Statistics_Away_Team values
+--(850,22300819,1610612754,52,93,14,36,15,17,6,40,38,12,0,12,16,133)
+--insert into Statistics_Away_Team values
+--(851,22300820,1610612764,40,90,12,40,13,18,4,36,29,6,2,9,22,105)
+--insert into Statistics_Away_Team values
+--(852,22300821,1610612753,35,84,14,38,8,18,14,37,23,7,9,18,19,92)
+--insert into Statistics_Away_Team values
+--(853,22300822,1610612760,46,97,17,35,14,15,10,38,30,12,8,9,22,123)
+--insert into Statistics_Away_Team values
+--(854,22300823,1610612740,40,88,16,41,10,14,12,37,25,5,7,19,17,106)
+--insert into Statistics_Away_Team values
+--(855,22300824,1610612744,35,81,11,34,22,29,11,31,27,5,3,17,18,103)
+--insert into Statistics_Away_Team values
+--(856,22300825,1610612762,46,90,17,35,19,22,5,33,36,13,8,17,17,128)
+--insert into Statistics_Away_Team values
+--(857,22300826,1610612757,33,95,3,32,11,16,22,34,14,11,4,15,16,80)
+--insert into Statistics_Away_Team values
+--(858,22300827,1610612758,45,91,15,37,18,22,14,27,29,10,1,10,15,123)
+--insert into Statistics_Away_Team values
+--(859,22300829,1610612761,53,96,12,28,12,17,12,33,35,4,7,11,17,130)
+--insert into Statistics_Away_Team values
+--(860,22300828,1610612752,41,92,15,39,16,21,15,29,31,9,4,14,16,113)
+--insert into Statistics_Away_Team values
+--(861,22300830,1610612763,29,75,7,26,21,26,8,32,16,6,4,14,13,86)
+--insert into Statistics_Away_Team values
+--(862,22300831,1610612758,45,85,13,32,7,12,11,30,30,10,5,15,20,110)
+--insert into Statistics_Away_Team values
+--(863,22300832,1610612742,48,91,14,33,9,15,5,31,23,11,6,5,12,119)
+--insert into Statistics_Away_Team values
+--(864,22300833,1610612753,39,74,9,25,21,25,5,33,20,14,2,17,22,108)
+--insert into Statistics_Away_Team values
+--(865,22300834,1610612764,46,93,12,35,8,10,11,30,34,5,5,20,12,112)
+--insert into Statistics_Away_Team values
+--(866,22300835,1610612762,35,94,11,38,16,19,12,31,24,11,4,17,15,97)
+--insert into Statistics_Away_Team values
+--(867,22300836,1610612755,37,94,14,42,11,12,8,20,20,6,5,9,23,99)
+--insert into Statistics_Away_Team values
+--(868,22300837,1610612752,31,83,14,46,16,23,13,25,27,6,5,11,20,92)
+--insert into Statistics_Away_Team values
+--(869,22300838,1610612759,39,82,16,41,11,15,7,34,28,9,7,22,15,105)
+--insert into Statistics_Away_Team values
+--(870,22300839,1610612765,37,75,14,37,17,23,8,39,22,3,8,18,19,105)
+--insert into Statistics_Away_Team values
+--(871,22300840,1610612749,46,89,16,40,15,18,11,40,29,7,3,9,17,123)
+--insert into Statistics_Away_Team values
+--(872,22300841,1610612760,44,93,10,27,14,18,12,43,19,7,8,13,14,112)
+--insert into Statistics_Away_Team values
+--(873,22300842,1610612757,35,86,10,31,16,19,15,25,24,9,4,17,25,96)
+--insert into Statistics_Away_Team values
+--(874,22300843,1610612740,42,90,11,29,19,23,7,33,26,2,4,10,12,114)
+--insert into Statistics_Away_Team values
+--(875,22300844,1610612761,46,98,13,35,20,30,12,32,34,11,3,11,21,125)
+--insert into Statistics_Away_Team values
+--(876,22300845,1610612750,39,79,14,35,18,22,5,34,29,4,13,13,19,110)
+--insert into Statistics_Away_Team values
+--(877,22300846,1610612739,45,104,22,54,11,19,5,34,37,7,11,12,25,123)
+--insert into Statistics_Away_Team values
+--(878,22300847,1610612758,38,95,12,35,8,13,15,28,28,8,5,14,14,96)
+--insert into Statistics_Away_Team values
+--(879,22300848,1610612747,47,86,14,36,8,10,8,31,28,6,5,15,12,116)
+--insert into Statistics_Away_Team values
+--(880,22300849,1610612749,39,86,16,39,17,20,8,36,21,9,3,7,18,111)
+--insert into Statistics_Away_Team values
+--(881,22300850,1610612762,34,80,16,37,23,28,7,30,25,8,1,13,22,107)
+--insert into Statistics_Away_Team values
+--(882,22300851,1610612751,46,90,22,46,10,13,8,35,30,6,4,9,16,124)
+--insert into Statistics_Away_Team values
+--(883,22300852,1610612752,35,95,12,39,17,24,17,39,23,7,3,12,15,99)
+--insert into Statistics_Away_Team values
+--(884,22300853,1610612759,48,91,19,39,17,20,11,34,39,6,8,11,20,132)
+--insert into Statistics_Away_Team values
+--(885,22300854,1610612756,36,89,13,37,25,37,14,37,20,6,6,14,21,110)
+--insert into Statistics_Away_Team values
+--(886,22300855,1610612748,35,83,7,26,20,24,9,36,21,10,1,14,16,97)
+--insert into Statistics_Away_Team values
+--(887,22300856,1610612764,52,102,17,41,10,12,10,35,35,6,6,15,19,131)
+--insert into Statistics_Away_Team values
+--(888,22300857,1610612765,33,89,10,36,24,28,9,33,24,10,7,8,23,100)
+--insert into Statistics_Away_Team values
+--(889,22300858,1610612755,46,96,19,44,10,11,15,33,38,5,7,7,17,121)
+--insert into Statistics_Away_Team values
+--(890,22300859,1610612742,44,94,9,34,13,18,10,32,20,4,4,7,12,110)
+--insert into Statistics_Away_Team values
+--(891,22300860,1610612761,41,95,12,45,11,17,11,36,31,9,2,14,14,105)
+--insert into Statistics_Away_Team values
+--(892,22300861,1610612757,48,92,13,31,13,16,16,30,31,13,8,14,20,122)
+--insert into Statistics_Away_Team values
+--(893,22300862,1610612758,50,100,11,29,13,24,14,31,29,8,6,7,29,124)
+--insert into Statistics_Away_Team values
+--(894,22300863,1610612740,48,86,15,32,18,26,11,36,25,9,4,17,17,129)
+--insert into Statistics_Away_Team values
+--(895,22300864,1610612749,37,86,15,46,24,32,11,38,22,7,4,7,18,113)
+--insert into Statistics_Away_Team values
+--(896,22300865,1610612764,46,98,12,34,11,15,9,30,29,5,3,9,17,115)
+--insert into Statistics_Away_Team values
+--(897,22300866,1610612751,41,88,15,32,17,22,12,33,28,6,8,10,19,114)
+--insert into Statistics_Away_Team values
+--(898,22300867,1610612762,42,87,14,35,22,26,12,30,24,3,5,10,19,120)
+--insert into Statistics_Away_Team values
+--(899,22300868,1610612757,39,92,11,35,18,24,13,37,23,8,5,22,25,107)
+--insert into Statistics_Away_Team values
+--(900,22300869,1610612747,47,89,12,29,8,11,6,25,33,5,4,7,9,114)
+--insert into Statistics_Away_Team values
+--(901,22300870,1610612756,39,85,9,29,22,29,9,38,23,6,6,19,17,109)
+--insert into Statistics_Away_Team values
+--(902,22300871,1610612755,40,88,11,37,29,31,13,29,26,10,5,8,19,120)
+--insert into Statistics_Away_Team values
+--(903,22300872,1610612744,36,92,7,41,9,13,12,34,24,2,3,17,13,88)
+--insert into Statistics_Away_Team values
+--(904,22300873,1610612750,31,80,9,33,17,18,12,42,24,4,7,15,14,88)
+--insert into Statistics_Away_Team values
+--(905,22300874,1610612753,43,72,7,23,20,25,7,41,24,7,6,20,16,113)
+--insert into Statistics_Away_Team values
+--(906,22300875,1610612761,42,91,13,38,14,18,11,34,27,8,6,14,16,111)
+--insert into Statistics_Away_Team values
+--(907,22300876,1610612752,42,86,16,39,7,10,10,37,32,8,9,9,13,107)
+--insert into Statistics_Away_Team values
+--(908,22300877,1610612759,46,85,10,25,15,19,10,35,33,6,8,14,17,117)
+--insert into Statistics_Away_Team values
+--(909,22300878,1610612756,40,91,14,39,16,18,15,35,26,2,7,21,15,110)
+--insert into Statistics_Away_Team values
+--(910,22300879,1610612763,38,82,12,37,18,22,15,35,26,6,3,18,22,106)
+--insert into Statistics_Away_Team values
+--(911,22300880,1610612749,37,78,15,38,24,28,7,39,20,8,3,11,20,113)
+--insert into Statistics_Away_Team values
+--(912,22300881,1610612757,45,92,16,39,8,11,12,29,28,5,3,13,26,114)
+--insert into Statistics_Away_Team values
+--(913,22300882,1610612764,40,94,16,38,19,23,10,33,26,6,3,15,15,115)
+--insert into Statistics_Away_Team values
+--(914,22300883,1610612758,41,92,11,37,16,18,20,31,29,6,6,17,22,109)
+--insert into Statistics_Away_Team values
+--(915,22300884,1610612760,37,94,15,39,15,16,13,25,22,12,7,10,20,104)
+--insert into Statistics_Away_Team values
+--(916,22300885,1610612753,40,74,13,35,8,15,8,33,23,9,1,17,16,101)
+--insert into Statistics_Away_Team values
+--(917,22300886,1610612739,39,90,20,42,7,11,8,34,28,11,3,8,10,105)
+--insert into Statistics_Away_Team values
+--(918,22300887,1610612755,40,82,12,28,15,19,8,30,25,6,2,12,24,107)
+--insert into Statistics_Away_Team values
+--(919,22300888,1610612748,42,85,14,31,20,23,8,34,27,7,5,9,14,118)
+--insert into Statistics_Away_Team values
+--(920,22300889,1610612752,38,99,16,52,8,11,17,23,27,8,6,11,18,100)
+--insert into Statistics_Away_Team values
+--(921,22300890,1610612761,36,93,13,44,13,22,11,34,21,6,7,11,11,98)
+--insert into Statistics_Away_Team values
+--(922,22300891,1610612759,38,87,12,36,13,16,12,38,24,1,10,18,12,101)
+--insert into Statistics_Away_Team values
+--(923,22300892,1610612754,50,93,18,39,19,24,9,34,34,3,2,8,21,137)
+--insert into Statistics_Away_Team values
+--(924,22300893,1610612756,42,96,15,34,18,22,11,41,32,9,7,9,19,117)
+--insert into Statistics_Away_Team values
+--(925,22300894,1610612764,40,88,12,38,17,20,9,26,26,7,4,9,20,109)
+--insert into Statistics_Away_Team values
+--(926,22300895,1610612739,39,89,10,44,13,17,10,32,27,5,4,13,16,101)
+--insert into Statistics_Away_Team values
+--(927,22300896,1610612755,39,102,13,35,18,21,17,30,25,11,9,11,21,109)
+--insert into Statistics_Away_Team values
+--(928,22300897,1610612746,44,80,12,29,22,26,8,33,19,5,8,9,17,122)
+--insert into Statistics_Away_Team values
+--(929,22300898,1610612762,44,96,15,47,14,16,14,31,28,4,7,10,14,117)
+--insert into Statistics_Away_Team values
+--(930,22300899,1610612749,34,89,11,39,11,15,6,30,19,8,5,15,10,90)
+--insert into Statistics_Away_Team values
+--(931,22300900,1610612757,41,81,14,34,24,27,7,25,27,10,2,17,28,120)
+--insert into Statistics_Away_Team values
+--(932,22300901,1610612758,54,97,12,31,10,12,9,37,32,8,2,13,23,130)
+--insert into Statistics_Away_Team values
+--(933,22300902,1610612765,43,82,12,30,20,21,13,37,24,7,4,22,18,118)
+--insert into Statistics_Away_Team values
+--(934,22300903,1610612750,46,98,7,25,14,19,13,35,23,9,6,9,20,113)
+--insert into Statistics_Away_Team values
+--(935,22300904,1610612748,40,82,17,38,11,17,2,35,30,7,2,10,20,108)
+--insert into Statistics_Away_Team values
+--(936,22300905,1610612761,43,94,16,44,11,15,9,27,30,5,2,9,20,113)
+--insert into Statistics_Away_Team values
+--(937,22300906,1610612743,45,90,4,21,21,22,8,37,27,10,4,7,19,115)
+--insert into Statistics_Away_Team values
+--(938,22300907,1610612744,44,97,11,42,23,28,13,35,31,8,2,11,22,122)
+--insert into Statistics_Away_Team values
+--(939,22300908,1610612759,46,91,16,33,21,21,9,28,39,8,4,12,20,129)
+--insert into Statistics_Away_Team values
+--(940,22300909,1610612755,35,88,9,37,16,20,13,29,21,8,7,10,19,95)
+--insert into Statistics_Away_Team values
+--(941,22300910,1610612764,43,87,6,33,20,23,10,44,25,5,11,11,20,112)
+--insert into Statistics_Away_Team values
+--(942,22300911,1610612750,39,94,8,30,18,22,7,38,25,5,5,12,25,104)
+--insert into Statistics_Away_Team values
+--(943,22300912,1610612753,27,79,6,26,14,20,12,25,12,7,10,13,12,74)
+--insert into Statistics_Away_Team values
+--(944,22300913,1610612763,30,74,10,26,22,30,10,28,21,10,11,13,19,92)
+--insert into Statistics_Away_Team values
+--(945,22300914,1610612760,42,89,12,38,11,13,9,36,28,5,8,9,16,107)
+--insert into Statistics_Away_Team values
+--(946,22300915,1610612749,46,93,16,41,14,17,6,37,28,3,2,6,17,122)
+--insert into Statistics_Away_Team values
+--(947,22300916,1610612757,37,89,16,35,17,25,19,30,22,5,5,17,16,107)
+--insert into Statistics_Away_Team values
+--(948,22300917,1610612746,42,84,12,35,16,18,9,36,29,7,6,13,20,112)
+--insert into Statistics_Away_Team values
+--(949,22300918,1610612766,44,81,11,30,11,15,9,36,26,9,3,16,18,110)
+--insert into Statistics_Away_Team values
+--(950,22300919,1610612765,45,99,13,37,21,25,20,36,27,8,4,19,26,124)
+--insert into Statistics_Away_Team values
+--(951,22300920,1610612756,44,87,9,31,10,16,10,31,21,6,1,14,14,107)
+--insert into Statistics_Away_Team values
+--(952,22300921,1610612759,44,86,17,33,21,28,12,37,34,6,6,12,22,126)
+--insert into Statistics_Away_Team values
+--(953,22300922,1610612762,47,94,8,26,19,25,14,22,22,7,2,15,15,121)
+--insert into Statistics_Away_Team values
+--(954,22300923,1610612761,43,91,16,43,16,19,9,34,29,9,6,20,18,118)
+--insert into Statistics_Away_Team values
+--(955,22300924,1610612749,43,87,17,38,21,27,7,34,28,5,6,7,15,124)
+--insert into Statistics_Away_Team values
+--(956,22300925,1610612740,43,75,14,27,16,22,4,39,32,8,7,12,10,116)
+--insert into Statistics_Away_Team values
+--(957,22300926,1610612764,39,81,16,39,16,22,6,34,35,5,5,15,18,110)
+--insert into Statistics_Away_Team values
+--(958,22300928,1610612753,33,88,9,36,22,29,13,33,18,7,3,12,27,97)
+--insert into Statistics_Away_Team values
+--(959,22300929,1610612758,39,86,6,32,20,23,7,37,24,10,5,12,20,104)
+--insert into Statistics_Away_Team values
+--(960,22300927,1610612755,31,80,9,30,8,14,14,33,20,9,5,13,18,79)
+--insert into Statistics_Away_Team values
+--(961,22300930,1610612739,37,76,14,32,13,20,5,26,25,8,4,12,17,101)
+--insert into Statistics_Away_Team values
+--(962,22300931,1610612760,49,93,21,47,5,5,8,38,36,8,6,10,18,124)
+--insert into Statistics_Away_Team values
+--(963,22300932,1610612750,41,97,16,46,11,13,11,27,27,8,6,11,18,109)
+--insert into Statistics_Away_Team values
+--(964,22300933,1610612765,41,86,10,42,22,24,9,42,26,8,5,12,19,114)
+--insert into Statistics_Away_Team values
+--(965,22300934,1610612756,46,84,12,32,13,19,12,30,23,8,6,14,18,117)
+--insert into Statistics_Away_Team values
+--(966,22300935,1610612742,51,93,13,41,12,15,10,39,33,10,6,6,17,127)
+--insert into Statistics_Away_Team values
+--(967,22300936,1610612759,39,93,14,37,10,15,13,37,27,6,10,15,15,102)
+--insert into Statistics_Away_Team values
+--(968,22300937,1610612761,47,93,11,30,14,17,11,31,30,6,4,11,16,119)
+--insert into Statistics_Away_Team values
+--(969,22300938,1610612757,39,87,10,28,11,11,9,29,23,3,5,11,11,99)
+--insert into Statistics_Away_Team values
+--(970,22300939,1610612755,30,80,8,33,11,16,7,24,17,7,4,8,16,79)
+--insert into Statistics_Away_Team values
+--(971,22300940,1610612764,37,82,11,36,12,16,4,24,26,9,3,13,18,97)
+--insert into Statistics_Away_Team values
+--(972,22300941,1610612760,43,99,14,37,11,15,13,37,24,5,4,12,16,111)
+--insert into Statistics_Away_Team values
+--(973,22300942,1610612759,39,82,11,36,12,14,10,32,30,9,5,13,20,101)
+--insert into Statistics_Away_Team values
+--(974,22300943,1610612762,41,86,15,32,10,11,9,29,23,4,7,10,18,107)
+--insert into Statistics_Away_Team values
+--(975,22300944,1610612750,48,94,12,33,10,14,19,29,26,11,6,9,20,118)
+--insert into Statistics_Away_Team values
+--(976,22300945,1610612758,49,92,18,40,13,16,6,45,34,11,1,8,26,129)
+--insert into Statistics_Away_Team values
+--(977,22300946,1610612761,41,93,9,36,13,19,3,34,32,13,8,11,20,104)
+--insert into Statistics_Away_Team values
+--(978,22300947,1610612753,40,77,14,32,20,26,6,28,29,6,6,12,20,114)
+--insert into Statistics_Away_Team values
+--(979,22300948,1610612754,46,99,14,45,23,28,9,38,30,4,6,8,25,129)
+--insert into Statistics_Away_Team values
+--(980,22300949,1610612748,34,80,5,21,15,18,8,34,18,5,2,8,13,88)
+--insert into Statistics_Away_Team values
+--(981,22300950,1610612763,36,85,16,40,10,11,16,30,24,12,5,21,19,98)
+--insert into Statistics_Away_Team values
+--(982,22300951,1610612740,35,80,4,22,21,26,7,36,22,7,6,11,13,95)
+--insert into Statistics_Away_Team values
+--(983,22300952,1610612744,37,92,9,28,16,19,15,27,19,9,3,15,20,99)
+--insert into Statistics_Away_Team values
+--(984,22300953,1610612757,38,82,10,30,20,24,12,37,24,7,5,18,21,106)
+--insert into Statistics_Away_Team values
+--(985,22300954,1610612758,46,88,19,41,9,12,9,35,30,11,2,12,19,120)
+--insert into Statistics_Away_Team values
+--(986,22300955,1610612756,47,99,11,31,7,10,19,32,27,4,3,13,12,112)
+--insert into Statistics_Away_Team values
+--(987,22300956,1610612746,48,80,20,40,10,14,6,29,32,9,2,9,16,126)
+--insert into Statistics_Away_Team values
+--(988,22300957,1610612764,46,93,12,38,15,19,7,25,29,11,2,13,19,119)
+--insert into Statistics_Away_Team values
+--(989,22300958,1610612755,39,79,17,35,10,14,6,24,20,6,4,11,18,105)
+--insert into Statistics_Away_Team values
+--(990,22300959,1610612760,45,86,16,39,20,23,8,26,28,10,7,13,24,126)
+--insert into Statistics_Away_Team values
+--(991,22300960,1610612757,34,84,11,33,14,16,13,32,19,10,2,17,19,93)
+--insert into Statistics_Away_Team values
+--(992,22300961,1610612756,40,87,11,38,16,20,10,47,31,3,3,10,20,107)
+--insert into Statistics_Away_Team values
+--(993,22300962,1610612748,43,91,7,34,15,21,9,35,23,14,6,8,16,108)
+--insert into Statistics_Away_Team values
+--(994,22300963,1610612761,38,81,14,34,13,20,9,31,24,11,4,15,24,103)
+--insert into Statistics_Away_Team values
+--(995,22300964,1610612740,42,87,13,35,15,20,9,31,28,8,2,8,21,112)
+--insert into Statistics_Away_Team values
+--(996,22300965,1610612759,37,81,11,29,21,27,12,32,23,6,4,16,13,106)
+--insert into Statistics_Away_Team values
+--(997,22300966,1610612762,46,90,14,36,18,20,10,39,24,6,7,11,21,124)
+--insert into Statistics_Away_Team values
+--(998,22300967,1610612745,47,98,15,42,8,12,11,37,28,9,7,9,19,117)
+--insert into Statistics_Away_Team values
+--(999,22300968,1610612754,50,105,6,30,15,16,17,33,21,13,4,10,23,121)
+--insert into Statistics_Away_Team values
+--(1000,22300969,1610612755,36,81,13,41,24,25,10,31,25,9,4,15,23,109)
+--insert into Statistics_Away_Team values
+--(1001,22300970,1610612757,42,84,12,33,11,12,10,26,23,3,7,19,15,107)
+--insert into Statistics_Away_Team values
+--(1002,22300971,1610612764,36,84,13,32,13,22,9,23,27,12,7,15,21,98)
+--insert into Statistics_Away_Team values
+--(1003,22300972,1610612760,45,87,12,35,16,21,8,37,25,7,8,11,19,118)
+--insert into Statistics_Away_Team values
+--(1004,22300973,1610612747,47,92,12,34,15,18,8,31,32,3,4,9,13,121)
+--insert into Statistics_Away_Team values
+--(1005,22300974,1610612762,38,83,6,26,18,21,10,41,23,4,5,15,14,100)
+--insert into Statistics_Away_Team values
+--(1006,22300975,1610612758,30,85,10,37,21,26,11,31,22,7,5,12,20,91)
+--insert into Statistics_Away_Team values
+--(1007,22300976,1610612756,51,87,14,33,13,15,7,32,36,7,5,12,16,129)
+--insert into Statistics_Away_Team values
+--(1008,22300977,1610612748,40,89,12,35,12,16,11,36,24,7,2,9,11,104)
+--insert into Statistics_Away_Team values
+--(1009,22300978,1610612743,37,84,12,28,19,22,6,31,26,7,6,7,16,105)
+--insert into Statistics_Away_Team values
+--(1010,22300979,1610612761,37,84,8,31,14,15,11,26,23,7,3,18,18,96)
+--insert into Statistics_Away_Team values
+--(1011,22300980,1610612764,41,89,10,34,12,14,10,30,24,3,5,16,20,104)
+--insert into Statistics_Away_Team values
+--(1012,22300981,1610612759,46,99,9,37,21,23,13,37,30,6,10,17,17,122)
+--insert into Statistics_Away_Team values
+--(1013,22300982,1610612746,28,74,11,36,26,29,10,30,17,10,5,15,13,93)
+--insert into Statistics_Away_Team values
+--(1014,22300983,1610612754,42,91,9,38,10,16,14,31,28,8,3,11,24,103)
+--insert into Statistics_Away_Team values
+--(1015,22300984,1610612765,36,84,9,29,13,15,8,35,21,6,3,12,15,94)
+--insert into Statistics_Away_Team values
+--(1016,22300985,1610612755,37,85,13,36,11,12,7,39,23,7,12,12,16,98)
+--insert into Statistics_Away_Team values
+--(1017,22300986,1610612757,40,88,8,28,19,25,13,30,21,7,5,13,24,107)
+--insert into Statistics_Away_Team values
+--(1018,22300987,1610612762,39,84,14,32,12,14,14,33,25,6,3,17,13,104)
+--insert into Statistics_Away_Team values
+--(1019,22300988,1610612752,44,91,14,37,17,20,14,30,29,6,1,10,17,119)
+--insert into Statistics_Away_Team values
+--(1020,22300989,1610612758,42,94,11,35,26,32,15,44,30,7,10,17,25,121)
+--insert into Statistics_Away_Team values
+--(1021,22300990,1610612747,52,90,15,36,17,20,4,44,39,6,4,8,15,136)
+--insert into Statistics_Away_Team values
+--(1022,22300991,1610612753,44,81,12,34,12,13,10,31,32,10,6,16,10,112)
+--insert into Statistics_Away_Team values
+--(1023,22300992,1610612764,42,98,15,39,15,20,17,27,24,6,2,10,27,114)
+--insert into Statistics_Away_Team values
+--(1024,22300993,1610612740,42,83,10,34,10,13,11,37,29,7,5,13,19,104)
+--insert into Statistics_Away_Team values
+--(1025,22300994,1610612759,39,89,14,39,15,21,9,39,31,6,10,15,14,107)
+--insert into Statistics_Away_Team values
+--(1026,22300995,1610612750,42,88,12,35,16,23,8,29,25,10,7,7,16,112)
+--insert into Statistics_Away_Team values
+--(1027,22300996,1610612748,38,83,13,36,18,19,7,30,19,7,2,7,20,107)
+--insert into Statistics_Away_Team values
+--(1028,22300997,1610612754,50,88,11,29,11,18,5,35,38,13,6,12,16,122)
+--insert into Statistics_Away_Team values
+--(1029,22300998,1610612749,45,84,17,35,12,14,9,32,20,3,6,14,25,119)
+--insert into Statistics_Away_Team values
+--(1030,22300999,1610612761,33,80,10,31,13,18,11,20,21,11,3,21,15,89)
+--insert into Statistics_Away_Team values
+--(1031,22301000,1610612762,40,90,10,36,17,18,11,36,20,6,5,15,22,107)
+--insert into Statistics_Away_Team values
+--(1032,22301001,1610612763,42,96,18,49,14,18,16,29,29,4,3,10,15,116)
+--insert into Statistics_Away_Team values
+--(1033,22301002,1610612756,45,90,19,39,6,8,14,41,34,7,12,23,18,115)
+--insert into Statistics_Away_Team values
+--(1034,22301003,1610612757,39,81,15,34,10,15,8,30,21,6,4,17,16,103)
+--insert into Statistics_Away_Team values
+--(1035,22301004,1610612753,47,86,14,36,13,19,10,30,33,12,4,14,16,121)
+--insert into Statistics_Away_Team values
+--(1036,22301005,1610612764,41,81,10,25,17,23,10,35,20,9,3,19,19,109)
+--insert into Statistics_Away_Team values
+--(1037,22301006,1610612745,47,93,17,45,16,20,13,36,27,7,6,14,21,127)
+--insert into Statistics_Away_Team values
+--(1038,22301007,1610612749,43,91,16,41,13,15,11,29,27,5,4,10,17,115)
+--insert into Statistics_Away_Team values
+--(1039,22301008,1610612762,38,83,4,30,17,19,5,33,29,6,3,18,23,97)
+--insert into Statistics_Away_Team values
+--(1040,22301009,1610612752,38,79,11,31,13,17,4,27,28,6,6,9,18,100)
+--insert into Statistics_Away_Team values
+--(1041,22301010,1610612756,41,74,22,41,24,27,7,31,28,4,11,17,19,128)
+--insert into Statistics_Away_Team values
+--(1042,22301011,1610612765,42,83,9,31,9,13,8,34,25,4,1,18,23,102)
+--insert into Statistics_Away_Team values
+--(1043,22301012,1610612761,40,76,11,30,12,17,5,31,34,12,3,27,18,103)
+--insert into Statistics_Away_Team values
+--(1044,22301013,1610612740,42,82,18,36,9,12,12,44,25,3,2,12,13,111)
+--insert into Statistics_Away_Team values
+--(1045,22301014,1610612750,41,85,14,27,8,16,13,33,27,9,5,11,12,104)
+--insert into Statistics_Away_Team values
+--(1046,22301015,1610612759,37,95,7,38,16,23,15,41,24,12,7,16,23,97)
+--insert into Statistics_Away_Team values
+--(1047,22301016,1610612754,48,99,15,36,12,16,12,38,32,8,10,11,14,123)
+--insert into Statistics_Away_Team values
+--(1048,22301017,1610612757,45,93,12,33,15,25,15,26,29,11,1,10,19,117)
+--insert into Statistics_Away_Team values
+--(1049,22301018,1610612755,33,96,8,37,20,24,13,29,20,13,7,8,23,94)
+--insert into Statistics_Away_Team values
+--(1050,22301019,1610612752,42,97,15,40,6,12,16,31,25,10,4,9,15,105)
+--insert into Statistics_Away_Team values
+--(1051,22301020,1610612758,38,87,15,40,18,21,6,36,26,6,5,7,19,109)
+--insert into Statistics_Away_Team values
+--(1052,22301021,1610612766,35,84,11,39,10,14,11,28,25,3,4,13,9,91)
+--insert into Statistics_Away_Team values
+--(1053,22301022,1610612764,44,92,11,35,13,19,16,39,28,7,8,17,18,112)
+--insert into Statistics_Away_Team values
+--(1054,22301023,1610612741,47,82,9,24,10,11,3,26,36,7,3,7,18,113)
+--insert into Statistics_Away_Team values
+--(1055,22301024,1610612762,40,89,11,37,28,33,12,28,24,2,4,10,11,119)
+--insert into Statistics_Away_Team values
+--(1056,22301025,1610612759,40,85,9,33,17,21,8,26,27,6,6,15,9,106)
+--insert into Statistics_Away_Team values
+--(1057,22301026,1610612757,43,93,10,28,15,17,14,31,27,8,8,15,24,111)
+--insert into Statistics_Away_Team values
+--(1058,22301027,1610612740,41,81,11,34,21,31,6,35,27,8,7,10,22,114)
+--insert into Statistics_Away_Team values
+--(1059,22301028,1610612755,48,90,18,37,7,9,12,25,32,7,10,8,18,121)
+--insert into Statistics_Away_Team values
+--(1060,22301029,1610612748,43,83,15,38,20,23,9,35,29,13,0,9,17,121)
+--insert into Statistics_Away_Team values
+--(1061,22301030,1610612760,33,89,10,43,17,22,10,27,20,9,1,12,16,93)
+--insert into Statistics_Away_Team values
+--(1062,22301031,1610612750,40,84,21,40,13,18,7,37,30,9,5,15,17,114)
+--insert into Statistics_Away_Team values
+--(1063,22301032,1610612747,50,89,12,25,38,43,8,33,28,6,7,10,14,150)
+--insert into Statistics_Away_Team values
+--(1064,22301033,1610612739,46,86,17,41,6,10,9,38,41,4,3,12,15,115)
+--insert into Statistics_Away_Team values
+--(1065,22301034,1610612738,47,95,11,38,13,19,12,26,21,7,8,7,16,118)
+--insert into Statistics_Away_Team values
+--(1066,22301035,1610612752,45,89,19,46,15,22,12,40,30,6,6,13,18,124)
+--insert into Statistics_Away_Team values
+--(1067,22301036,1610612761,37,85,5,27,9,12,8,22,23,10,2,10,15,88)
+--insert into Statistics_Away_Team values
+--(1068,22301037,1610612764,39,97,14,49,15,18,14,38,32,8,5,13,21,107)
+--insert into Statistics_Away_Team values
+--(1069,22301038,1610612757,36,87,7,33,13,15,10,34,14,5,6,16,25,92)
+--insert into Statistics_Away_Team values
+--(1070,22301039,1610612759,40,91,8,31,16,19,5,35,23,10,1,7,15,104)
+--insert into Statistics_Away_Team values
+--(1071,22301040,1610612763,37,94,11,44,18,27,17,23,25,9,9,14,15,103)
+--insert into Statistics_Away_Team values
+--(1072,22301041,1610612762,37,87,13,39,18,22,11,35,28,6,3,12,15,105)
+--insert into Statistics_Away_Team values
+--(1073,22301042,1610612758,38,86,10,38,22,28,11,29,25,6,6,7,18,108)
+--insert into Statistics_Away_Team values
+--(1074,22301043,1610612746,46,85,6,20,18,22,11,25,26,4,4,8,19,116)
+--insert into Statistics_Away_Team values
+--(1075,22301044,1610612748,37,92,8,33,10,13,11,28,24,3,2,8,9,92)
+--insert into Statistics_Away_Team values
+--(1076,22301045,1610612749,49,119,15,51,11,17,15,46,37,9,5,14,26,124)
+--insert into Statistics_Away_Team values
+--(1077,22301046,1610612760,46,86,15,34,12,14,7,38,28,5,3,12,17,119)
+--insert into Statistics_Away_Team values
+--(1078,22301047,1610612758,35,90,11,30,15,19,11,31,27,6,5,13,15,96)
+--insert into Statistics_Away_Team values
+--(1079,22301048,1610612739,42,85,19,44,8,14,9,23,33,7,1,13,21,111)
+--insert into Statistics_Away_Team values
+--(1080,22301049,1610612753,36,85,10,32,11,21,10,29,25,10,5,10,13,93)
+--insert into Statistics_Away_Team values
+--(1081,22301050,1610612764,46,91,14,34,13,17,5,39,26,4,4,13,21,119)
+--insert into Statistics_Away_Team values
+--(1082,22301051,1610612757,43,85,14,31,6,10,6,27,35,8,2,18,18,106)
+--insert into Statistics_Away_Team values
+--(1083,22301052,1610612755,39,82,13,33,16,19,10,41,17,3,11,12,18,107)
+--insert into Statistics_Away_Team values
+--(1084,22301053,1610612761,39,84,11,31,12,13,11,17,31,7,4,18,17,101)
+--insert into Statistics_Away_Team values
+--(1085,22301054,1610612754,34,85,13,42,18,23,12,28,25,3,4,13,23,99)
+--insert into Statistics_Away_Team values
+--(1086,22301055,1610612763,46,97,17,43,15,19,13,26,30,10,3,14,23,124)
+--insert into Statistics_Away_Team values
+--(1087,22301056,1610612750,42,82,11,36,11,16,9,31,28,8,3,12,17,106)
+--insert into Statistics_Away_Team values
+--(1088,22301057,1610612760,47,96,14,38,18,24,13,36,26,7,7,19,24,126)
+--insert into Statistics_Away_Team values
+--(1089,22301058,1610612762,39,83,13,35,20,22,6,30,25,8,4,21,16,111)
+--insert into Statistics_Away_Team values
+--(1090,22301059,1610612756,39,83,16,33,10,11,12,39,29,3,7,16,13,104)
+--insert into Statistics_Away_Team values
+--(1091,22301060,1610612738,45,94,14,36,18,21,9,34,28,7,6,12,15,122)
+--insert into Statistics_Away_Team values
+--(1092,22301061,1610612740,36,91,8,32,27,34,11,37,22,11,5,6,19,107)
+--insert into Statistics_Away_Team values
+--(1093,22301062,1610612744,48,89,11,32,8,9,11,39,35,7,5,12,19,115)
+--insert into Statistics_Away_Team values
+--(1094,22301063,1610612747,35,86,5,30,15,18,10,38,24,3,3,16,14,90)
+--insert into Statistics_Away_Team values
+--(1095,22301064,1610612753,38,86,10,29,11,15,13,25,20,10,8,14,11,97)
+--insert into Statistics_Away_Team values
+--(1096,22301065,1610612764,36,88,9,33,6,8,9,38,22,2,4,18,18,87)
+--insert into Statistics_Away_Team values
+--(1097,22301066,1610612741,38,75,9,30,23,29,5,39,24,3,6,12,18,108)
+--insert into Statistics_Away_Team values
+--(1098,22301067,1610612755,42,94,16,40,14,17,16,26,28,6,7,9,20,114)
+--insert into Statistics_Away_Team values
+--(1099,22301068,1610612757,35,87,5,30,7,11,10,33,20,4,2,23,19,82)
+--insert into Statistics_Away_Team values
+--(1100,22301069,1610612756,39,87,13,41,12,15,13,26,26,6,6,14,15,103)
+--insert into Statistics_Away_Team values
+--(1101,22301070,1610612759,44,82,16,40,26,32,8,38,34,3,2,15,16,130)
+--insert into Statistics_Away_Team values
+--(1102,22301071,1610612750,38,74,9,28,26,37,6,33,28,6,7,7,20,111)
+--insert into Statistics_Away_Team values
+--(1103,22301072,1610612762,37,80,8,31,18,19,11,40,23,4,9,20,23,100)
+--insert into Statistics_Away_Team values
+--(1104,22301073,1610612758,40,92,15,32,8,12,10,35,24,9,1,10,22,103)
+--insert into Statistics_Away_Team values
+--(1105,22301074,1610612740,34,86,13,35,11,18,10,31,22,9,3,9,12,92)
+--insert into Statistics_Away_Team values
+--(1106,22301075,1610612753,38,78,22,44,20,23,5,38,28,8,8,15,16,118)
+--insert into Statistics_Away_Team values
+--(1107,22301076,1610612749,43,78,8,28,28,35,6,34,27,7,5,10,18,122)
+--insert into Statistics_Away_Team values
+--(1108,22301077,1610612743,50,87,21,33,9,13,11,40,36,7,4,16,19,130)
+--insert into Statistics_Away_Team values
+--(1109,22301078,1610612747,42,77,15,40,17,22,6,44,24,8,6,19,15,116)
+--insert into Statistics_Away_Team values
+--(1110,22301079,1610612746,43,75,14,29,30,34,7,34,28,4,5,8,16,130)
+--insert into Statistics_Away_Team values
+--(1111,22301080,1610612761,47,90,11,30,15,20,7,23,31,10,2,12,14,120)
+--insert into Statistics_Away_Team values
+--(1112,22301081,1610612764,40,88,11,38,16,21,7,35,27,6,1,15,22,107)
+--insert into Statistics_Away_Team values
+--(1113,22301082,1610612760,44,82,13,34,12,24,9,34,29,6,8,12,23,113)
+--insert into Statistics_Away_Team values
+--(1114,22301083,1610612745,39,92,13,38,16,19,12,31,22,9,3,10,14,107)
+--insert into Statistics_Away_Team values
+--(1115,22301084,1610612750,38,81,11,37,14,21,8,29,28,12,5,13,10,101)
+--insert into Statistics_Away_Team values
+--(1116,22301085,1610612759,40,89,17,43,16,18,16,29,31,7,5,19,12,113)
+--insert into Statistics_Away_Team values
+--(1117,22301086,1610612762,34,83,16,41,22,28,11,22,22,6,4,12,18,106)
+--insert into Statistics_Away_Team values
+--(1118,22301087,1610612766,41,91,13,37,9,11,8,32,28,3,2,6,15,104)
+--insert into Statistics_Away_Team values
+--(1119,22301088,1610612763,40,91,11,33,19,23,15,29,28,11,9,12,18,110)
+--insert into Statistics_Away_Team values
+--(1120,22301089,1610612754,53,103,13,31,14,17,14,33,35,6,9,9,21,133)
+--insert into Statistics_Away_Team values
+--(1121,22301090,1610612757,40,90,11,31,12,15,11,33,28,9,3,9,21,103)
+--insert into Statistics_Away_Team values
+--(1122,22301091,1610612741,37,94,7,28,20,24,16,35,17,8,2,8,17,101)
+--insert into Statistics_Away_Team values
+--(1123,22301092,1610612756,43,87,18,47,20,25,16,33,29,7,6,12,21,124)
+--insert into Statistics_Away_Team values
+--(1124,22301094,1610612761,43,89,10,32,15,21,5,35,25,11,6,17,19,111)
+--insert into Statistics_Away_Team values
+--(1125,22301095,1610612764,47,93,9,38,14,17,5,39,26,9,2,10,20,117)
+--insert into Statistics_Away_Team values
+--(1126,22301093,1610612755,36,78,14,30,23,25,9,33,27,8,4,16,20,109)
+--insert into Statistics_Away_Team values
+--(1127,22301096,1610612752,35,76,12,34,17,21,7,23,25,11,2,14,17,99)
+--insert into Statistics_Away_Team values
+--(1128,22301098,1610612750,41,77,11,26,20,22,6,33,29,12,5,17,17,113)
+--insert into Statistics_Away_Team values
+--(1129,22301099,1610612759,42,105,13,44,8,16,15,44,33,4,12,7,19,105)
+--insert into Statistics_Away_Team values
+--(1130,22301100,1610612762,41,85,16,37,15,18,7,26,26,7,3,19,22,113)
+--insert into Statistics_Away_Team values
+--(1131,22300589,1610612744,41,90,15,32,7,7,11,41,29,9,4,17,18,104)
+--insert into Statistics_Away_Team values
+--(1132,22301101,1610612758,39,92,12,42,19,25,20,36,29,10,6,10,18,109)
+--insert into Statistics_Away_Team values
+--(1133,22301102,1610612757,37,93,7,26,8,12,14,41,19,4,2,15,19,89)
+--insert into Statistics_Away_Team values
+--(1134,22301103,1610612764,45,91,18,42,12,13,6,33,26,11,4,18,22,120)
+--insert into Statistics_Away_Team values
+--(1135,22301104,1610612765,43,94,10,30,17,21,8,29,24,14,3,10,13,113)
+--insert into Statistics_Away_Team values
+--(1136,22301105,1610612760,35,81,5,24,25,28,5,26,21,8,5,13,11,100)
+--insert into Statistics_Away_Team values
+--(1137,22301106,1610612754,46,103,10,38,9,11,19,26,27,8,9,9,21,111)
+--insert into Statistics_Away_Team values
+--(1138,22301107,1610612749,38,95,18,44,7,12,13,31,26,5,10,11,14,101)
+--insert into Statistics_Away_Team values
+--(1139,22301108,1610612761,33,90,7,30,12,14,10,38,19,4,6,20,15,85)
+--insert into Statistics_Away_Team values
+--(1140,22301109,1610612753,41,80,13,32,22,30,7,32,27,9,2,13,20,117)
+--insert into Statistics_Away_Team values
+--(1141,22301110,1610612756,44,87,18,33,16,17,8,35,32,11,2,15,17,122)
+--insert into Statistics_Away_Team values
+--(1142,22301111,1610612755,43,92,14,40,9,11,8,33,28,11,7,11,15,109)
+--insert into Statistics_Away_Team values
+--(1143,22301112,1610612758,42,86,18,42,7,12,9,26,26,6,3,16,23,109)
+--insert into Statistics_Away_Team values
+--(1144,22301124,1610612742,38,94,18,49,15,17,11,42,20,7,7,14,17,109)
+--insert into Statistics_Away_Team values
+--(1145,22301113,1610612745,36,86,12,40,26,30,12,17,23,11,1,12,19,110)
+--insert into Statistics_Away_Team values
+--(1146,22301114,1610612746,34,90,7,33,27,32,7,41,22,10,2,6,20,102)
+--insert into Statistics_Away_Team values
+--(1147,22301115,1610612753,42,94,9,38,22,26,15,22,24,9,3,10,19,115)
+--insert into Statistics_Away_Team values
+--(1148,22301116,1610612760,42,86,8,30,20,24,9,30,24,8,6,15,17,112)
+--insert into Statistics_Away_Team values
+--(1149,22301117,1610612764,38,88,5,33,21,30,12,33,24,9,5,9,21,102)
+--insert into Statistics_Away_Team values
+--(1150,22301118,1610612758,38,99,17,51,7,13,15,39,21,4,3,7,15,100)
+--insert into Statistics_Away_Team values
+--(1151,22301119,1610612752,36,83,10,29,18,24,9,29,22,9,2,17,15,100)
+--insert into Statistics_Away_Team values
+--(1152,22301120,1610612748,44,89,13,36,18,21,8,40,27,8,4,9,18,119)
+--insert into Statistics_Away_Team values
+--(1153,22301121,1610612763,42,90,10,31,14,16,15,34,24,13,7,20,14,108)
+--insert into Statistics_Away_Team values
+--(1154,22301122,1610612761,36,79,14,36,31,36,9,38,24,9,3,16,18,117)
+--insert into Statistics_Away_Team values
+--(1155,22301123,1610612759,42,83,17,46,10,13,6,28,34,9,8,16,13,111)
+--insert into Statistics_Away_Team values
+--(1156,22301097,1610612744,41,93,12,35,12,18,11,33,27,12,5,15,19,106)
+--insert into Statistics_Away_Team values
+--(1157,22301125,1610612756,33,76,9,26,22,29,7,42,29,12,3,18,19,97)
+--insert into Statistics_Away_Team values
+--(1158,22301126,1610612762,35,91,9,30,23,29,14,29,20,11,4,15,16,102)
+--insert into Statistics_Away_Team values
+--(1159,22301127,1610612747,45,80,16,37,10,16,6,34,30,11,11,17,12,116)
+--insert into Statistics_Away_Team values
+--(1160,22301128,1610612765,42,92,17,39,2,4,5,23,25,9,2,7,24,103)
+--insert into Statistics_Away_Team values
+--(1161,22301129,1610612755,41,79,16,39,18,23,9,32,27,12,9,19,22,116)
+--insert into Statistics_Away_Team values
+--(1162,22301130,1610612743,53,88,23,41,13,16,6,41,38,9,7,15,21,142)
+--insert into Statistics_Away_Team values
+--(1163,22301131,1610612745,46,93,17,41,27,35,4,28,31,11,6,10,34,136)
+--insert into Statistics_Away_Team values
+--(1164,22301132,1610612746,41,84,14,35,24,24,11,37,26,5,2,15,22,120)
+--insert into Statistics_Away_Team values
+--(1165,22301133,1610612748,39,84,8,27,29,32,8,31,21,3,2,7,22,115)
+--insert into Statistics_Away_Team values
+--(1166,22301134,1610612757,40,102,14,38,13,13,22,31,26,8,2,14,12,107)
+--insert into Statistics_Away_Team values
+--(1167,22301135,1610612760,45,87,18,36,13,17,10,26,33,14,4,16,17,121)
+--insert into Statistics_Away_Team values
+--(1168,22301136,1610612753,42,90,11,34,18,19,10,30,24,12,4,10,17,113)
+--insert into Statistics_Away_Team values
+--(1169,22301137,1610612764,42,89,16,40,22,30,8,35,29,9,11,15,25,122)
+--insert into Statistics_Away_Team values
+--(1170,22301138,1610612756,39,87,14,39,13,14,9,29,30,7,8,15,17,105)
+--insert into Statistics_Away_Team values
+--(1171,22301139,1610612752,45,92,14,29,18,22,13,28,25,9,6,5,22,122)
+--insert into Statistics_Away_Team values
+--(1172,22301140,1610612759,44,98,16,44,22,26,14,45,31,5,11,25,17,126)
+--insert into Statistics_Away_Team values
+--(1173,22301141,1610612758,40,94,15,48,12,16,11,43,31,8,12,9,17,107)
+--insert into Statistics_Away_Team values
+--(1174,22301142,1610612762,39,83,15,35,17,21,6,23,21,4,6,11,9,110)
+--insert into Statistics_Away_Team values
+--(1175,22301143,1610612750,50,97,15,39,12,14,13,33,29,12,3,14,20,127)
+--insert into Statistics_Away_Team values
+--(1176,22301144,1610612742,50,93,17,50,13,20,16,39,35,6,7,14,19,130)
+--insert into Statistics_Away_Team values
+--(1177,22301145,1610612755,44,98,13,37,19,23,16,35,29,11,8,7,18,120)
+--insert into Statistics_Away_Team values
+--(1178,22301146,1610612761,47,94,5,21,24,33,16,24,21,8,6,15,20,123)
+--insert into Statistics_Away_Team values
+--(1179,22301147,1610612748,42,88,18,45,15,21,5,41,29,8,3,18,16,117)
+--insert into Statistics_Away_Team values
+--(1180,22301148,1610612749,43,81,17,36,1,2,10,39,29,6,5,16,4,104)
+--insert into Statistics_Away_Team values
+--(1181,22301149,1610612752,46,83,17,36,19,20,6,25,31,6,4,10,15,128)
+--insert into Statistics_Away_Team values
+--(1182,22301150,1610612753,39,86,7,24,21,23,10,32,23,9,6,14,15,106)
+--insert into Statistics_Away_Team values
+--(1183,22301151,1610612759,42,87,10,40,8,8,10,41,30,5,11,16,12,102)
+--insert into Statistics_Away_Team values
+--(1184,22301152,1610612764,44,89,20,43,13,17,7,34,26,5,4,13,22,121)
+--insert into Statistics_Away_Team values
+--(1185,22301153,1610612758,33,96,20,58,19,26,21,35,23,8,4,17,22,105)
+--insert into Statistics_Away_Team values
+--(1186,22301154,1610612762,36,91,10,31,13,13,11,33,19,5,2,14,9,95)
+--insert into Statistics_Away_Team values
+--(1187,22301155,1610612747,44,96,12,35,20,24,10,30,31,8,3,7,14,120)
+--insert into Statistics_Away_Team values
+--(1188,22301156,1610612756,30,89,8,35,24,28,8,30,17,16,7,8,13,92)
+--insert into Statistics_Away_Team values
+--(1189,22301157,1610612757,40,85,13,38,7,8,13,34,28,3,3,21,19,100)
+--insert into Statistics_Away_Team values
+--(1190,22301158,1610612763,33,84,14,32,18,19,10,34,21,10,10,13,21,98)
+--insert into Statistics_Away_Team values
+--(1191,22301159,1610612766,40,79,14,36,21,22,5,28,25,11,2,13,18,115)
+--insert into Statistics_Away_Team values
+--(1192,22301160,1610612761,35,94,16,40,16,18,15,30,19,8,5,9,22,102)
+--insert into Statistics_Away_Team values
+--(1193,22301161,1610612748,33,81,13,30,13,13,12,34,22,3,1,15,16,92)
+--insert into Statistics_Away_Team values
+--(1194,22301162,1610612753,36,78,11,30,16,23,5,29,19,6,1,15,15,99)
+--insert into Statistics_Away_Team values
+--(1195,22301163,1610612759,32,96,9,40,16,20,4,43,24,8,4,15,14,89)
+--insert into Statistics_Away_Team values
+--(1196,22301164,1610612750,41,82,13,30,12,21,9,26,23,9,5,9,21,107)
+--insert into Statistics_Away_Team values
+--(1197,22301165,1610612756,46,95,18,50,14,15,9,39,29,8,6,13,13,124)
+--insert into Statistics_Away_Team values
+--(1198,22301166,1610612765,38,77,14,35,15,23,7,31,27,4,2,20,12,105)
+--insert into Statistics_Away_Team values
+--(1199,22301167,1610612752,49,99,14,36,6,10,17,35,24,7,4,12,12,118)
+--insert into Statistics_Away_Team values
+--(1200,22301168,1610612762,44,87,14,39,22,27,15,34,27,8,7,14,20,124)
+--insert into Statistics_Away_Team values
+--(1201,22301169,1610612757,35,97,8,34,14,17,20,29,22,9,3,12,18,92)
+--insert into Statistics_Away_Team values
+--(1202,22301170,1610612758,46,84,16,38,15,20,5,27,26,7,0,14,17,123)
+--insert into Statistics_Away_Team values
+--(1203,22301171,1610612755,42,88,18,37,23,28,8,36,22,6,6,11,20,125)
+--insert into Statistics_Away_Team values
+--(1204,22301172,1610612764,45,86,18,43,19,29,4,35,32,6,5,12,22,127)
+--insert into Statistics_Away_Team values
+--(1205,22301173,1610612766,32,76,15,35,19,22,4,29,20,3,7,19,15,98)
+--insert into Statistics_Away_Team values
+--(1206,22301174,1610612754,46,89,9,32,19,22,7,32,37,7,2,13,17,120)
+--insert into Statistics_Away_Team values
+--(1207,22301175,1610612752,38,83,14,30,21,25,8,23,21,10,3,5,15,111)
+--insert into Statistics_Away_Team values
+--(1208,22301176,1610612761,37,77,10,31,19,22,7,34,23,1,1,17,21,103)
+--insert into Statistics_Away_Team values
+--(1209,22301177,1610612763,43,95,17,39,17,21,16,26,19,14,2,13,27,120)
+--insert into Statistics_Away_Team values
+--(1210,22301178,1610612750,38,79,10,37,23,29,7,37,29,8,11,14,22,109)
+--insert into Statistics_Away_Team values
+--(1211,22301179,1610612760,47,89,13,38,18,20,8,30,29,13,5,10,12,125)
+--insert into Statistics_Away_Team values
+--(1212,22301180,1610612759,45,85,15,33,16,23,11,38,31,2,4,18,13,121)
+--insert into Statistics_Away_Team values
+--(1213,22301181,1610612765,46,95,8,31,7,9,6,34,23,11,7,6,10,107)
+--insert into Statistics_Away_Team values
+--(1214,22301182,1610612740,42,90,20,38,10,16,5,33,24,11,5,8,13,114)
+--insert into Statistics_Away_Team values
+--(1215,22301183,1610612757,37,95,12,35,21,29,16,32,20,4,5,7,14,107)
+--insert into Statistics_Away_Team values
+--(1216,22301184,1610612762,41,88,6,35,22,25,14,32,26,7,4,16,14,110)
+--insert into Statistics_Away_Team values
+--(1217,22301185,1610612758,40,91,14,38,13,14,9,26,26,12,1,7,19,107)
+--insert into Statistics_Away_Team values
+--(1218,22301186,1610612764,49,103,14,38,10,10,8,28,33,9,4,11,16,122)
+--insert into Statistics_Away_Team values
+--(1219,22301187,1610612739,44,93,16,33,6,9,12,31,30,4,1,14,8,110)
+--insert into Statistics_Away_Team values
+--(1220,22301188,1610612754,65,100,19,36,8,10,12,36,41,10,6,14,24,157)
+--insert into Statistics_Away_Team values
+--(1221,22301189,1610612761,38,90,9,34,18,21,13,28,23,6,3,19,21,103)
+--insert into Statistics_Away_Team values
+--(1222,22301190,1610612752,46,91,12,32,16,21,16,37,27,7,6,21,17,120)
+--insert into Statistics_Away_Team values
+--(1223,22301191,1610612753,42,85,11,35,18,19,7,36,27,11,5,11,18,113)
+--insert into Statistics_Away_Team values
+--(1224,22301192,1610612755,41,96,14,44,11,15,13,44,30,8,6,12,16,107)
+--insert into Statistics_Away_Team values
+--(1225,22301193,1610612763,45,100,8,33,13,18,16,27,22,9,2,13,18,111)
+--insert into Statistics_Away_Team values
+--(1226,22301194,1610612756,47,86,16,29,15,18,13,19,28,13,3,12,24,125)
+--insert into Statistics_Away_Team values
+--(1227,22301195,1610612740,41,86,15,37,11,14,10,29,26,8,1,19,17,108)
+--insert into Statistics_Away_Team values
+--(1228,22301196,1610612760,54,97,14,34,13,16,11,47,38,6,6,14,17,135)
+--insert into Statistics_Away_Team values
+--(1229,22301197,1610612759,49,91,15,34,10,14,12,42,33,9,3,13,17,123)
+--insert into Statistics_Away_Team values
+--(1230,22301198,1610612762,46,89,14,34,10,16,14,34,22,6,5,19,20,116)
+--insert into Statistics_Away_Team values
+--(1231,22301199,1610612746,41,104,8,37,15,17,16,35,23,13,8,12,14,105)
+--insert into Statistics_Away_Team values
+--(1232,22301200,1610612758,43,87,13,34,22,27,13,38,29,11,6,14,19,121)
+
+--delete from Statistics_Home_Team
+
+--insert into Statistics_Home_Team values
+--(1,22300061,1610612743,48,91,14,34,9,12,9,33,29,9,6,11,15,119),
+--(2,22300062,1610612744,36,101,10,43,22,28,18,31,19,11,6,11,23,104),
+--(3,22300063,1610612737,39,93,5,29,27,33,12,30,24,12,1,12,19,110),
+--(4,22300064,1610612754,56,107,20,43,11,12,10,41,38,10,8,12,23,143),
+--(5,22300065,1610612738,37,77,12,39,22,26,7,39,18,6,11,13,22,108),
+--(6,22300066,1610612745,32,79,12,34,10,16,7,24,19,6,3,18,24,86),
+--(7,22300067,1610612751,42,84,9,27,20,26,13,37,30,6,6,17,16,113),
+--(8,22300068,1610612765,41,92,11,32,9,15,17,39,28,3,13,16,23,102),
+--(9,22300069,1610612750,34,100,8,31,18,22,16,46,20,8,9,14,14,94),
+--(10,22300070,1610612741,39,94,12,42,14,18,13,29,26,10,3,12,16,104),
+--(11,22300071,1610612763,38,91,12,43,16,20,8,29,23,8,7,13,19,104),
+--(12,22300072,1610612758,47,102,19,51,17,20,15,30,29,6,8,11,25,130),
+--(13,22300073,1610612742,47,99,15,47,17,23,13,35,24,6,3,12,20,126),
+--(14,22300074,1610612746,47,90,16,34,13,16,14,31,36,11,7,17,20,123),
+--(15,22300075,1610612749,41,81,11,30,25,36,8,35,20,9,4,14,23,118),
+--(16,22300076,1610612747,36,84,5,29,23,29,8,34,24,14,7,16,23,100),
+--(17,22300077,1610612766,33,88,7,28,26,34,11,30,20,13,7,18,23,99),
+--(18,22300078,1610612743,41,88,14,37,12,18,6,33,27,11,9,17,18,108),
+--(19,22300079,1610612737,42,87,12,32,24,30,9,35,28,7,6,14,20,120),
+--(20,22300080,1610612738,45,95,16,39,13,19,16,39,20,7,6,15,19,119),
+--(21,22300081,1610612739,38,92,12,45,17,23,8,40,20,10,8,13,16,105),
+--(22,22300082,1610612741,37,99,8,39,22,28,15,37,18,10,5,16,22,104),
+--(23,22300083,1610612745,52,100,8,32,10,20,11,32,30,7,2,18,26,122),
+--(24,22300084,1610612751,45,92,21,43,9,10,10,37,30,5,4,15,28,120),
+--(25,22300085,1610612746,41,77,14,35,22,28,6,30,17,8,6,14,22,118),
+--(26,22300086,1610612753,36,79,9,28,21,32,10,35,22,10,5,14,16,102),
+--(27,22300087,1610612744,48,87,14,32,12,14,7,32,32,14,3,19,24,122),
+--(28,22300088,1610612741,39,93,11,28,13,16,13,20,16,10,5,8,20,102),
+--(29,22300089,1610612763,39,91,19,47,9,9,6,39,27,7,8,16,21,106),
+--(30,22300090,1610612740,40,87,9,33,7,16,4,39,20,8,5,13,22,96),
+--(31,22300091,1610612739,43,100,12,31,15,24,19,33,29,2,6,6,16,113),
+--(32,22300092,1610612755,43,86,10,28,18,21,9,33,25,8,7,9,18,114),
+--(33,22300093,1610612748,35,87,12,38,8,14,9,33,24,6,1,14,12,90),
+--(34,22300094,1610612756,45,85,10,37,26,28,7,32,31,10,7,11,19,126),
+--(35,22300095,1610612743,53,88,11,27,11,13,10,38,34,8,5,13,21,128),
+--(36,22300096,1610612744,35,81,18,45,18,23,8,41,27,6,6,14,18,106),
+--(37,22300097,1610612737,47,93,15,37,18,22,13,33,32,15,2,17,17,127),
+--(38,22300098,1610612755,40,82,11,28,35,40,11,40,28,10,17,15,20,126),
+--(39,22300099,1610612746,47,91,16,42,13,21,9,39,23,15,5,16,16,123),
+--(40,22300100,1610612747,43,98,15,45,26,34,8,45,27,4,4,12,22,127),
+--(41,22300101,1610612751,49,87,12,33,23,32,10,36,25,4,8,13,19,133),
+--(42,22300102,1610612741,40,87,6,17,26,31,10,34,19,8,6,13,17,112),
+--(43,22300103,1610612738,51,102,19,53,5,7,15,36,31,11,6,17,21,126),
+--(44,22300104,1610612737,48,86,14,30,17,18,4,32,28,6,7,9,12,127),
+--(45,22300105,1610612757,38,85,11,35,12,15,13,38,20,6,7,14,19,99),
+--(46,22300106,1610612742,42,84,23,47,18,24,6,42,24,4,7,15,17,125),
+--(47,22300107,1610612748,41,86,13,34,19,20,7,33,27,7,2,14,20,114),
+--(48,22300108,1610612744,51,98,15,41,13,20,21,43,28,6,7,14,21,130),
+--(49,22300109,1610612765,39,91,15,28,19,24,13,28,31,6,5,16,25,112),
+--(50,22300110,1610612743,47,84,9,28,7,17,7,36,32,4,8,12,14,110),
+--(51,22300111,1610612747,42,79,8,27,14,18,3,37,28,7,10,16,17,106),
+--(52,22300112,1610612739,36,92,10,38,9,12,14,32,19,6,6,15,19,91),
+--(53,22300113,1610612756,42,83,18,39,12,15,6,37,29,8,7,19,18,114),
+--(54,22300114,1610612746,44,89,14,31,16,23,9,35,29,10,4,16,26,118),
+--(55,22300115,1610612765,40,90,11,29,10,11,6,32,24,12,4,18,31,101),
+--(56,22300116,1610612749,35,76,13,34,28,38,7,22,19,9,2,12,17,111),
+--(57,22300117,1610612737,46,92,9,32,29,32,14,43,26,8,3,20,16,130),
+--(58,22300118,1610612738,54,95,20,35,27,28,11,46,27,5,2,11,19,155),
+--(59,22300119,1610612751,37,82,16,36,19,26,7,40,27,11,4,18,18,109),
+--(60,22300120,1610612739,32,74,12,32,19,20,6,40,22,7,5,18,27,95),
+--(61,22300121,1610612740,40,102,13,42,17,29,22,36,23,8,5,10,20,110),
+--(62,22300122,1610612766,45,90,11,27,18,25,15,29,21,9,8,16,19,119),
+--(63,22300123,1610612743,38,96,6,33,7,10,12,31,23,6,10,15,22,89),
+--(64,22300124,1610612741,42,89,11,33,10,11,12,31,19,10,3,13,23,105),
+--(65,22300125,1610612763,35,96,14,54,25,32,14,28,25,12,7,15,22,109),
+--(66,22300126,1610612744,39,81,11,31,13,15,7,29,32,5,6,17,17,102),
+--(67,22300127,1610612746,47,99,14,34,17,27,12,34,22,12,1,13,31,125),
+--(68,22300128,1610612755,42,92,9,25,21,25,15,31,21,12,3,14,19,114),
+--(69,22300129,1610612765,41,94,13,38,21,26,19,29,30,4,5,16,31,116),
+--(70,22300130,1610612753,39,85,10,29,27,36,10,33,27,17,9,17,25,115),
+--(71,22300131,1610612756,43,80,16,32,19,26,5,29,26,5,4,14,15,121),
+--(72,22300001,1610612739,44,84,8,28,20,25,5,30,27,10,9,13,20,116),
+--(73,22300002,1610612749,35,82,20,39,20,28,7,34,24,6,11,14,16,110),
+--(74,22300003,1610612748,48,80,13,27,12,14,7,30,35,9,1,19,18,121),
+--(75,22300004,1610612751,44,96,18,45,3,5,8,31,32,4,4,8,12,109),
+--(76,22300005,1610612744,49,92,18,40,25,30,13,25,36,9,2,15,25,141),
+--(77,22300006,1610612742,41,86,17,42,15,17,10,24,27,12,6,15,19,114),
+--(78,22300007,1610612763,47,96,10,35,9,13,7,41,29,8,10,17,25,113),
+--(79,22300132,1610612755,43,90,11,30,15,18,15,36,24,5,6,17,24,112),
+--(80,22300133,1610612766,47,88,8,20,23,23,12,29,23,5,10,13,20,125),
+--(81,22300134,1610612747,37,84,8,30,19,21,10,30,17,6,10,17,21,101),
+--(82,22300135,1610612737,45,93,14,41,19,24,19,33,28,4,6,11,16,123),
+--(83,22300136,1610612751,43,100,17,52,11,17,10,32,22,4,5,5,21,114),
+--(84,22300137,1610612745,40,87,13,36,14,20,10,43,28,4,3,11,18,107),
+--(85,22300138,1610612750,45,81,9,24,24,31,9,34,25,10,11,10,23,123),
+--(86,22300139,1610612741,39,86,7,26,16,23,9,28,28,7,3,11,19,101),
+--(87,22300140,1610612765,43,87,8,23,12,14,10,23,25,7,6,16,23,106),
+--(88,22300141,1610612759,48,96,10,32,10,13,9,37,30,7,7,17,21,116),
+--(89,22300142,1610612739,41,83,11,37,22,28,13,41,26,8,2,18,21,115),
+--(90,22300143,1610612766,49,99,8,30,12,21,10,33,30,5,2,8,25,118),
+--(91,22300144,1610612763,45,89,13,32,9,13,10,39,27,6,7,16,18,112),
+--(92,22300145,1610612765,38,80,13,30,20,21,7,32,23,8,2,14,20,109),
+--(93,22300146,1610612754,55,95,20,38,22,23,9,40,38,7,4,14,24,152),
+--(94,22300147,1610612742,41,82,15,40,20,28,5,26,21,9,6,14,20,117),
+--(95,22300148,1610612755,51,91,12,31,32,36,10,35,37,12,7,15,15,146),
+--(96,22300149,1610612751,49,101,16,45,11,13,11,35,22,2,4,8,16,125),
+--(97,22300150,1610612747,44,81,8,26,11,14,5,33,28,6,5,17,17,107),
+--(98,22300151,1610612746,36,73,11,32,14,16,7,24,21,8,3,22,15,97),
+--(99,22300152,1610612741,48,93,18,34,16,19,10,26,26,12,3,8,18,130),
+--(100,22300153,1610612745,43,75,15,31,21,27,5,34,28,8,4,10,19,122),
+--(101,22300154,1610612738,36,92,11,39,26,34,11,34,20,13,2,16,26,109),
+--(102,22300155,1610612737,38,102,14,42,27,32,25,34,27,8,3,15,16,117),
+--(103,22300156,1610612743,51,95,15,39,17,23,11,34,37,6,5,9,16,134),
+--(104,22300157,1610612766,41,79,8,25,26,35,11,36,17,8,5,20,22,116),
+--(105,22300158,1610612754,52,101,13,41,17,20,14,32,26,14,7,11,15,134),
+--(106,22300159,1610612738,36,91,15,47,16,19,9,34,28,8,6,12,13,103),
+--(107,22300160,1610612751,37,92,15,41,11,13,14,35,22,10,10,14,14,100),
+--(108,22300161,1610612752,46,100,19,42,15,22,13,34,28,7,0,3,14,126),
+--(109,22300162,1610612741,42,96,14,33,17,23,9,30,30,12,7,14,22,115),
+--(110,22300163,1610612745,51,93,14,33,12,19,14,43,26,4,4,11,23,128),
+--(111,22300164,1610612763,35,90,11,37,21,28,13,25,20,10,4,13,27,102),
+--(112,22300165,1610612765,48,98,7,29,15,16,11,42,28,2,5,17,24,118),
+--(113,22300166,1610612750,45,82,15,37,17,24,8,40,30,9,7,16,23,122),
+--(114,22300167,1610612739,42,83,9,29,27,37,11,30,26,9,5,18,24,120),
+--(115,22300168,1610612742,40,84,17,41,19,31,6,32,25,4,6,15,21,116),
+--(116,22300169,1610612743,41,92,11,35,15,22,10,35,24,7,4,6,20,108),
+--(117,22300170,1610612757,44,87,8,22,22,29,7,29,26,10,5,18,29,118),
+--(118,22300171,1610612754,44,92,20,48,18,20,9,31,27,6,6,11,25,126),
+--(119,22300172,1610612737,41,85,15,39,23,30,8,28,22,13,7,17,25,120),
+--(120,22300008,1610612765,40,86,8,28,18,22,11,37,28,3,5,16,26,106),
+--(121,22300009,1610612766,50,110,6,28,18,28,28,39,31,10,4,9,19,124),
+--(122,22300010,1610612751,38,85,15,37,16,18,9,37,26,0,3,10,25,107),
+--(123,22300011,1610612745,36,88,10,35,22,28,9,33,20,9,5,9,22,104),
+--(124,22300012,1610612763,46,101,19,48,10,13,14,23,23,5,5,11,23,121),
+--(125,22300013,1610612750,43,87,10,27,21,27,13,38,23,6,4,18,19,117),
+--(126,22300014,1610612742,51,98,19,42,23,26,15,26,30,7,1,8,23,144),
+--(127,22300015,1610612747,42,84,12,27,26,34,9,34,27,9,7,11,20,122),
+--(128,22300016,1610612760,39,87,7,30,13,16,5,33,22,9,5,16,15,98),
+--(129,22300173,1610612749,38,77,9,29,12,25,5,31,25,9,6,19,24,97),
+--(130,22300174,1610612738,47,86,15,44,8,13,5,41,30,1,4,12,14,117),
+--(131,22300175,1610612737,38,87,18,46,15,18,15,33,23,6,6,21,19,109),
+--(132,22300176,1610612739,37,86,11,30,33,43,11,34,23,13,3,10,24,118),
+--(133,22300177,1610612766,44,94,12,35,7,11,15,21,21,5,4,12,25,107),
+--(134,22300178,1610612751,37,98,12,49,16,20,20,46,22,6,6,18,18,102),
+--(135,22300179,1610612746,37,85,12,34,15,23,8,33,26,9,3,14,23,101),
+--(136,22300180,1610612754,47,90,16,39,16,19,8,24,31,8,9,10,14,126),
+--(137,22300181,1610612741,44,91,11,30,20,25,11,29,22,12,6,6,21,119),
+--(138,22300182,1610612743,42,91,9,32,11,14,12,37,24,3,5,11,20,104),
+--(139,22300183,1610612742,50,102,20,53,16,21,8,34,29,7,6,6,19,136),
+--(140,22300184,1610612748,39,89,12,31,28,30,11,30,26,7,3,4,12,118),
+--(141,22300185,1610612760,40,82,10,27,21,25,6,27,23,9,8,7,21,111),
+--(142,22300186,1610612744,37,96,12,43,24,28,19,32,24,9,0,14,28,110),
+--(143,22300187,1610612747,41,84,4,19,30,37,7,34,27,8,4,9,11,116),
+--(144,22300188,1610612738,40,79,19,43,15,16,8,29,27,3,3,11,22,114),
+--(145,22300189,1610612761,45,90,4,20,17,25,16,32,28,11,4,16,13,111),
+--(146,22300190,1610612741,38,100,14,42,19,21,18,29,24,9,7,6,25,109),
+--(147,22300191,1610612739,45,91,16,35,14,17,14,25,24,3,1,11,18,120),
+--(148,22300017,1610612766,36,81,15,32,18,22,13,32,21,6,0,18,21,105),
+--(149,22300018,1610612737,45,87,12,33,24,26,10,31,28,9,7,14,19,126),
+--(150,22300019,1610612754,48,93,13,37,23,33,10,31,32,7,5,11,28,132),
+--(151,22300020,1610612751,46,85,19,39,13,20,13,31,22,13,3,15,24,124),
+--(152,22300021,1610612760,46,89,15,39,16,20,4,36,34,19,6,15,17,123),
+--(153,22300022,1610612742,38,90,14,42,20,26,16,29,25,4,3,20,16,110),
+--(154,22300023,1610612757,37,88,11,35,14,20,13,30,23,5,6,17,15,99),
+--(155,22300024,1610612743,39,73,8,23,25,32,6,30,26,4,2,14,19,111),
+--(156,22300025,1610612744,37,88,13,39,14,16,13,33,28,11,2,19,22,101),
+--(157,22300026,1610612747,47,81,22,35,18,24,10,44,30,4,10,18,13,134),
+--(158,22300192,1610612742,48,92,17,42,17,29,9,37,32,6,4,10,16,130),
+--(159,22300193,1610612737,41,75,12,31,20,26,6,24,28,11,6,15,20,114),
+--(160,22300194,1610612738,42,88,18,50,15,19,12,33,23,7,8,9,15,117),
+--(161,22300195,1610612749,44,85,20,39,20,21,9,32,25,8,9,13,25,128),
+--(162,22300196,1610612741,33,83,9,33,19,22,14,39,16,7,4,19,25,94),
+--(163,22300197,1610612750,42,92,5,27,26,28,16,24,18,8,5,6,14,115),
+--(164,22300198,1610612747,42,83,11,29,15,19,7,36,25,12,6,23,17,110),
+--(165,22300199,1610612739,42,75,9,30,16,21,7,40,23,5,9,17,16,109),
+--(166,22300200,1610612751,40,85,14,36,21,27,10,30,29,5,3,14,20,115),
+--(167,22300201,1610612744,40,98,14,41,15,19,20,29,27,5,4,16,19,109),
+--(168,22300027,1610612766,37,91,6,26,19,22,9,34,18,5,2,12,14,99),
+--(169,22300028,1610612752,45,91,16,38,14,20,14,34,26,5,6,10,21,120),
+--(170,22300029,1610612737,40,89,12,33,24,30,14,25,24,8,4,13,20,116),
+--(171,22300030,1610612739,42,82,9,21,15,21,7,32,21,9,6,12,9,108),
+--(172,22300031,1610612738,42,92,16,46,8,9,8,36,29,5,4,10,13,108),
+--(173,22300032,1610612758,46,85,18,42,19,24,4,38,31,10,2,13,22,129),
+--(174,22300033,1610612741,35,79,10,29,17,22,5,29,19,10,3,16,21,97),
+--(175,22300034,1610612743,47,96,10,40,6,12,11,40,37,4,3,13,20,110),
+--(176,22300035,1610612756,45,86,18,33,23,26,5,31,35,5,4,8,22,131),
+--(177,22300036,1610612747,40,81,12,29,15,22,11,33,27,11,6,18,16,107),
+--(178,22300037,1610612745,38,88,10,31,14,20,12,35,24,6,5,16,28,100),
+--(179,22300202,1610612766,40,82,17,35,11,13,4,32,29,5,5,13,22,108),
+--(180,22300203,1610612750,43,80,13,31,22,27,5,28,29,6,7,14,21,121),
+--(181,22300204,1610612741,36,81,16,45,14,19,10,34,24,9,6,12,22,102),
+--(182,22300205,1610612742,51,103,16,47,7,10,11,38,27,1,2,12,16,125),
+--(183,22300206,1610612763,40,86,11,33,29,36,12,33,23,7,3,12,25,120),
+--(184,22300207,1610612744,44,97,18,46,17,21,14,35,33,6,4,16,18,123),
+--(185,22300208,1610612751,38,81,11,28,12,16,9,36,24,2,8,15,14,99),
+--(186,22300211,1610612765,39,83,9,26,26,35,7,34,25,3,3,17,23,113),
+--(187,22300209,1610612754,42,95,8,31,24,31,11,29,24,10,7,16,32,116),
+--(188,22300210,1610612739,45,82,11,27,20,26,11,36,30,6,5,13,18,121),
+--(189,22300212,1610612742,41,88,12,34,19,26,11,29,23,8,2,10,15,113),
+--(190,22300213,1610612738,35,77,12,31,20,25,9,36,20,6,10,17,19,102),
+--(191,22300214,1610612756,50,102,18,45,22,26,11,33,36,11,13,17,28,140),
+--(192,22300215,1610612760,49,81,22,36,14,14,10,33,28,8,3,17,18,134),
+--(193,22300216,1610612745,41,84,14,37,8,10,6,28,35,7,3,18,25,104),
+--(194,22300217,1610612738,42,97,16,50,18,28,11,37,19,6,8,13,15,118),
+--(195,22300218,1610612743,40,87,11,28,16,21,11,32,30,7,8,14,17,107),
+--(196,22300219,1610612749,55,94,11,29,21,28,16,39,33,3,6,13,13,142),
+--(197,22300220,1610612741,37,81,11,37,15,16,7,29,21,2,7,11,16,100),
+--(198,22300221,1610612750,41,80,11,34,24,32,7,37,30,7,7,13,26,117),
+--(199,22300222,1610612740,50,92,12,28,17,21,10,45,38,8,6,10,19,129),
+--(200,22300223,1610612746,45,95,12,36,22,25,10,41,30,15,3,7,10,124),
+--(201,22300224,1610612744,36,77,21,43,28,33,8,35,26,3,1,8,21,121),
+--(202,22300038,1610612753,50,100,12,31,14,20,15,25,31,12,8,12,19,126),
+--(203,22300039,1610612737,57,95,15,31,23,28,12,27,28,8,4,15,23,152),
+--(204,22300040,1610612739,46,94,9,25,21,25,14,42,33,9,4,15,21,122),
+--(205,22300041,1610612756,43,76,7,17,27,28,11,27,26,8,8,13,18,120),
+--(206,22300042,1610612747,49,86,11,29,22,27,9,43,35,6,5,13,15,131),
+--(207,22300225,1610612766,43,91,16,37,15,21,11,38,27,6,4,12,15,117),
+--(208,22300226,1610612743,44,93,15,35,16,21,17,25,29,6,2,10,25,119),
+--(209,22300227,1610612737,51,116,18,49,27,29,22,36,24,10,8,14,18,147),
+--(210,22300228,1610612738,44,84,17,42,14,17,4,39,27,3,5,15,15,119),
+--(211,22300229,1610612739,36,77,14,30,10,14,7,27,25,5,6,19,17,96),
+--(212,22300230,1610612754,50,91,18,39,13,16,5,26,33,10,6,14,24,131),
+--(213,22300231,1610612745,40,92,14,43,17,20,6,43,22,6,6,6,22,111),
+--(214,22300232,1610612750,43,89,10,26,16,24,10,38,28,10,8,12,21,112),
+--(215,22300233,1610612740,41,87,7,30,28,37,13,35,23,10,2,10,28,117),
+--(216,22300234,1610612741,34,88,17,44,17,17,11,27,22,7,2,10,26,102),
+--(217,22300235,1610612746,39,85,9,28,22,29,11,39,29,10,3,16,23,109),
+--(218,22300236,1610612744,43,90,10,32,19,29,11,32,29,10,3,15,34,115),
+--(219,22300237,1610612757,47,92,17,39,10,15,14,23,31,9,6,13,21,121),
+--(220,22300238,1610612742,38,96,16,50,12,16,11,37,21,5,4,4,18,104),
+--(221,22300043,1610612738,31,76,7,29,27,37,4,27,17,10,4,14,18,96),
+--(222,22300044,1610612763,37,80,9,33,6,10,6,29,22,6,2,13,22,89),
+--(223,22300045,1610612748,34,87,10,37,20,21,10,31,20,11,0,11,19,98),
+--(224,22300046,1610612741,42,82,12,27,12,19,9,28,20,5,2,12,20,108),
+--(225,22300047,1610612765,43,90,7,18,20,24,14,29,22,6,11,14,18,113),
+--(226,22300048,1610612743,32,94,7,30,15,21,16,30,17,8,4,15,14,86),
+--(227,22300049,1610612749,48,92,9,31,26,33,10,40,28,6,6,9,22,131),
+--(228,22300050,1610612750,36,82,12,33,27,29,10,34,25,6,9,18,18,111),
+--(229,22300051,1610612744,40,81,19,42,19,24,7,34,35,7,2,24,21,118),
+--(230,22300052,1610612746,42,92,11,37,11,17,8,31,27,11,8,11,24,106),
+--(231,22300239,1610612760,43,98,16,43,21,26,13,25,29,3,3,4,27,123),
+--(232,22300240,1610612751,39,78,14,36,20,23,8,34,27,11,9,11,18,112),
+--(233,22300241,1610612737,52,102,18,37,14,20,17,32,29,13,2,9,15,136),
+--(234,22300242,1610612739,43,91,9,28,20,23,7,30,30,13,4,14,16,115),
+--(235,22300243,1610612740,39,93,11,36,11,18,13,29,31,15,4,13,17,100),
+--(236,22300244,1610612742,34,91,9,38,11,14,10,27,17,6,5,9,24,88),
+--(237,22300245,1610612749,35,89,14,42,24,32,18,34,19,13,11,17,20,108),
+--(238,22300246,1610612737,36,88,19,53,12,19,11,32,15,5,4,15,17,103),
+--(239,22300247,1610612752,39,86,12,29,23,32,13,25,18,7,5,6,19,113),
+--(240,22300248,1610612766,44,83,13,30,16,25,5,31,27,6,7,18,26,117),
+--(241,22300249,1610612763,34,88,10,37,19,27,11,24,24,4,4,13,18,97),
+--(242,22300250,1610612751,41,83,25,53,11,15,8,31,29,7,2,9,19,118),
+--(243,22300251,1610612739,45,97,10,31,5,6,12,37,29,2,5,14,18,105),
+--(244,22300252,1610612743,50,89,12,28,20,25,11,34,38,8,3,19,25,132),
+--(245,22300253,1610612765,43,102,8,38,13,19,18,31,29,7,11,16,22,107),
+--(246,22300254,1610612754,42,88,8,33,18,24,10,32,26,10,6,20,24,110),
+--(247,22300255,1610612747,39,83,7,28,9,13,6,26,23,3,4,17,18,94),
+--(248,22300256,1610612740,44,88,7,22,17,25,11,37,27,5,1,8,25,112),
+--(249,22300257,1610612743,44,92,10,22,15,28,18,34,28,8,6,11,22,113),
+--(250,22300053,1610612738,47,90,21,49,9,12,11,41,36,6,9,16,18,124),
+--(251,22300054,1610612751,40,89,13,38,22,26,13,46,26,7,8,15,17,115),
+--(252,22300055,1610612737,35,101,13,44,22,24,14,30,21,9,3,10,16,105),
+--(253,22300056,1610612748,48,94,14,30,14,21,8,27,32,3,5,6,22,124),
+--(254,22300057,1610612766,37,89,13,31,4,7,13,28,21,8,2,17,14,91),
+--(255,22300058,1610612750,33,78,14,33,26,32,10,41,18,3,9,19,17,106),
+--(256,22300059,1610612742,42,89,12,34,25,29,9,29,25,5,4,7,25,121),
+--(257,22300060,1610612744,40,83,17,41,26,30,9,43,25,6,6,18,31,123),
+--(258,22300258,1610612765,40,97,15,36,12,14,10,29,28,8,3,14,31,107),
+--(259,22300259,1610612753,51,84,17,27,20,24,9,35,34,5,6,18,22,139),
+--(260,22300260,1610612756,38,94,7,26,22,23,12,35,25,3,5,9,15,105),
+--(261,22300261,1610612763,43,87,13,39,6,8,12,39,26,9,10,15,15,105),
+--(262,22300262,1610612740,42,78,10,30,30,34,13,27,33,11,4,20,22,124),
+--(263,22300263,1610612743,48,95,19,43,19,26,13,28,37,4,2,3,18,134),
+--(264,22300264,1610612746,50,93,14,28,17,22,8,29,28,8,5,4,20,131),
+--(265,22300265,1610612739,38,89,7,32,12,12,14,21,25,12,2,17,15,95),
+--(266,22300266,1610612751,52,105,14,36,10,15,22,30,21,6,4,9,11,128),
+--(267,22300267,1610612754,50,98,11,43,21,32,10,24,30,11,5,9,31,132),
+--(268,22300268,1610612765,43,81,15,35,11,17,8,34,22,4,3,20,25,112),
+--(269,22300269,1610612741,45,98,13,37,17,22,14,37,32,14,4,21,18,120),
+--(270,22300270,1610612750,39,89,13,35,10,13,10,32,29,13,7,11,16,101),
+--(271,22300271,1610612747,36,81,11,33,27,32,7,34,24,6,2,13,20,110),
+--(272,22300272,1610612737,49,96,14,33,25,29,8,29,24,14,2,10,25,137),
+--(273,22300273,1610612744,41,82,15,39,23,31,10,37,30,3,4,7,18,120),
+--(274,22300274,1610612753,46,89,12,31,26,33,10,34,35,6,8,14,23,130),
+--(275,22300275,1610612738,39,77,16,33,31,36,10,36,25,10,8,20,18,125),
+--(276,22300276,1610612752,45,90,16,36,13,16,11,32,30,6,3,12,15,119),
+--(277,22300277,1610612742,34,92,12,39,14,21,13,29,27,9,5,11,13,94),
+--(278,22300278,1610612740,42,85,10,31,27,29,10,32,26,8,6,11,15,121),
+--(279,22300279,1610612743,50,88,12,32,7,12,4,28,38,8,4,9,21,119),
+--(280,22300280,1610612744,38,86,17,43,19,24,6,36,31,5,4,13,15,112),
+--(281,22300281,1610612766,44,91,12,25,17,19,10,26,29,6,4,8,22,117),
+--(282,22300282,1610612751,46,91,14,34,23,31,14,43,31,4,8,11,21,129),
+--(283,22300283,1610612739,44,89,10,30,12,18,8,35,25,11,1,11,18,110),
+--(284,22300284,1610612754,56,85,16,32,16,20,3,29,35,4,8,9,24,144),
+--(285,22300285,1610612741,48,88,17,40,11,15,12,29,32,6,8,13,21,124),
+--(286,22300286,1610612737,45,101,15,38,16,21,15,25,23,11,4,11,14,121),
+--(287,22300287,1610612742,39,87,19,52,23,35,15,32,26,5,12,15,21,120),
+--(288,22300288,1610612763,39,86,9,31,22,24,8,32,14,9,8,15,31,109),
+--(289,22300289,1610612757,38,95,13,40,24,27,11,29,17,11,5,9,20,113),
+--(290,22300290,1610612743,49,99,6,25,13,20,8,38,35,9,7,10,14,117),
+--(291,22300291,1610612745,36,89,11,31,14,18,11,43,24,5,7,16,23,97),
+--(292,22301202,1610612738,46,97,12,41,8,12,13,43,27,5,9,17,19,112),
+--(293,22301204,1610612740,47,87,14,31,19,23,13,29,29,12,7,12,22,127),
+--(294,22301201,1610612749,55,91,23,38,13,19,12,25,32,12,6,12,23,146),
+--(295,22301203,1610612747,38,102,9,30,21,25,21,24,24,11,2,9,19,106),
+--(296,22301205,1610612739,46,86,14,34,15,20,10,35,29,5,2,15,27,121),
+--(297,22301206,1610612765,41,91,11,35,9,9,8,34,30,9,6,16,17,102),
+--(298,22301208,1610612755,47,92,8,27,29,34,11,32,29,7,2,11,14,131),
+--(299,22301207,1610612748,41,89,14,38,16,19,8,36,33,5,4,7,18,112),
+--(300,22301209,1610612737,42,94,12,35,17,18,11,38,25,5,4,12,23,113),
+--(301,22301210,1610612750,36,87,12,40,18,21,11,44,20,4,10,14,16,102),
+--(302,22301211,1610612766,39,90,10,37,12,12,12,30,25,9,9,16,24,100),
+--(303,22301212,1610612745,40,83,15,33,15,22,10,43,28,6,5,19,16,110),
+--(304,22301213,1610612742,56,101,22,49,13,19,11,36,37,11,5,7,14,147),
+--(305,22301214,1610612744,36,86,10,34,28,33,15,35,20,4,3,17,19,110),
+--(306,22301215,1610612743,41,98,12,31,8,9,14,32,29,7,5,11,20,102),
+--(307,22301229,1610612754,50,102,7,33,21,25,15,36,30,9,8,9,21,128),
+--(308,22301230,1610612747,47,86,17,35,22,29,11,48,31,6,4,14,16,133),
+--(309,22301216,1610612766,44,79,13,25,18,20,7,24,30,7,4,15,15,119),
+--(310,22301217,1610612765,34,81,6,30,17,24,8,30,17,3,2,15,17,91),
+--(311,22301218,1610612737,41,104,13,39,19,21,23,32,20,3,4,13,23,114),
+--(312,22301219,1610612751,50,104,10,33,14,18,18,37,27,8,8,10,18,124),
+--(313,22301227,1610612738,48,91,19,47,18,21,8,26,24,8,5,7,19,133),
+--(314,22301220,1610612739,40,87,14,38,17,26,12,39,21,13,2,13,17,111),
+--(315,22301221,1610612763,37,86,15,35,14,19,8,20,24,7,4,9,23,103),
+--(316,22301222,1610612744,49,104,19,48,19,23,24,36,29,3,2,28,28,136),
+--(317,22301223,1610612741,47,102,13,28,14,24,24,32,27,9,2,7,19,121),
+--(318,22301224,1610612743,38,90,10,28,20,27,12,35,22,4,5,10,24,106),
+--(319,22301228,1610612756,40,83,11,32,15,23,8,32,26,8,5,11,19,106),
+--(320,22301225,1610612746,43,88,15,34,16,21,11,29,23,8,9,12,18,117),
+--(321,22301226,1610612742,47,91,12,39,19,22,9,33,26,8,5,15,23,125),
+--(322,62300001,1610612754,35,95,10,41,29,33,9,23,27,10,7,9,33,109),
+--(323,22300292,1610612766,40,84,17,41,17,22,6,25,31,3,2,10,22,114),
+--(324,22300293,1610612765,45,81,10,29,23,30,6,24,26,11,4,14,18,123),
+--(325,22300294,1610612739,30,85,9,40,25,33,18,30,15,10,3,14,23,94),
+--(326,22300295,1610612755,52,95,20,46,22,25,9,38,37,14,6,13,27,146),
+--(327,22300296,1610612737,44,96,17,44,17,18,13,22,25,9,2,10,21,122),
+--(328,22300297,1610612752,52,86,17,29,15,23,14,28,36,5,3,15,22,136),
+--(329,22300298,1610612745,32,93,12,39,17,20,15,45,20,7,2,16,18,93),
+--(330,22300299,1610612742,43,86,17,40,17,19,10,33,27,8,9,17,17,120),
+--(331,22300300,1610612741,47,114,15,34,20,25,18,33,25,3,4,6,27,129),
+--(332,22300301,1610612750,40,91,13,36,14,19,11,36,26,5,3,11,28,107),
+--(333,22300302,1610612760,50,96,18,38,16,17,7,32,35,9,7,12,17,134),
+--(334,22300303,1610612751,42,88,14,29,20,21,10,31,24,4,6,13,13,118),
+--(335,22300304,1610612746,49,89,13,34,21,22,9,26,33,7,9,9,20,132),
+--(336,22300305,1610612738,38,84,18,44,26,26,12,33,23,9,9,13,13,120),
+--(337,22300306,1610612742,44,89,21,43,18,21,12,24,28,7,5,10,17,127),
+--(338,22300307,1610612741,36,86,13,40,21,23,11,30,26,6,9,12,22,106),
+--(339,22300308,1610612744,41,92,16,46,18,27,13,38,26,9,1,15,28,116),
+--(340,22300309,1610612746,44,84,11,29,20,21,6,43,21,7,2,15,17,119),
+--(341,22300310,1610612765,39,88,10,33,23,30,6,29,24,6,3,9,22,111),
+--(342,22300311,1610612740,50,96,16,34,26,30,10,36,30,11,3,9,17,142),
+--(343,22300312,1610612766,41,77,12,31,10,11,4,27,27,11,5,21,18,104),
+--(344,22300313,1610612737,48,100,18,41,14,19,13,29,32,9,8,7,18,128),
+--(345,22300314,1610612745,39,86,12,32,27,37,15,43,23,6,3,19,28,117),
+--(346,22300315,1610612754,45,100,11,36,25,32,16,29,30,7,6,18,32,126),
+--(347,22300316,1610612747,49,91,14,35,10,17,5,41,31,14,4,16,16,122),
+--(348,22300317,1610612751,41,89,15,41,19,24,10,26,24,9,4,7,17,116),
+--(349,22300318,1610612752,41,94,9,39,22,32,14,32,21,10,4,8,21,113),
+--(350,22300319,1610612738,43,85,13,36,17,20,13,31,22,7,8,13,15,116),
+--(351,22300320,1610612741,45,93,14,36,20,30,11,32,32,8,2,5,23,124),
+--(352,22300321,1610612742,39,83,7,32,16,18,4,30,21,6,2,15,19,101),
+--(353,22300322,1610612751,39,95,8,30,15,20,18,35,28,5,4,16,23,101),
+--(354,22300323,1610612757,43,103,16,45,12,18,21,28,30,9,4,11,12,114),
+--(355,22300324,1610612760,44,102,11,36,24,27,16,28,26,8,7,13,25,123),
+--(356,22300325,1610612744,40,92,16,45,17,19,16,27,22,8,2,11,24,113),
+--(357,22300326,1610612766,41,92,9,31,16,21,8,31,18,7,4,8,24,107),
+--(358,22300327,1610612765,35,81,4,21,18,23,7,35,19,3,7,21,25,92),
+--(359,22300328,1610612754,48,107,15,40,12,16,13,28,35,7,8,15,25,123),
+--(360,22300329,1610612738,48,92,18,42,14,20,9,25,31,14,7,10,22,128),
+--(361,22300330,1610612737,52,101,16,41,5,6,16,39,34,4,4,12,19,125),
+--(362,22300331,1610612747,43,89,11,36,18,28,9,34,32,5,5,6,15,115),
+--(363,22300332,1610612745,32,88,11,29,28,32,15,36,18,10,10,11,19,103),
+--(364,22300333,1610612752,49,82,17,29,24,28,9,29,28,9,5,11,20,139),
+--(365,22300334,1610612765,43,96,6,28,22,26,10,26,25,10,4,8,23,114),
+--(366,22300335,1610612766,33,91,7,35,9,11,8,28,15,3,4,11,14,82),
+--(367,22300336,1610612737,41,85,15,36,22,25,6,28,21,5,4,11,21,119),
+--(368,22300337,1610612741,37,77,16,38,26,29,11,29,25,8,4,14,19,116),
+--(369,22300338,1610612754,45,90,6,21,13,16,13,27,25,10,6,13,15,109),
+--(370,22300339,1610612751,45,93,17,43,13,15,14,28,31,6,8,16,21,120),
+--(371,22300340,1610612743,42,93,12,32,21,24,16,30,30,5,0,9,22,117),
+--(372,22300341,1610612742,48,97,16,47,19,21,11,36,27,7,2,12,17,131),
+--(373,22300342,1610612758,46,85,22,45,11,15,8,37,36,6,2,14,17,125),
+--(374,22300343,1610612746,50,88,16,33,28,34,8,34,36,8,6,8,21,144),
+--(375,22300344,1610612738,45,95,17,36,7,8,10,45,18,4,10,14,19,114),
+--(376,22300345,1610612740,55,98,22,42,14,22,11,40,38,11,3,13,19,146),
+--(377,22300346,1610612745,45,85,11,27,18,21,6,25,26,8,4,9,21,119),
+--(378,22300347,1610612756,41,90,7,31,23,30,13,41,29,8,6,17,16,112),
+--(379,22300348,1610612744,46,87,13,38,13,19,11,32,31,10,4,14,20,118),
+--(380,22300349,1610612739,47,97,19,48,22,34,14,24,29,7,8,11,25,135),
+--(381,22300350,1610612754,49,95,12,33,17,21,11,23,38,6,7,11,21,127),
+--(382,22300351,1610612741,42,89,12,29,12,15,11,34,24,7,9,10,15,108),
+--(383,22300352,1610612737,46,85,16,36,22,27,11,29,25,6,10,17,24,130),
+--(384,22300353,1610612748,41,87,11,30,15,18,9,31,27,10,4,15,18,108),
+--(385,22300354,1610612766,39,89,8,32,13,13,10,26,18,8,6,12,19,99),
+--(386,22300355,1610612763,30,85,19,54,18,21,7,38,25,6,3,22,19,97),
+--(387,22300356,1610612742,41,92,13,38,9,19,15,28,19,2,0,11,20,104),
+--(388,22300357,1610612751,39,90,16,39,14,20,11,25,25,4,9,13,17,108),
+--(389,22300358,1610612758,53,100,17,43,20,26,9,33,35,8,5,7,24,143),
+--(390,22300359,1610612747,42,99,13,41,12,13,9,32,29,9,3,10,17,109),
+--(391,22300360,1610612763,41,82,10,31,23,29,13,29,19,5,7,17,19,115),
+--(392,22300361,1610612749,50,106,18,49,14,18,11,36,34,11,7,6,15,132),
+--(393,22300362,1610612738,47,114,17,58,15,17,18,37,28,6,5,8,13,126),
+--(394,22300363,1610612756,42,94,5,23,15,21,14,33,23,10,6,13,15,104),
+--(395,22300364,1610612739,45,96,23,51,11,16,14,30,34,8,3,11,23,124),
+--(396,22300365,1610612766,45,95,8,31,15,19,16,21,23,6,0,10,18,113),
+--(397,22300366,1610612748,40,83,15,29,20,24,10,29,25,6,2,11,17,115),
+--(398,22300367,1610612750,42,82,9,25,20,24,9,30,22,4,2,18,22,113),
+--(399,22300368,1610612751,37,101,15,47,13,17,17,32,25,6,9,11,20,102),
+--(400,22300369,1610612743,49,98,12,33,3,7,15,31,29,9,9,8,13,113),
+--(401,22300370,1610612741,48,88,18,34,10,11,7,41,25,7,6,15,15,124),
+--(402,22300371,1610612737,47,91,17,40,23,28,12,32,31,4,3,9,18,134),
+--(403,22300372,1610612742,39,91,14,43,19,27,13,23,23,8,3,6,19,111),
+--(404,22300373,1610612738,51,92,22,42,20,24,14,36,35,6,10,9,17,144),
+--(405,22300374,1610612765,43,86,9,31,16,19,12,29,24,6,9,20,19,111),
+--(406,22300375,1610612739,41,87,17,44,5,8,6,29,34,4,3,11,13,104),
+--(407,22300376,1610612741,49,90,7,28,9,11,5,31,24,11,5,11,18,114),
+--(408,22300377,1610612754,38,90,18,52,9,11,12,27,28,12,9,16,21,103),
+--(409,22300378,1610612749,38,90,11,37,31,35,10,41,26,3,6,13,22,118),
+--(410,22300379,1610612746,44,93,17,43,10,12,12,28,23,9,5,15,18,115),
+--(411,22300380,1610612747,41,83,10,24,19,24,7,31,21,6,6,17,18,111),
+--(412,22300381,1610612757,43,95,14,30,17,23,20,31,24,7,6,15,27,117),
+--(413,22300382,1610612755,44,83,14,31,19,21,3,35,34,6,6,13,21,121),
+--(414,22300383,1610612751,43,89,13,33,18,26,14,31,32,4,7,10,23,117),
+--(415,22300384,1610612737,42,96,19,54,10,14,12,31,29,9,2,13,23,113),
+--(416,22300385,1610612742,35,101,7,40,19,26,14,33,18,10,1,11,17,96),
+--(417,22300386,1610612744,47,97,18,45,17,20,14,43,33,5,2,12,17,129),
+--(418,22300387,1610612756,39,88,5,25,22,28,15,30,19,8,4,15,19,105),
+--(419,22300388,1610612749,48,91,16,32,18,23,12,41,25,4,2,14,22,130),
+--(420,22300389,1610612738,49,94,25,53,22,28,15,36,33,4,5,9,19,145),
+--(421,22300390,1610612766,34,88,8,28,19,23,13,34,23,8,11,17,15,95),
+--(422,22300391,1610612754,43,82,15,34,9,13,7,26,27,7,6,15,30,110),
+--(423,22300392,1610612745,35,82,9,29,27,35,13,31,21,9,2,11,20,106),
+--(424,22300393,1610612737,45,96,13,43,16,20,13,28,28,8,5,10,22,119),
+--(425,22300394,1610612751,45,86,10,24,26,32,7,31,32,10,3,10,22,126),
+--(426,22300395,1610612761,45,94,13,32,16,19,12,27,35,7,5,11,17,119),
+--(427,22300396,1610612741,35,80,8,35,17,19,5,32,23,6,5,12,22,95),
+--(428,22300397,1610612747,47,90,16,32,19,23,8,36,37,7,7,9,13,129),
+--(429,22300398,1610612742,52,100,23,45,17,21,11,41,26,7,6,12,18,144),
+--(430,22300399,1610612744,48,83,10,33,20,24,13,36,38,8,2,16,14,126),
+--(431,22300400,1610612750,44,87,10,33,12,14,7,36,31,9,5,12,18,110),
+--(432,22300401,1610612749,45,95,13,42,19,24,17,27,26,7,4,11,23,122),
+--(433,22300402,1610612743,40,82,14,34,26,32,10,33,25,6,4,14,17,120),
+--(434,22300403,1610612738,46,91,13,42,21,28,11,33,31,8,7,8,17,126),
+--(435,22300404,1610612748,40,84,12,32,27,35,13,43,27,5,7,14,17,119),
+--(436,22300405,1610612742,45,84,16,44,22,30,8,30,28,7,6,11,20,128),
+--(437,22300406,1610612751,41,82,9,22,27,43,7,35,22,6,7,9,22,118),
+--(438,22300407,1610612753,49,93,12,26,17,25,7,33,30,11,5,16,16,127),
+--(439,22300408,1610612737,41,89,13,45,18,21,12,28,24,6,3,15,21,113),
+--(440,22300409,1610612745,47,97,5,24,18,22,15,29,19,15,2,10,16,117),
+--(441,22300410,1610612763,39,90,11,46,27,32,8,42,24,10,17,17,24,116),
+--(442,22300411,1610612750,34,73,12,27,26,32,8,26,22,8,1,21,16,106),
+--(443,22300412,1610612759,44,98,16,35,14,21,13,30,36,8,8,9,18,118),
+--(444,22300413,1610612757,49,98,16,40,16,20,16,30,28,5,5,7,17,130),
+--(445,22300414,1610612766,43,93,6,29,12,16,8,34,31,8,6,11,23,104),
+--(446,22300415,1610612753,31,79,9,33,21,24,9,34,17,5,11,16,18,92),
+--(447,22300416,1610612761,52,91,15,38,13,19,14,39,43,12,5,17,18,132),
+--(448,22300417,1610612751,45,101,7,32,25,29,17,30,29,7,2,9,17,122),
+--(449,22300418,1610612745,40,96,17,41,16,22,9,24,20,11,3,9,21,113),
+--(450,22300419,1610612752,41,82,14,34,24,30,9,31,24,2,2,18,21,120),
+--(451,22300420,1610612739,40,92,17,43,16,23,18,39,33,7,4,16,21,113),
+--(452,22300421,1610612738,48,99,11,39,21,25,11,32,25,10,4,12,15,128),
+--(453,22300422,1610612741,40,97,7,27,17,22,13,34,19,7,4,7,20,104),
+--(454,22300423,1610612742,40,90,14,33,16,19,13,26,29,9,3,16,27,110),
+--(455,22300424,1610612740,45,82,10,27,12,15,6,29,27,10,7,14,19,112),
+--(456,22300425,1610612743,55,96,20,41,12,14,12,41,43,6,7,11,19,142),
+--(457,22300426,1610612744,37,88,8,33,20,25,12,31,27,4,7,13,19,102),
+--(458,22300427,1610612757,35,101,11,36,24,32,22,35,16,6,4,13,22,105),
+--(459,22300428,1610612766,40,85,15,33,17,28,8,35,29,5,5,19,14,112),
+--(460,22300429,1610612752,38,86,6,30,26,29,6,34,22,8,4,16,30,108),
+--(461,22300430,1610612751,39,91,9,28,17,27,18,36,24,5,4,10,13,104),
+--(462,22300431,1610612737,37,94,15,43,21,25,18,33,29,9,4,15,16,110),
+--(463,22300432,1610612738,43,88,17,39,17,20,13,39,29,3,6,16,17,120),
+--(464,22300433,1610612739,49,103,6,43,7,9,7,30,28,11,7,8,20,111),
+--(465,22300434,1610612745,49,91,14,30,15,21,14,28,30,8,6,16,24,127),
+--(466,22300435,1610612743,36,85,10,37,11,15,5,31,30,6,5,16,17,93),
+--(467,22300436,1610612766,44,92,23,46,8,8,8,18,32,5,3,6,17,119),
+--(468,22300437,1610612757,48,95,16,27,22,27,16,27,28,8,6,14,19,134),
+--(469,22300438,1610612746,43,87,11,39,20,25,11,43,28,3,6,17,19,117),
+--(470,22300439,1610612748,34,78,9,31,32,40,8,38,20,8,8,16,24,109),
+--(471,22300440,1610612765,41,82,12,28,35,40,6,35,29,4,4,11,22,129),
+--(472,22300441,1610612754,50,85,23,43,17,21,7,27,40,6,7,16,18,140),
+--(473,22300442,1610612741,40,79,7,25,18,30,12,41,21,5,5,16,15,105),
+--(474,22300443,1610612747,37,88,7,24,25,32,8,31,23,12,4,10,15,106),
+--(475,22300444,1610612742,49,88,16,40,18,22,6,37,25,5,2,9,14,132),
+--(476,22300445,1610612737,47,95,12,32,24,37,12,46,27,5,3,12,18,130),
+--(477,22300446,1610612747,39,82,10,32,21,25,4,31,26,8,10,13,15,109),
+--(478,22300447,1610612751,38,100,12,46,20,31,17,30,26,9,2,6,21,108),
+--(479,22300448,1610612738,51,95,15,42,17,22,13,44,29,6,7,10,12,134),
+--(480,22300449,1610612763,30,82,12,40,20,28,1,33,20,4,1,8,14,92),
+--(481,22300450,1610612753,42,90,12,37,11,12,8,37,22,2,4,15,18,107),
+--(482,22300451,1610612750,36,76,11,28,23,29,4,30,19,6,4,13,22,106),
+--(483,22300452,1610612739,43,89,12,36,23,26,6,37,25,9,2,9,29,121),
+--(484,22300453,1610612765,40,83,13,29,20,27,10,27,27,3,4,17,21,113),
+--(485,22300454,1610612754,43,97,5,35,31,38,14,38,23,7,5,7,24,122),
+--(486,22300455,1610612766,36,86,10,26,11,16,8,37,24,4,5,12,15,93),
+--(487,22300456,1610612756,38,80,11,29,22,33,9,38,24,10,5,16,20,109),
+--(488,22300457,1610612742,37,93,11,40,5,10,8,33,28,6,5,16,15,90),
+--(489,22300458,1610612746,47,80,14,29,13,14,6,31,25,10,3,15,20,121),
+--(490,22300459,1610612741,37,96,7,37,16,23,19,32,17,9,7,18,21,97),
+--(491,22300460,1610612763,37,80,12,38,20,25,8,38,24,5,8,15,23,106),
+--(492,22300461,1610612751,35,98,11,43,4,8,18,25,26,7,4,12,13,85),
+--(493,22300462,1610612738,42,92,15,40,24,29,17,30,33,7,10,14,15,123),
+--(494,22300463,1610612744,42,78,13,35,24,37,9,27,23,9,6,12,19,121),
+--(495,22300464,1610612766,42,82,12,34,15,19,4,31,23,8,10,14,15,111),
+--(496,22300465,1610612739,54,100,20,42,12,16,18,44,37,5,8,8,13,140),
+--(497,22300466,1610612754,50,90,14,35,28,34,7,37,34,7,5,10,27,142),
+--(498,22300467,1610612737,48,95,14,39,31,33,15,34,30,8,5,11,21,141),
+--(499,22300469,1610612751,36,93,13,44,16,26,15,35,25,11,6,8,19,101),
+--(500,22300470,1610612763,40,94,15,42,16,19,9,34,25,7,5,10,19,111),
+--(501,22300471,1610612750,37,82,10,31,22,27,8,20,26,7,6,11,13,106),
+--(502,22300468,1610612741,37,89,13,32,13,16,11,28,24,9,7,11,17,100),
+--(503,22300472,1610612742,42,84,13,30,29,41,7,36,25,12,7,11,18,126),
+--(504,22300473,1610612746,42,76,18,34,29,32,10,26,25,9,5,12,18,131),
+--(505,22300474,1610612765,56,105,19,41,17,22,16,32,33,5,3,17,27,148),
+--(506,22300475,1610612747,35,83,4,30,22,24,9,41,29,3,6,21,14,96),
+--(507,22300476,1610612753,44,90,25,44,22,27,7,32,33,10,7,20,30,135),
+--(508,22300477,1610612749,49,92,12,34,15,19,8,34,27,5,5,14,16,125),
+--(509,22300478,1610612743,48,85,9,26,25,29,11,25,28,7,4,7,15,130),
+--(510,22300479,1610612738,39,90,17,49,31,36,9,47,24,9,8,12,23,126),
+--(511,22300480,1610612737,40,93,10,42,26,30,14,25,21,6,3,14,11,116),
+--(512,22300481,1610612751,41,91,14,39,28,33,20,31,25,9,3,15,24,124),
+--(513,22300482,1610612739,41,77,16,33,16,23,12,40,31,9,1,23,19,114),
+--(514,22300483,1610612752,43,89,18,41,24,25,10,39,27,7,7,11,22,128),
+--(515,22300484,1610612766,36,89,10,34,9,12,12,30,20,7,1,11,20,91),
+--(516,22300485,1610612745,36,90,12,32,11,15,7,31,18,7,2,15,15,95),
+--(517,22300486,1610612746,40,82,15,36,16,20,10,40,28,6,7,14,18,111),
+--(518,22300487,1610612742,56,96,17,38,10,15,10,42,35,11,8,17,21,139),
+--(519,22300488,1610612743,48,95,9,33,15,19,9,29,28,8,1,13,23,120),
+--(520,22300489,1610612748,34,83,10,37,19,22,11,33,26,5,2,15,21,97),
+--(521,22300490,1610612765,44,98,13,44,8,10,10,30,25,8,9,11,23,109),
+--(522,22300491,1610612747,42,85,10,28,19,27,8,27,26,13,3,13,14,113),
+--(523,22300492,1610612758,52,100,21,38,10,15,11,31,35,4,1,14,23,135),
+--(524,22300493,1610612738,46,90,16,41,10,19,13,43,26,6,6,17,20,118),
+--(525,22300494,1610612752,43,87,14,36,21,24,11,34,27,9,2,14,16,121),
+--(526,22300495,1610612755,42,104,7,38,18,23,15,19,30,12,6,6,20,109),
+--(527,22300496,1610612745,36,83,13,34,27,32,7,39,22,7,2,10,24,112),
+--(528,22300497,1610612739,43,88,16,43,15,21,12,32,27,6,3,16,16,117),
+--(529,22300498,1610612751,46,91,14,37,21,25,9,35,29,7,7,15,25,127),
+--(530,22300499,1610612737,42,91,9,30,17,29,8,42,21,9,10,12,23,110),
+--(531,22300500,1610612740,50,82,19,35,14,16,9,42,35,2,9,16,14,133),
+--(532,22300501,1610612742,43,95,15,40,14,20,15,29,20,7,8,11,19,115),
+--(533,22300502,1610612743,47,80,10,27,27,31,6,32,35,6,10,12,23,131),
+--(534,22300503,1610612763,43,97,17,49,18,24,15,39,29,7,8,17,24,121),
+--(535,22300504,1610612744,45,100,14,46,14,15,15,28,30,5,4,10,11,118),
+--(536,22300505,1610612746,36,91,14,37,17,19,13,27,21,12,5,14,19,103),
+--(537,22300506,1610612766,40,94,17,42,15,17,14,30,26,3,7,12,22,112),
+--(538,22300507,1610612738,47,90,17,35,20,29,13,29,26,3,8,15,20,131),
+--(539,22300508,1610612760,52,88,14,28,18,24,10,30,37,11,7,14,21,136),
+--(540,22300509,1610612745,37,88,14,41,25,28,12,30,20,8,4,12,31,113),
+--(541,22300510,1610612749,42,94,17,36,15,19,11,27,31,6,6,9,20,116),
+--(542,22300511,1610612746,53,85,15,29,17,23,11,33,32,11,3,12,21,138),
+--(543,22300512,1610612765,40,85,14,37,16,21,13,27,27,12,2,21,19,110),
+--(544,22300513,1610612750,43,80,12,30,15,19,5,43,34,8,4,18,18,113),
+--(545,22300514,1610612752,37,89,18,48,20,23,15,40,26,11,4,14,16,112),
+--(546,22300515,1610612742,36,82,9,27,22,27,8,25,20,9,4,12,17,103),
+--(547,22300516,1610612747,44,81,16,36,28,36,5,34,34,6,4,15,16,132),
+--(548,22300517,1610612738,39,90,19,47,30,31,7,39,21,5,4,8,19,127),
+--(549,22300518,1610612766,35,87,16,38,12,16,8,28,17,2,3,8,16,98),
+--(550,22300519,1610612765,44,96,10,32,10,13,9,34,33,4,3,10,19,108),
+--(551,22300520,1610612754,41,92,8,25,22,24,14,40,31,7,6,13,22,112),
+--(552,22300521,1610612737,48,102,12,34,31,42,16,39,32,6,8,12,21,139),
+--(553,22300522,1610612748,41,89,15,36,23,28,8,30,25,8,3,10,13,120),
+--(554,22300523,1610612741,42,95,19,47,21,25,8,38,31,9,4,14,19,124),
+--(555,22300525,1610612744,39,89,12,39,15,18,14,29,24,4,4,17,19,105),
+--(556,22300524,1610612743,37,81,13,33,24,28,8,26,26,11,4,16,23,111),
+--(557,22300526,1610612746,49,93,15,34,13,13,11,25,34,6,5,7,17,126),
+--(558,22300527,1610612751,37,82,8,27,20,28,9,32,18,5,4,16,29,102),
+--(559,22300528,1610612738,34,91,9,35,25,30,6,25,22,5,5,6,13,102),
+--(560,22300529,1610612760,53,93,14,35,19,22,8,51,41,6,8,12,10,139),
+--(561,22300530,1610612742,44,88,17,41,23,30,11,27,27,6,2,10,19,128),
+--(562,22300531,1610612747,40,80,13,34,16,25,7,30,33,8,4,18,19,109),
+--(563,22300532,1610612755,40,93,15,35,17,18,14,32,23,11,9,13,19,112),
+--(564,22300533,1610612737,40,89,11,30,17,23,12,16,25,14,2,14,13,108),
+--(565,22300534,1610612765,44,88,12,35,10,16,11,35,32,6,9,14,21,110),
+--(566,22300535,1610612748,37,83,8,26,17,20,12,29,23,6,1,16,17,99),
+--(567,22300536,1610612741,50,86,18,40,13,16,6,30,31,1,3,12,21,131),
+--(568,22300537,1610612746,49,89,15,31,15,20,11,32,22,9,7,12,16,128),
+--(569,22300538,1610612750,44,80,11,31,17,24,8,37,35,14,5,15,23,116),
+--(570,22300541,1610612766,32,89,10,34,25,28,16,28,22,11,3,19,24,99),
+--(571,22300540,1610612761,35,81,17,34,26,37,8,23,25,5,8,13,21,113),
+--(572,22300539,1610612743,50,90,14,33,11,15,10,38,30,5,4,15,18,125),
+--(573,22300542,1610612738,51,95,24,47,19,25,10,40,26,7,8,11,21,145),
+--(574,22300543,1610612737,32,93,11,40,24,33,16,34,21,9,7,14,20,99),
+--(575,22300544,1610612763,36,87,9,38,13,15,9,26,27,14,6,12,16,94),
+--(576,22300545,1610612744,47,98,15,36,9,14,12,29,23,5,4,7,16,118),
+--(577,22300546,1610612760,43,94,8,36,18,21,12,34,23,9,4,8,19,112),
+--(578,22300547,1610612742,37,82,15,41,19,20,9,25,23,6,1,12,25,108),
+--(579,22300548,1610612741,46,90,15,34,15,20,7,40,31,5,8,9,18,122),
+--(580,22300549,1610612747,46,92,13,29,20,24,7,33,30,6,8,12,23,125),
+--(581,22300550,1610612743,46,71,10,20,15,23,4,36,31,8,3,21,18,117),
+--(582,22300551,1610612766,33,95,10,41,11,15,17,33,17,5,3,13,17,87),
+--(583,22300552,1610612749,48,92,20,43,27,32,4,36,31,5,3,13,22,143),
+--(584,22300553,1610612746,36,83,17,39,16,18,7,27,28,9,4,11,24,105),
+--(585,22300554,1610612756,46,76,13,28,22,27,7,34,27,7,5,12,20,127),
+--(586,22300555,1610612745,44,88,8,27,19,32,16,30,21,7,9,13,23,115),
+--(587,22300556,1610612742,39,85,18,43,29,35,13,29,24,4,6,11,29,125),
+--(588,22300557,1610612752,33,83,13,40,15,22,13,28,20,3,3,9,20,94),
+--(589,22300558,1610612765,50,90,12,31,17,23,12,40,30,4,10,15,13,129),
+--(590,22300559,1610612737,40,93,13,38,16,21,13,44,24,8,6,16,19,109),
+--(591,22300560,1610612744,44,90,10,31,9,10,7,38,28,4,6,19,25,107),
+--(592,22300561,1610612741,35,83,9,32,12,16,6,37,21,8,6,18,17,91),
+--(593,22300562,1610612751,34,99,12,55,15,16,9,41,26,9,9,8,17,95),
+--(594,22300563,1610612738,33,82,16,39,23,25,5,48,20,3,7,12,16,105),
+--(595,22300564,1610612754,38,95,9,31,20,25,18,25,27,9,4,13,31,105),
+--(596,22300565,1610612747,44,84,8,24,16,18,8,36,30,7,9,17,12,112),
+--(597,22300566,1610612743,45,89,12,29,19,25,16,30,23,4,3,10,19,121),
+--(598,22300567,1610612756,42,85,17,37,18,20,8,38,32,7,6,16,15,119),
+--(599,22300568,1610612746,47,87,20,43,14,23,12,27,30,5,10,9,18,128),
+--(600,22300569,1610612765,46,89,12,31,13,19,8,32,30,4,7,12,18,117),
+--(601,22300570,1610612737,39,76,8,25,20,22,10,31,21,8,2,23,17,106),
+--(602,22300571,1610612738,42,90,18,38,15,19,12,42,22,5,6,12,15,117),
+--(603,22300572,1610612739,55,93,12,28,13,19,11,44,36,5,3,10,9,135),
+--(604,22300573,1610612745,35,84,8,30,16,19,6,32,23,6,9,10,18,94),
+--(605,22300574,1610612748,41,90,6,28,9,12,12,25,24,4,5,14,13,97),
+--(606,22300575,1610612766,39,90,19,45,15,18,15,26,29,7,8,13,19,112),
+--(607,22300577,1610612742,42,91,11,40,15,18,11,32,26,4,5,15,19,110),
+--(608,22300578,1610612751,35,73,15,38,18,27,6,27,28,9,3,10,14,103),
+--(609,22300579,1610612752,39,86,13,38,22,26,7,40,22,6,5,17,18,113),
+--(610,22300580,1610612741,48,91,6,24,14,17,9,33,30,7,5,10,22,116),
+--(611,22300581,1610612760,48,86,14,32,24,28,7,31,36,8,10,15,29,134),
+--(612,22300582,1610612763,39,85,14,34,11,17,8,26,22,9,4,14,23,103),
+--(613,22300583,1610612754,49,89,13,33,15,19,4,30,33,5,6,11,20,126),
+--(614,22300584,1610612766,47,84,16,29,14,16,10,30,25,9,4,17,16,124),
+--(615,22300585,1610612753,37,78,10,23,25,27,11,25,24,3,5,16,23,109),
+--(616,22300586,1610612738,38,89,14,44,10,14,12,26,21,5,2,2,17,100),
+--(617,22300587,1610612737,40,87,15,35,14,17,9,29,23,6,2,13,20,109),
+--(618,22300588,1610612740,41,93,10,42,17,23,9,33,27,4,5,11,16,109),
+--(619,22300590,1610612754,39,91,20,47,17,25,6,31,34,3,6,13,26,115),
+--(620,22300591,1610612751,50,95,19,47,11,14,8,33,31,10,4,8,17,130),
+--(621,22300592,1610612765,44,94,21,37,26,32,9,31,30,6,2,8,30,135),
+--(622,22300593,1610612766,35,85,9,37,10,14,7,40,23,2,7,16,20,89),
+--(623,22300594,1610612759,51,96,12,31,17,23,14,35,38,6,10,17,19,131),
+--(624,22300595,1610612737,37,93,11,38,10,15,11,34,25,5,4,11,15,95),
+--(625,22300596,1610612752,48,88,14,39,16,20,15,46,27,4,7,21,20,126),
+--(626,22300597,1610612741,47,91,14,33,17,21,13,39,32,11,5,11,18,125),
+--(627,22300598,1610612745,50,117,13,39,14,22,23,33,27,11,10,7,22,127),
+--(628,22300599,1610612750,31,75,14,37,21,29,9,41,22,4,7,21,26,97),
+--(629,22300600,1610612751,44,90,14,39,12,16,6,30,29,6,5,12,21,114),
+--(630,22300601,1610612748,30,80,12,37,15,18,12,24,22,9,1,14,22,87),
+--(631,22300602,1610612743,43,88,8,22,19,28,13,37,29,9,11,13,16,113),
+--(632,22300603,1610612738,43,98,17,47,13,18,16,39,31,10,12,16,17,116),
+--(633,22300604,1610612754,41,94,14,31,14,23,14,26,28,9,4,11,20,110),
+--(634,22300605,1610612747,47,86,13,33,27,29,10,35,28,9,6,12,18,134),
+--(635,22300606,1610612765,40,89,10,30,23,29,6,36,25,4,9,10,25,113),
+--(636,22300607,1610612739,45,80,20,38,16,22,9,30,29,10,4,9,20,126),
+--(637,22300608,1610612755,48,97,5,20,32,40,19,29,28,5,3,4,20,133),
+--(638,22300609,1610612763,44,95,13,34,7,12,19,28,30,11,8,15,15,108),
+--(639,22300610,1610612766,50,88,14,37,14,18,7,28,30,8,4,10,20,128),
+--(640,22300611,1610612738,41,88,15,46,22,30,5,39,26,7,8,6,20,119),
+--(641,22300612,1610612741,45,93,14,37,9,14,14,33,25,6,4,10,18,113),
+--(642,22300613,1610612737,36,93,14,40,21,27,13,37,19,2,7,12,19,107),
+--(643,22300614,1610612743,44,88,11,33,15,17,11,31,22,5,9,10,17,114),
+--(644,22300615,1610612751,42,95,15,42,4,5,13,27,29,7,5,13,19,103),
+--(645,22300616,1610612740,60,104,23,46,10,15,12,45,41,5,4,9,24,153),
+--(646,22300617,1610612760,43,89,7,23,18,28,10,33,23,9,10,12,18,111),
+--(647,22300618,1610612746,52,88,14,27,9,12,6,30,33,8,5,14,17,127),
+--(648,22300619,1610612766,38,87,15,38,15,19,9,39,27,5,5,11,22,106),
+--(649,22300620,1610612750,42,100,9,32,25,29,15,33,26,8,7,7,22,118),
+--(650,22300621,1610612763,36,80,17,36,16,19,7,37,30,8,6,18,19,105),
+--(651,22300623,1610612745,50,94,12,36,19,22,8,29,29,8,6,8,19,131),
+--(652,22300624,1610612739,46,91,13,38,11,15,6,33,26,5,2,12,18,116),
+--(653,22300625,1610612742,41,89,17,43,10,18,10,23,25,4,3,14,16,109),
+--(654,22300622,1610612760,54,96,18,40,14,16,16,31,36,11,8,15,20,140),
+--(655,22300626,1610612737,39,94,14,43,20,26,13,32,30,7,2,10,16,112),
+--(656,22300627,1610612754,53,93,12,28,16,21,12,43,35,6,8,21,33,134),
+--(657,22300628,1610612762,50,97,13,31,10,12,13,39,34,6,2,15,19,123),
+--(658,22300629,1610612751,35,77,10,33,14,16,5,27,22,7,3,13,15,94),
+--(659,22300630,1610612738,51,80,22,40,19,20,6,41,36,4,5,11,10,143),
+--(660,22300631,1610612743,34,84,5,26,11,13,13,27,20,2,2,19,20,84),
+--(661,22300632,1610612744,48,86,19,37,18,23,6,27,30,7,3,13,19,133),
+--(662,22300633,1610612741,47,88,12,37,26,29,12,27,27,7,6,16,18,132),
+--(663,22300634,1610612737,51,97,15,34,26,30,12,24,32,7,2,7,24,143),
+--(664,22300635,1610612766,35,85,9,29,25,32,5,27,20,6,7,13,25,104),
+--(665,22300636,1610612754,58,109,8,26,9,15,21,27,34,8,3,12,17,133),
+--(666,22300637,1610612746,48,95,9,32,22,24,12,38,29,6,7,10,17,127),
+--(667,22300638,1610612763,42,90,15,41,8,13,9,34,30,9,7,13,21,107),
+--(668,22300639,1610612739,38,92,14,36,22,31,15,36,20,7,8,13,22,112),
+--(669,22300640,1610612740,32,82,9,36,10,14,8,33,24,9,5,20,16,83),
+--(670,22300641,1610612757,38,90,10,37,14,19,8,29,23,11,3,13,20,100),
+--(671,22300642,1610612765,37,85,9,32,21,27,11,34,22,2,8,17,20,104),
+--(672,22300643,1610612748,41,88,14,37,13,16,8,30,26,6,4,8,18,109),
+--(673,22300644,1610612743,37,82,13,37,24,38,13,31,25,5,3,7,15,111),
+--(674,22300645,1610612751,36,74,12,34,22,37,2,38,24,11,6,19,22,106),
+--(675,22300646,1610612738,36,100,10,40,14,16,18,34,21,2,9,11,13,96),
+--(676,22300647,1610612766,47,92,13,32,15,21,9,26,35,7,6,10,22,122),
+--(677,22300648,1610612749,51,91,20,45,19,25,6,39,30,12,0,9,25,141),
+--(678,22300649,1610612750,45,79,14,26,8,15,7,25,30,9,6,13,13,112),
+--(679,22300650,1610612744,55,119,23,58,11,16,11,39,37,11,3,17,34,144),
+--(680,22300651,1610612742,43,98,16,46,13,18,13,30,35,7,2,10,24,115),
+--(681,22300654,1610612765,47,95,11,26,15,19,15,38,27,6,2,9,11,120),
+--(682,22300652,1610612754,44,90,13,35,15,16,11,33,31,8,6,10,26,116),
+--(683,22300653,1610612737,44,95,6,27,32,40,20,31,27,7,4,14,21,126),
+--(684,22300655,1610612753,41,92,12,36,19,26,11,29,30,12,7,7,21,113),
+--(685,22300656,1610612741,42,90,8,32,12,17,5,35,27,7,10,4,19,104),
+--(686,22300657,1610612766,37,81,11,32,7,14,9,32,23,4,6,13,14,92),
+--(687,22300658,1610612739,42,86,13,40,21,26,11,35,28,6,3,13,18,118),
+--(688,22300659,1610612738,43,85,17,46,15,20,6,34,27,7,5,11,15,118),
+--(689,22300660,1610612751,54,105,21,45,18,19,16,34,41,12,9,8,24,147),
+--(690,22300661,1610612748,33,84,14,36,25,25,8,36,20,5,5,11,18,105),
+--(691,22300662,1610612745,52,98,12,36,19,25,14,42,36,10,2,15,19,135),
+--(692,22300663,1610612763,30,80,13,36,21,28,9,28,22,11,1,14,16,94),
+--(693,22300664,1610612750,40,83,14,29,13,15,9,36,21,7,2,13,19,107),
+--(694,22300665,1610612759,43,92,12,30,15,17,10,26,31,10,7,14,17,113),
+--(695,22300666,1610612742,43,69,13,27,32,43,3,32,27,6,2,15,24,131),
+--(696,22300667,1610612743,44,91,4,18,21,24,9,38,29,7,4,8,22,113),
+--(697,22300668,1610612755,37,83,5,29,25,28,12,22,17,6,5,14,25,104),
+--(698,22300669,1610612737,53,101,16,38,16,18,12,34,32,10,2,12,18,138),
+--(699,22300670,1610612738,47,87,17,36,18,22,7,33,25,6,9,10,16,129),
+--(700,22300671,1610612752,44,94,13,34,17,18,14,31,29,9,7,5,16,118),
+--(701,22300672,1610612741,38,75,11,32,20,27,6,27,21,9,9,17,16,107),
+--(702,22300673,1610612744,44,79,14,32,17,19,8,34,32,6,6,16,20,119),
+--(703,22300674,1610612766,40,90,16,46,14,17,9,31,25,4,6,9,18,110),
+--(704,22300675,1610612739,47,89,12,35,22,23,10,23,26,13,5,9,15,128),
+--(705,22300676,1610612746,47,100,12,30,19,22,18,34,25,9,7,8,16,125),
+--(706,22300678,1610612748,42,84,13,28,18,23,7,42,38,3,2,8,16,115),
+--(707,22300679,1610612745,35,87,13,44,16,17,5,24,19,11,2,5,21,99),
+--(708,22300680,1610612742,31,76,6,29,19,26,9,22,18,4,4,16,24,87),
+--(709,22300681,1610612753,41,86,7,20,19,23,12,33,29,10,5,15,20,108),
+--(710,22300682,1610612743,37,93,15,37,11,16,12,35,21,7,9,8,23,100),
+--(711,22300677,1610612751,47,94,16,39,10,13,8,19,28,11,1,11,24,120),
+--(712,22300683,1610612749,45,92,13,45,13,18,10,29,27,7,5,13,17,116),
+--(713,22300684,1610612738,41,97,16,48,7,7,14,40,30,4,12,15,19,105),
+--(714,22300685,1610612754,42,93,13,33,8,13,9,35,21,9,9,13,25,105),
+--(715,22300687,1610612739,41,86,14,35,12,18,10,38,26,6,8,14,16,108),
+--(716,22300686,1610612755,47,94,14,32,19,21,10,30,27,6,11,4,22,127),
+--(717,22300688,1610612765,45,89,17,40,18,24,13,25,28,5,3,16,18,125),
+--(718,22300689,1610612748,38,88,7,31,27,35,14,45,24,4,1,12,18,110),
+--(719,22300690,1610612737,49,95,17,44,14,18,12,31,29,7,4,9,13,129),
+--(720,22300691,1610612754,46,85,10,29,20,24,8,31,23,13,3,22,20,122),
+--(721,22300692,1610612745,55,93,11,31,14,17,7,42,30,9,3,14,20,135),
+--(722,22300693,1610612744,46,83,11,29,18,22,6,40,32,7,8,14,17,121),
+--(723,22300694,1610612750,38,82,12,38,18,20,6,32,24,8,5,17,20,106),
+--(724,22300695,1610612766,41,92,14,31,10,14,7,28,22,12,4,14,21,106),
+--(725,22300696,1610612740,46,95,7,26,15,21,13,26,29,14,3,9,17,114),
+--(726,22300697,1610612743,46,91,12,36,16,17,16,32,34,3,6,11,20,120),
+--(727,22300698,1610612751,49,95,20,51,18,23,13,40,35,3,5,10,20,136),
+--(728,22300699,1610612737,55,114,14,43,17,22,16,41,27,5,4,8,20,141),
+--(729,22300700,1610612741,42,91,11,34,20,22,11,36,24,13,3,16,20,115),
+--(730,22300701,1610612747,39,80,12,31,23,27,3,35,28,4,11,5,16,113),
+--(731,22300702,1610612742,40,81,16,39,21,23,8,34,22,9,1,21,19,117),
+--(732,22300703,1610612739,46,97,13,44,12,13,10,41,31,6,4,9,19,117),
+--(733,22300704,1610612765,36,80,8,31,19,22,9,27,22,6,5,15,18,99),
+--(734,22300705,1610612756,54,88,11,25,21,26,9,33,33,13,6,17,12,140),
+--(735,22300706,1610612738,48,99,19,51,16,18,17,40,30,12,4,10,13,131),
+--(736,22300707,1610612766,35,88,8,29,21,25,11,32,18,6,5,10,16,99),
+--(737,22300708,1610612746,34,77,16,39,19,22,9,39,23,6,5,15,12,103),
+--(738,22300709,1610612745,31,88,10,30,18,27,10,31,20,10,7,11,26,90),
+--(739,22300710,1610612760,52,110,23,63,8,8,14,31,40,6,8,10,15,135),
+--(740,22300711,1610612749,39,84,15,41,15,25,7,25,27,8,3,11,21,108),
+--(741,22300712,1610612743,42,86,12,28,16,19,14,28,26,8,6,8,11,112),
+--(742,22300713,1610612766,47,96,13,32,11,14,5,29,26,9,1,9,16,118),
+--(743,22300714,1610612739,51,88,23,41,11,17,5,40,36,10,5,8,15,136),
+--(744,22300715,1610612742,42,87,17,43,17,23,8,36,28,6,4,9,16,118),
+--(745,22300716,1610612737,51,95,20,39,22,27,13,26,35,5,4,11,22,144),
+--(746,22300717,1610612751,34,89,13,42,17,22,11,27,23,7,12,10,23,98),
+--(747,22300718,1610612740,53,104,19,45,13,13,17,34,36,11,5,7,13,138),
+--(748,22300719,1610612745,50,97,12,25,17,23,20,28,26,5,3,15,16,129),
+--(749,22300720,1610612751,41,91,12,33,13,15,8,35,33,6,5,10,13,107),
+--(750,22300721,1610612748,47,87,13,36,14,18,11,34,31,10,3,13,19,121),
+--(751,22300722,1610612763,41,80,21,37,10,16,8,27,33,4,5,18,15,113),
+--(752,22300723,1610612741,45,93,12,30,27,32,13,35,24,9,16,14,22,129),
+--(753,22300724,1610612760,43,90,19,37,12,18,9,23,26,9,9,11,16,117),
+--(754,22300725,1610612749,39,90,13,40,15,25,10,34,23,10,4,12,21,106),
+--(755,22300726,1610612766,44,90,16,39,13,20,9,29,27,6,2,10,20,117),
+--(756,22300728,1610612739,43,88,12,35,16,22,7,39,25,4,5,14,11,114),
+--(757,22300727,1610612744,47,94,16,38,17,22,12,40,30,7,8,12,21,127),
+--(758,22300729,1610612737,43,102,13,41,18,20,13,36,24,8,2,9,13,117),
+--(759,22300730,1610612748,43,87,12,38,18,23,5,40,29,8,2,10,20,116),
+--(760,22300731,1610612746,36,78,12,32,22,26,8,29,23,7,2,19,17,106),
+--(761,22300732,1610612765,47,84,17,31,22,22,6,42,32,2,2,11,21,133),
+--(762,22300733,1610612744,52,93,17,32,10,13,10,39,33,7,7,17,22,131),
+--(763,22300734,1610612753,49,82,16,27,13,20,8,31,34,11,5,16,20,127),
+--(764,22300735,1610612751,37,93,10,25,11,14,12,22,22,9,3,12,17,95),
+--(765,22300736,1610612742,43,82,18,42,18,23,6,34,30,7,6,8,13,122),
+--(766,22300737,1610612741,43,79,12,26,20,22,8,38,24,3,4,14,16,118),
+--(767,22300738,1610612749,40,81,14,33,11,16,10,25,35,6,3,13,10,105),
+--(768,22300739,1610612756,52,88,14,29,11,16,5,32,37,10,7,12,22,129),
+--(769,22300740,1610612743,47,97,14,32,6,7,14,36,33,4,6,12,17,114),
+--(770,22300741,1610612765,45,93,16,27,22,31,16,29,26,3,7,16,23,128),
+--(771,22300742,1610612737,42,81,16,36,27,33,9,31,31,4,9,13,19,127),
+--(772,22300743,1610612738,48,92,11,34,26,28,9,40,25,9,5,13,17,133),
+--(773,22300744,1610612745,38,85,15,38,13,16,12,36,22,5,3,21,20,104),
+--(774,22300745,1610612766,27,79,7,29,23,29,8,40,17,2,2,13,20,84),
+--(775,22300746,1610612743,38,82,10,29,20,28,9,26,26,9,5,20,16,106),
+--(776,22300747,1610612747,49,88,14,31,27,32,5,27,32,5,5,7,20,139),
+--(777,22300748,1610612742,53,91,15,38,25,33,11,43,30,8,3,12,23,146),
+--(778,22300749,1610612765,45,102,9,30,7,7,14,43,27,7,2,14,19,106),
+--(779,22300750,1610612751,49,87,17,34,8,11,9,32,31,8,7,11,23,123),
+--(780,22300751,1610612766,47,82,16,31,5,7,5,38,30,8,4,19,9,115),
+--(781,22300752,1610612741,43,99,12,37,10,14,18,25,21,10,6,8,24,108),
+--(782,22300753,1610612755,48,100,8,27,15,23,13,35,28,8,4,11,18,119),
+--(783,22300754,1610612737,40,88,14,41,28,37,9,32,25,7,8,11,18,122),
+--(784,22300755,1610612754,50,82,14,29,11,19,6,35,30,4,3,15,20,125),
+--(785,22300756,1610612739,48,92,14,41,9,13,14,33,36,5,4,10,18,119),
+--(786,22300757,1610612744,45,101,17,41,6,11,13,39,33,6,2,13,20,113),
+--(787,22300758,1610612740,36,76,10,27,11,16,8,28,27,9,6,12,14,93),
+--(788,22300759,1610612738,41,81,16,39,12,17,6,36,27,1,9,9,13,110),
+--(789,22300760,1610612760,46,85,13,27,22,27,5,31,30,8,9,9,17,127),
+--(790,22300761,1610612766,44,82,10,34,13,16,5,41,27,5,3,16,17,111),
+--(791,22300762,1610612739,44,92,13,37,20,25,15,28,33,6,8,10,17,121),
+--(792,22300763,1610612737,44,94,14,43,24,29,15,34,33,4,3,11,20,126),
+--(793,22300764,1610612759,46,87,11,30,19,23,5,41,37,12,13,17,14,122),
+--(794,22300765,1610612745,36,80,10,26,23,33,12,27,22,12,3,11,16,105),
+--(795,22300766,1610612763,34,81,12,44,7,8,3,33,28,7,8,17,17,87),
+--(796,22300767,1610612743,36,94,11,40,12,17,12,36,24,7,2,13,14,95),
+--(797,22300768,1610612742,43,96,9,36,17,26,12,44,27,7,12,16,18,112),
+--(798,22300769,1610612744,48,100,20,44,13,17,12,39,31,8,4,13,13,129),
+--(799,22300770,1610612746,34,84,9,28,23,26,10,26,20,6,3,13,14,100),
+--(800,22300771,1610612751,39,79,15,33,17,26,7,30,28,6,3,12,21,110),
+--(801,22300772,1610612760,46,84,13,32,22,24,4,27,28,9,8,11,20,127),
+--(802,22300773,1610612748,45,87,19,40,14,18,7,40,34,10,3,14,13,123),
+--(803,22300774,1610612756,44,85,13,31,29,36,7,32,29,11,6,12,16,130),
+--(804,22300775,1610612750,39,84,13,33,30,34,12,29,24,8,9,12,18,121),
+--(805,22300776,1610612765,45,108,8,28,13,17,17,33,30,8,2,10,24,111),
+--(806,22300777,1610612737,36,89,9,38,18,20,15,30,23,5,6,16,20,99),
+--(807,22300778,1610612752,35,84,11,29,19,24,16,18,15,8,0,10,11,100),
+--(808,22300779,1610612748,42,88,11,35,14,15,10,33,27,10,1,13,17,109),
+--(809,22300780,1610612751,31,81,10,31,14,15,6,25,27,5,1,11,12,86),
+--(810,22300781,1610612741,38,83,14,33,15,17,9,35,18,5,3,14,21,105),
+--(811,22300782,1610612754,47,97,17,41,16,23,9,30,32,9,9,8,20,127),
+--(812,22300783,1610612745,42,102,11,36,18,28,22,34,20,9,4,9,25,113),
+--(813,22300784,1610612740,50,89,10,32,23,29,8,31,36,14,6,10,21,133),
+--(814,22300785,1610612742,49,92,11,30,7,10,8,47,28,6,10,15,14,116),
+--(815,22300786,1610612743,35,89,9,26,19,22,12,33,27,6,5,12,18,98),
+--(816,22300787,1610612765,38,99,10,37,14,22,16,32,26,14,5,19,32,100),
+--(817,22300788,1610612747,52,91,14,31,20,24,5,32,34,8,4,9,13,138),
+--(818,22300789,1610612744,47,103,18,47,13,18,13,34,34,7,2,9,25,125),
+--(819,22300790,1610612763,44,83,13,26,12,19,7,33,30,9,3,16,16,113),
+--(820,22300576,1610612744,49,92,20,42,22,28,13,28,42,8,6,13,19,140),
+--(821,22300791,1610612750,46,89,11,30,25,27,11,41,24,8,5,13,22,128),
+--(823,22300792,1610612739,39,70,10,22,21,26,7,26,31,8,5,17,18,109),
+--(824,22300793,1610612765,47,89,12,30,9,18,6,35,27,6,4,15,21,115),
+--(825,22300794,1610612752,38,79,15,34,19,27,12,33,24,11,6,15,13,110),
+--(826,22300795,1610612751,33,80,11,37,16,22,6,33,19,7,2,19,24,93),
+--(827,22300796,1610612742,43,90,19,44,18,21,10,29,24,10,5,10,21,123),
+--(828,22300797,1610612738,45,83,23,47,16,21,5,31,27,10,11,13,16,129),
+--(829,22300798,1610612745,36,82,15,41,18,28,12,32,27,6,5,22,18,105),
+--(830,22300799,1610612746,42,93,12,32,11,13,11,31,27,6,2,14,15,107),
+--(831,22300800,1610612743,56,101,7,31,11,15,13,47,41,11,11,16,16,130),
+--(832,22300801,1610612766,40,92,20,42,15,22,12,30,28,11,3,9,23,115),
+--(833,22300802,1610612744,50,107,16,41,12,14,15,33,32,6,4,9,19,128),
+--(834,22300803,1610612758,52,93,13,33,10,14,7,35,29,5,6,10,12,127),
+--(835,22300804,1610612737,46,106,12,39,17,24,20,34,27,5,4,9,11,121),
+--(836,22300805,1610612739,34,80,8,27,21,31,5,38,24,5,8,10,15,97),
+--(837,22300806,1610612745,37,93,15,45,25,34,17,37,25,8,5,14,23,114),
+--(838,22300807,1610612746,37,84,12,32,15,17,14,37,20,7,2,20,20,101),
+--(839,22300809,1610612760,55,92,20,40,17,21,8,48,30,5,9,15,22,147),
+--(840,22300810,1610612748,38,82,13,29,17,25,10,36,20,6,11,14,14,106),
+--(841,22300808,1610612749,41,87,13,37,17,25,11,36,24,10,4,10,18,112),
+--(842,22300811,1610612766,32,88,11,39,9,11,13,30,21,13,6,18,15,84),
+--(843,22300812,1610612743,50,85,13,33,14,22,11,34,38,8,6,12,17,127),
+--(844,22300813,1610612747,49,95,11,27,14,18,10,36,28,7,4,12,18,123),
+--(845,22300814,1610612765,43,85,14,31,9,13,7,29,29,7,7,12,21,109),
+--(846,22300816,1610612738,46,81,15,35,9,12,11,25,27,8,4,7,16,116),
+--(847,22300815,1610612751,35,104,6,35,10,11,16,40,20,7,2,11,17,86),
+--(848,22300817,1610612749,43,79,18,37,15,18,7,40,32,6,10,18,13,119),
+--(849,22300818,1610612747,47,90,15,35,4,8,3,31,28,7,4,10,14,113),
+--(850,22300819,1610612742,41,87,14,31,15,21,8,30,15,9,4,15,13,111),
+--(851,22300820,1610612739,42,83,10,32,20,27,6,41,35,6,6,10,16,114),
+--(852,22300821,1610612737,41,90,12,29,15,17,9,35,31,10,3,9,17,109),
+--(853,22300822,1610612745,38,93,16,41,18,23,13,37,18,6,7,18,16,110),
+--(854,22300823,1610612741,41,95,13,40,19,21,12,37,29,12,0,9,15,114),
+--(855,22300824,1610612743,43,88,11,32,22,26,12,33,29,10,5,10,20,119),
+--(856,22300825,1610612759,42,91,13,31,12,19,10,36,34,8,11,20,17,109),
+--(857,22300826,1610612766,37,75,7,24,12,17,4,37,24,12,6,14,12,93),
+--(858,22300827,1610612746,40,82,8,27,19,20,10,29,23,7,2,15,14,107),
+--(859,22300829,1610612754,46,100,13,42,17,23,13,30,27,8,5,10,19,122),
+--(860,22300828,1610612765,38,79,14,30,21,26,10,32,25,9,6,17,15,111),
+--(861,22300830,1610612751,44,90,15,42,8,14,12,34,32,5,5,8,24,111),
+--(862,22300831,1610612748,45,87,11,30,20,25,10,29,27,12,3,11,12,121),
+--(863,22300832,1610612739,44,83,20,40,13,18,9,38,35,2,4,16,12,121),
+--(864,22300833,1610612751,31,79,8,31,11,14,9,26,18,10,1,20,22,81),
+--(865,22300834,1610612744,47,94,21,46,8,11,9,35,39,12,6,18,11,123),
+--(866,22300835,1610612737,46,93,12,32,20,23,15,40,27,8,8,17,15,124),
+--(867,22300836,1610612738,39,74,5,22,34,37,9,47,21,7,9,14,16,117),
+--(868,22300837,1610612740,39,77,18,34,19,23,10,34,23,4,5,14,21,115),
+--(869,22300838,1610612750,43,93,13,31,15,17,11,35,28,16,8,14,14,114),
+--(870,22300839,1610612741,39,98,2,29,15,18,15,24,22,11,3,6,18,95),
+--(871,22300840,1610612766,30,81,11,40,14,17,5,32,24,6,2,13,16,85),
+--(872,22300841,1610612745,37,95,9,39,12,18,12,34,22,5,8,15,16,95),
+--(873,22300842,1610612748,37,70,14,26,18,26,6,28,29,8,8,18,19,106),
+--(874,22300843,1610612754,50,102,14,38,9,9,14,36,34,5,9,8,21,123),
+--(875,22300844,1610612742,52,96,15,43,17,21,11,39,32,7,10,14,20,136),
+--(876,22300845,1610612763,36,93,11,37,18,20,17,33,23,8,5,14,22,101),
+--(877,22300846,1610612741,44,110,13,37,31,38,25,49,29,6,8,16,18,132),
+--(878,22300847,1610612743,46,86,15,35,10,11,5,38,35,10,6,15,17,117),
+--(879,22300848,1610612746,45,89,10,37,12,16,9,27,29,10,1,12,17,112),
+--(880,22300849,1610612766,36,82,12,39,15,20,9,33,24,3,3,13,18,99),
+--(881,22300850,1610612753,42,77,10,30,21,31,10,35,27,9,6,15,20,115),
+--(882,22300851,1610612737,37,86,8,28,15,21,8,31,18,3,8,11,14,97),
+--(883,22300852,1610612744,44,98,14,44,8,16,16,37,26,8,5,11,19,110),
+--(884,22300853,1610612760,44,89,9,31,21,22,7,30,20,6,2,10,15,118),
+--(885,22300854,1610612745,33,99,11,45,28,31,19,39,14,8,5,12,29,105),
+--(886,22300855,1610612743,36,84,12,34,19,21,9,32,22,10,8,15,23,103),
+--(887,22300856,1610612747,53,101,8,23,20,24,7,38,30,6,6,11,16,134),
+--(888,22300857,1610612739,33,83,18,41,26,30,12,41,25,7,6,15,20,110),
+--(889,22300858,1610612766,43,84,14,33,14,17,7,25,24,5,6,5,13,114),
+--(890,22300859,1610612738,52,94,21,43,13,13,9,38,33,4,8,9,15,138),
+--(891,22300860,1610612744,44,98,18,44,14,18,15,41,26,10,5,14,14,120),
+--(892,22300861,1610612763,35,79,9,24,13,22,8,22,15,6,8,21,17,92),
+--(893,22300862,1610612750,42,85,12,31,24,32,8,36,29,4,5,12,22,120),
+--(894,22300863,1610612754,40,95,10,32,12,18,17,27,25,9,8,16,21,102),
+--(895,22300864,1610612741,36,86,11,27,14,16,7,37,25,4,2,12,21,97),
+--(896,22300865,1610612746,54,94,13,32,19,25,9,40,32,5,7,8,13,140),
+--(897,22300866,1610612737,37,87,11,34,17,23,12,30,23,4,4,11,19,102),
+--(898,22300867,1610612748,46,88,13,34,21,25,8,26,33,6,6,6,20,126),
+--(899,22300868,1610612763,30,83,15,40,25,33,9,36,21,15,9,22,17,100),
+--(900,22300869,1610612743,54,92,11,26,5,7,11,36,34,5,7,10,8,124),
+--(901,22300870,1610612745,42,96,16,42,18,26,13,36,27,13,3,12,22,118),
+--(902,22300871,1610612742,40,86,16,41,20,23,12,33,20,6,2,17,18,116),
+--(903,22300872,1610612738,53,96,25,49,9,11,7,44,35,10,5,7,19,140),
+--(904,22300873,1610612746,32,85,10,34,15,17,7,33,17,7,5,9,12,89),
+--(905,22300874,1610612765,33,86,8,36,17,20,5,23,25,11,2,12,19,91),
+--(906,22300875,1610612766,43,92,8,27,12,16,11,34,24,8,6,16,15,106),
+--(907,22300876,1610612739,39,87,17,44,3,8,10,29,31,7,5,10,11,98),
+--(908,22300877,1610612754,41,93,6,30,17,21,14,28,20,9,4,10,14,105),
+--(909,22300878,1610612760,49,102,9,31,11,15,10,31,21,16,8,5,15,118),
+--(910,22300879,1610612751,35,79,15,42,17,30,12,21,27,10,6,13,20,102),
+--(911,22300880,1610612746,37,84,16,40,16,25,5,33,25,9,3,13,21,106),
+--(912,22300881,1610612750,40,79,11,28,28,37,12,28,28,9,7,11,17,119),
+--(913,22300882,1610612762,49,101,16,40,13,15,11,40,29,6,9,11,16,127),
+--(914,22300883,1610612741,42,84,11,32,18,22,7,25,28,9,2,9,17,113),
+--(915,22300884,1610612747,41,80,16,34,18,25,12,43,29,8,7,20,15,116),
+--(916,22300885,1610612766,33,72,12,33,11,11,3,28,19,7,1,19,19,89),
+--(917,22300886,1610612738,39,93,15,38,11,12,14,39,24,6,9,13,13,104),
+--(918,22300887,1610612751,41,84,12,30,18,24,10,34,25,4,7,12,16,112),
+--(919,22300888,1610612765,39,89,12,42,20,22,10,32,26,5,3,10,16,110),
+--(920,22300889,1610612737,44,87,10,31,18,23,13,38,26,6,5,14,13,116),
+--(921,22300890,1610612740,53,105,24,49,9,11,17,45,38,9,5,11,19,139),
+--(922,22300891,1610612745,49,105,9,34,7,11,16,35,23,15,5,5,15,114),
+--(923,22300892,1610612742,45,93,13,39,17,21,9,32,23,5,6,9,23,120),
+--(924,22300893,1610612743,41,96,15,40,10,14,10,41,25,6,6,14,15,107),
+--(925,22300894,1610612753,44,81,12,26,19,21,9,33,21,4,5,15,14,119),
+--(926,22300895,1610612737,43,84,11,30,15,20,8,34,27,7,3,9,17,112),
+--(927,22300896,1610612763,41,91,13,37,20,23,15,39,21,3,15,15,14,115),
+--(928,22300897,1610612745,45,94,16,37,10,17,13,25,33,6,2,8,21,116),
+--(929,22300898,1610612741,45,90,17,39,12,15,7,32,29,7,4,7,13,119),
+--(930,22300899,1610612744,51,91,19,39,4,7,8,42,37,10,13,14,13,125),
+--(931,22300900,1610612760,43,74,9,22,33,39,7,32,23,10,5,18,18,128),
+--(932,22300901,1610612747,42,81,15,32,21,25,3,31,25,4,5,14,14,120),
+--(933,22300902,1610612751,41,84,17,41,13,18,4,24,24,12,4,14,17,112),
+--(934,22300903,1610612754,42,82,10,26,17,23,7,32,26,5,10,15,24,111),
+--(935,22300904,1610612742,40,87,16,41,18,23,10,35,27,5,6,9,16,114),
+--(936,22300905,1610612756,44,86,15,35,17,20,10,39,29,6,6,14,16,120),
+--(937,22300906,1610612738,41,91,11,38,16,25,13,34,24,6,3,12,18,109),
+--(938,22300907,1610612741,46,87,16,36,17,23,7,33,29,6,5,14,22,125),
+--(939,22300908,1610612758,52,102,10,32,17,18,14,32,31,8,3,13,15,131),
+--(940,22300909,1610612740,35,79,11,31,22,23,9,39,22,7,10,12,18,103),
+--(941,22300910,1610612766,40,100,9,42,11,15,13,35,18,6,5,7,19,100),
+--(942,22300911,1610612739,38,88,11,34,26,36,10,36,27,7,8,12,20,113),
+--(943,22300912,1610612752,38,79,16,33,6,8,11,32,20,7,10,15,14,98),
+--(944,22300913,1610612737,37,87,15,35,10,15,15,32,21,9,5,14,20,99),
+--(945,22300914,1610612748,38,82,11,29,13,18,7,36,24,6,5,10,16,100),
+--(946,22300915,1610612747,47,90,16,34,13,19,4,34,27,2,7,5,16,123),
+--(947,22300916,1610612745,45,94,14,37,19,26,14,33,33,12,10,7,15,123),
+--(948,22300917,1610612741,37,86,13,35,15,19,12,26,27,7,3,12,19,102),
+--(949,22300918,1610612751,36,90,14,42,13,17,16,25,22,4,2,15,14,99),
+--(950,22300919,1610612742,51,92,14,38,26,32,4,32,29,13,8,14,18,142),
+--(951,22300920,1610612738,46,94,15,39,10,13,13,30,29,7,4,12,12,117),
+--(952,22300921,1610612744,41,88,10,30,21,29,9,30,26,9,7,12,24,113),
+--(953,22300922,1610612743,55,83,19,32,13,16,5,27,40,8,10,13,22,142),
+--(954,22300923,1610612757,49,103,16,40,14,15,18,34,31,10,3,14,18,128),
+--(955,22300924,1610612746,47,104,14,47,9,10,17,35,30,3,9,10,23,117),
+--(956,22300925,1610612737,38,91,17,46,10,13,12,29,28,6,4,11,15,103),
+--(957,22300926,1610612748,43,95,10,33,12,18,16,35,20,9,6,13,18,108),
+--(958,22300928,1610612754,38,78,8,23,27,33,5,41,20,5,10,12,21,111),
+--(959,22300929,1610612745,39,84,12,29,22,27,6,36,23,8,1,12,18,112),
+--(960,22300927,1610612752,26,80,9,40,12,16,16,34,19,9,5,19,14,73),
+--(961,22300930,1610612751,42,79,18,35,18,20,8,32,33,7,3,12,17,120),
+--(962,22300931,1610612763,32,78,11,33,18,27,8,31,21,8,4,16,14,93),
+--(963,22300932,1610612747,44,83,10,24,22,29,14,42,29,9,4,19,12,120),
+--(964,22300933,1610612766,34,88,13,40,16,23,9,31,27,7,2,12,16,97),
+--(965,22300934,1610612739,40,84,15,46,16,19,10,27,30,9,0,12,18,111),
+--(966,22300935,1610612741,35,89,7,34,15,22,14,29,19,6,2,13,12,92),
+--(967,22300936,1610612744,46,93,12,27,8,12,10,35,28,7,4,13,19,112),
+--(968,22300937,1610612743,52,95,10,29,11,18,11,31,36,8,8,9,14,125),
+--(969,22300938,1610612738,49,100,15,40,8,12,14,31,34,7,10,3,11,121),
+--(970,22300939,1610612752,40,79,14,40,12,15,9,42,32,4,4,12,15,106),
+--(971,22300940,1610612763,42,94,8,33,17,21,17,36,27,8,7,17,19,109),
+--(972,22300941,1610612754,48,89,9,28,16,19,4,39,34,8,10,9,11,121),
+--(973,22300942,1610612745,37,80,10,32,19,21,8,28,21,10,5,12,19,103),
+--(974,22300943,1610612738,43,92,20,49,17,19,14,32,25,5,8,8,14,123),
+--(975,22300944,1610612746,34,72,11,30,21,25,8,26,22,7,4,18,18,100),
+--(976,22300945,1610612749,30,82,7,39,27,35,10,34,23,3,2,13,18,94),
+--(977,22300946,1610612765,39,88,11,30,24,31,11,47,27,7,7,21,21,113),
+--(978,22300947,1610612751,38,81,7,26,23,27,8,24,21,7,4,13,19,106),
+--(979,22300948,1610612741,48,92,10,28,26,32,7,41,22,6,5,11,21,132),
+--(980,22300949,1610612743,40,82,11,33,9,13,7,34,24,4,2,9,13,100),
+--(981,22300950,1610612766,44,82,13,36,9,13,6,29,26,12,7,20,11,110),
+--(982,22300951,1610612739,47,92,20,45,2,3,8,38,38,4,4,9,18,116),
+--(983,22300952,1610612742,44,82,6,27,15,19,9,33,30,6,13,16,16,109),
+--(984,22300953,1610612737,38,88,14,39,12,18,13,25,19,11,6,14,23,102),
+--(985,22300954,1610612747,38,78,14,32,17,22,7,31,25,8,2,14,12,107),
+--(986,22300955,1610612738,47,89,25,50,8,11,6,27,31,12,5,8,13,127),
+--(987,22300956,1610612741,41,86,16,35,13,16,11,25,28,4,2,13,14,111),
+--(988,22300957,1610612745,51,87,12,28,21,24,8,39,24,7,1,17,19,135),
+--(989,22300958,1610612749,39,72,16,36,20,24,6,31,29,6,4,14,14,114),
+--(990,22300959,1610612742,43,84,12,29,21,26,10,30,25,6,2,19,20,119),
+--(991,22300960,1610612752,38,87,6,29,23,26,15,35,16,11,1,12,18,105),
+--(992,22300961,1610612766,35,94,6,37,20,27,12,36,20,6,3,4,16,96),
+--(993,22300962,1610612765,36,84,10,38,13,15,9,39,27,5,2,17,16,95),
+--(994,22300963,1610612753,40,80,14,31,19,22,6,33,25,7,4,14,15,113),
+--(995,22300964,1610612746,37,77,12,33,18,19,5,32,18,6,8,12,17,104),
+--(996,22300965,1610612743,49,89,10,25,9,12,7,33,37,13,5,12,20,117),
+--(997,22300966,1610612737,41,92,20,39,20,27,11,30,32,7,5,9,16,122),
+--(998,22300967,1610612739,37,82,12,38,17,20,7,38,22,6,7,15,12,103),
+--(999,22300968,1610612751,33,77,10,25,24,31,12,33,18,8,3,20,18,100)
+--insert into Statistics_Home_Team values
+--(1000,22300969,1610612766,37,82,10,31,14,18,12,28,21,11,4,16,21,98),
+--(1001,22300970,1610612740,52,97,13,33,9,10,10,29,36,8,5,9,13,126),
+--(1002,22300971,1610612741,49,85,8,24,21,29,12,39,33,9,4,15,16,127),
+--(1003,22300972,1610612763,37,81,18,44,20,26,7,29,34,7,4,14,20,112),
+--(1004,22300973,1610612744,51,97,14,34,12,15,14,31,38,3,4,7,19,128),
+--(1005,22300974,1610612750,44,93,19,41,12,15,7,37,31,8,6,8,16,119),
+--(1006,22300975,1610612752,37,86,11,39,13,16,10,42,19,8,9,14,21,98),
+--(1007,22300976,1610612749,51,94,24,41,14,14,10,25,35,11,2,10,12,140),
+--(1008,22300977,1610612765,38,83,14,36,11,14,7,37,24,4,7,12,19,101),
+--(1009,22300978,1610612742,42,100,9,35,14,21,22,38,22,5,5,11,21,107),
+--(1010,22300979,1610612753,43,85,11,36,14,20,10,29,22,7,4,13,16,111),
+--(1011,22300980,1610612738,43,87,24,50,20,24,12,31,30,9,6,14,17,130),
+--(1012,22300981,1610612751,47,102,8,31,13,19,11,37,29,13,5,12,20,115),
+--(1013,22300982,1610612737,41,84,17,34,11,12,10,35,32,10,7,14,22,110),
+--(1014,22300983,1610612739,38,80,12,32,20,28,9,30,27,8,4,14,18,108),
+--(1015,22300984,1610612738,43,95,22,49,11,13,15,38,30,8,8,9,9,119),
+--(1016,22300985,1610612748,35,89,12,33,9,14,11,38,23,8,3,15,13,91),
+--(1017,22300986,1610612741,41,93,11,33,17,21,13,27,26,9,5,9,21,110),
+--(1018,22300987,1610612750,44,91,16,41,10,12,12,23,27,9,9,9,15,114),
+--(1019,22300988,1610612744,42,88,14,36,14,18,12,27,29,7,5,13,16,112),
+--(1020,22300989,1610612763,37,98,13,38,24,30,15,34,22,13,7,12,23,111),
+--(1021,22300990,1610612737,42,98,9,41,12,15,12,30,32,8,5,9,14,105),
+--(1022,22300991,1610612766,38,79,9,29,7,9,4,26,19,8,1,17,13,92),
+--(1023,22300992,1610612745,47,91,13,39,30,36,12,35,25,6,11,7,15,137),
+--(1024,22300993,1610612751,31,84,12,40,17,22,14,28,19,6,4,13,13,91),
+--(1025,22300994,1610612742,44,91,10,30,15,17,3,37,31,6,3,9,18,113),
+--(1026,22300995,1610612743,42,81,14,27,17,22,11,38,26,5,1,17,19,115),
+--(1027,22300996,1610612739,35,75,15,42,19,22,6,31,30,3,2,11,19,104),
+--(1028,22300997,1610612765,37,90,5,23,24,30,12,34,23,8,1,15,14,103),
+--(1029,22300998,1610612738,40,85,18,40,24,29,11,26,25,6,5,9,18,122),
+--(1030,22300999,1610612758,48,93,12,40,15,18,18,35,32,14,6,15,16,123),
+--(1031,22301000,1610612760,43,88,10,34,23,29,10,35,29,10,7,10,16,119),
+--(1032,22301001,1610612744,58,100,19,39,2,6,13,35,43,6,5,6,17,137),
+--(1033,22301002,1610612755,41,95,13,37,7,18,13,27,33,12,7,9,12,102),
+--(1034,22301003,1610612746,45,86,13,31,13,15,8,34,29,15,7,11,13,116),
+--(1035,22301004,1610612740,42,78,6,20,16,21,3,30,24,11,1,18,18,106),
+--(1036,22301005,1610612758,37,86,11,39,17,19,10,27,21,12,7,15,20,102),
+--(1037,22301006,1610612741,42,93,12,31,21,25,12,31,23,8,3,11,17,117),
+--(1038,22301007,1610612751,41,92,13,44,13,16,15,34,29,7,1,14,12,108),
+--(1039,22301008,1610612742,43,86,10,32,17,28,11,32,33,12,3,13,20,113),
+--(1040,22301009,1610612743,45,84,6,20,17,20,9,33,31,5,4,9,14,113),
+--(1041,22301010,1610612737,40,91,12,35,23,29,12,24,27,11,3,8,23,115),
+--(1042,22301011,1610612738,47,89,16,45,19,27,8,27,31,9,5,7,15,129),
+--(1043,22301012,1610612760,48,95,12,32,15,19,13,33,27,17,5,15,20,123),
+--(1044,22301013,1610612748,31,86,13,47,13,15,7,27,22,3,4,4,9,88),
+--(1045,22301014,1610612739,34,81,7,29,16,19,10,31,22,6,5,12,14,91),
+--(1046,22301015,1610612763,33,82,12,34,21,31,9,42,18,10,4,17,17,99),
+--(1047,22301016,1610612744,43,106,14,48,11,16,24,40,24,6,6,14,15,111),
+--(1048,22301017,1610612746,44,77,14,33,23,27,7,33,26,8,8,17,21,125),
+--(1049,22301018,1610612747,32,73,12,31,25,33,11,43,22,1,7,21,16,101),
+--(1050,22301019,1610612751,34,76,12,34,13,15,8,33,26,5,6,15,15,93),
+--(1051,22301020,1610612753,42,88,10,35,13,18,12,37,27,5,3,13,20,107),
+--(1052,22301021,1610612737,50,90,20,42,12,14,11,32,40,9,5,8,14,132),
+--(1053,22301022,1610612761,40,94,8,33,21,26,13,29,27,9,7,12,20,109),
+--(1054,22301023,1610612738,44,86,21,48,15,17,12,29,28,5,3,12,9,124),
+--(1055,22301024,1610612745,54,97,27,49,12,14,12,32,31,7,3,9,26,147),
+--(1056,22301025,1610612756,56,94,11,24,8,10,7,32,38,11,5,8,18,131),
+--(1057,22301026,1610612743,41,91,8,24,24,33,19,30,25,8,9,13,17,114),
+--(1058,22301027,1610612765,32,79,11,41,26,32,10,36,20,4,5,16,25,101),
+--(1059,22301028,1610612746,40,83,10,28,17,18,10,27,27,2,9,13,11,107),
+--(1060,22301029,1610612739,30,72,9,29,15,20,4,26,24,3,3,17,16,84),
+--(1061,22301030,1610612749,49,92,11,34,9,14,15,42,33,7,5,16,21,118),
+--(1062,22301031,1610612744,38,85,14,36,20,26,7,34,23,8,3,12,19,110),
+--(1063,22301032,1610612754,59,107,18,36,9,16,10,30,39,6,4,11,31,145),
+--(1064,22301033,1610612766,34,80,9,28,15,18,6,27,22,5,4,11,13,92),
+--(1065,22301034,1610612737,46,87,18,36,10,17,15,29,30,5,3,13,18,120),
+--(1066,22301035,1610612765,34,88,10,34,21,22,7,30,22,8,5,12,22,99),
+--(1067,22301036,1610612751,37,81,9,39,13,18,16,34,20,3,4,18,16,96),
+--(1068,22301037,1610612741,36,87,10,35,23,28,9,37,27,9,8,11,14,105),
+--(1069,22301038,1610612745,37,93,12,39,24,25,13,32,19,7,7,8,16,110),
+--(1070,22301039,1610612756,42,83,10,28,8,14,5,42,28,5,7,14,14,102),
+--(1071,22301040,1610612743,48,90,15,32,17,18,15,35,38,10,7,15,23,128),
+--(1072,22301041,1610612742,44,92,12,42,15,18,10,37,31,9,7,6,17,115),
+--(1073,22301042,1610612755,34,82,11,34,17,20,15,32,18,2,4,15,25,96),
+--(1074,22301043,1610612754,50,86,17,28,16,22,7,27,28,7,3,8,21,133),
+--(1075,22301044,1610612744,47,85,13,38,6,10,7,36,31,6,5,10,20,113),
+--(1076,22301045,1610612747,42,108,14,44,30,32,15,54,30,4,8,17,13,128),
+--(1077,22301046,1610612740,39,86,14,38,20,23,5,32,26,7,2,9,18,112),
+--(1078,22301047,1610612742,51,92,22,39,8,13,5,44,34,10,4,9,18,132),
+--(1079,22301048,1610612766,44,76,13,33,17,22,8,30,30,8,2,15,14,118),
+--(1080,22301049,1610612744,40,90,10,34,11,13,12,40,26,5,5,12,18,101),
+--(1081,22301050,1610612751,47,98,10,33,18,23,10,35,24,8,9,8,16,122),
+--(1082,22301051,1610612737,44,85,16,41,16,20,8,33,23,12,9,16,17,120),
+--(1083,22301052,1610612746,40,90,14,36,14,20,11,32,28,8,5,6,16,108),
+--(1084,22301053,1610612752,55,94,22,44,13,16,15,27,37,7,8,11,17,145),
+--(1085,22301054,1610612741,49,98,12,27,15,18,13,41,28,7,5,7,19,125),
+--(1086,22301055,1610612747,45,81,18,33,28,35,4,39,31,5,4,15,19,136),
+--(1087,22301056,1610612765,31,81,9,32,20,25,10,31,15,9,1,12,14,91),
+--(1088,22301057,1610612745,50,104,15,43,17,23,16,34,25,10,3,16,24,132),
+--(1089,22301058,1610612759,44,86,16,33,14,21,9,32,40,9,7,21,21,118),
+--(1090,22301059,1610612743,38,88,10,40,11,12,9,29,24,9,4,8,13,97),
+--(1091,22301060,1610612737,51,104,15,44,6,10,17,36,24,5,5,11,17,123),
+--(1092,22301061,1610612749,38,82,14,39,10,19,5,41,21,1,4,14,25,100),
+--(1093,22301062,1610612766,34,84,12,46,17,24,12,29,23,4,2,11,10,97),
+--(1094,22301063,1610612754,43,89,10,31,13,14,6,40,27,8,6,8,14,109),
+--(1095,22301064,1610612746,41,85,8,24,10,12,12,29,19,11,4,16,17,100),
+--(1096,22301065,1610612765,37,89,6,24,16,20,8,39,19,9,5,13,18,96),
+--(1097,22301066,1610612751,43,91,25,44,14,22,12,31,26,9,3,6,22,125),
+--(1098,22301067,1610612739,45,82,16,37,11,13,5,32,34,4,3,13,17,117),
+--(1099,22301068,1610612748,54,92,21,39,13,18,6,38,41,17,4,8,13,142),
+--(1100,22301069,1610612760,49,87,16,30,14,14,7,31,33,7,7,10,13,128),
+--(1101,22301070,1610612752,51,110,14,37,10,12,18,32,24,10,1,11,24,126),
+--(1102,22301071,1610612743,35,88,8,28,20,27,13,33,29,6,1,12,24,98),
+--(1103,22301072,1610612745,35,91,13,42,18,28,15,30,19,10,6,10,18,101),
+--(1104,22301073,1610612742,35,74,15,35,22,33,6,36,24,4,6,10,12,107),
+--(1105,22301074,1610612738,39,82,15,37,11,12,8,43,27,7,7,12,13,104),
+--(1106,22301075,1610612763,31,86,12,36,14,17,13,32,25,11,7,19,19,88),
+--(1107,22301076,1610612737,42,92,14,35,15,18,9,30,24,5,3,11,26,113),
+--(1108,22301077,1610612739,38,82,8,25,17,21,6,22,26,10,4,15,12,101),
+--(1109,22301078,1610612751,39,92,12,36,14,19,9,29,19,12,3,12,17,104),
+--(1110,22301079,1610612766,44,88,23,52,7,11,5,26,32,3,2,9,25,118),
+--(1111,22301080,1610612755,49,83,24,43,13,16,9,30,28,6,10,15,17,135),
+--(1112,22301081,1610612748,40,81,14,36,25,29,6,36,22,11,8,13,19,119),
+--(1113,22301082,1610612752,38,92,13,43,23,34,15,31,24,8,3,10,19,112),
+--(1114,22301083,1610612742,48,93,24,47,5,9,10,37,24,7,8,13,17,125),
+--(1115,22301084,1610612741,42,80,17,29,8,12,8,35,30,11,3,16,18,109),
+--(1116,22301085,1610612744,45,92,16,39,11,13,12,29,34,15,3,15,14,117),
+--(1117,22301086,1610612758,45,84,20,40,17,23,13,31,34,8,6,15,23,127),
+--(1118,22301087,1610612738,43,89,19,53,13,16,11,40,28,3,3,10,15,118),
+--(1119,22301088,1610612765,40,79,11,28,17,22,9,32,22,7,9,14,16,108),
+--(1120,22301089,1610612751,41,87,10,26,19,28,12,31,20,3,4,15,19,111),
+--(1121,22301090,1610612753,36,76,11,32,21,27,9,34,26,4,6,15,17,104),
+--(1122,22301091,1610612737,41,82,19,40,12,18,8,37,29,4,5,14,21,113),
+--(1123,22301092,1610612740,42,89,11,27,16,24,12,25,29,10,1,9,17,111),
+--(1124,22301094,1610612747,52,101,18,41,6,12,13,34,38,6,8,14,17,128),
+--(1125,22301095,1610612749,45,103,11,48,12,18,18,39,31,8,6,12,17,113),
+--(1126,22301093,1610612760,37,87,13,39,18,22,12,31,30,10,9,14,18,105),
+--(1127,22301096,1610612748,36,74,17,38,20,21,7,32,24,5,4,17,17,109),
+--(1128,22301098,1610612745,41,92,14,48,10,14,12,25,23,10,0,14,23,106),
+--(1129,22301099,1610612743,43,98,11,34,13,16,11,41,28,5,10,8,15,110),
+--(1130,22301100,1610612739,46,85,16,39,21,24,9,32,38,10,6,13,14,129),
+--(1131,22300589,1610612742,39,89,15,40,7,11,8,34,27,8,7,15,14,100),
+--(1132,22301101,1610612746,31,76,11,27,22,27,9,29,18,6,1,15,21,95),
+--(1133,22301102,1610612766,32,78,5,31,17,22,2,34,22,10,8,9,15,86),
+--(1134,22301103,1610612747,46,91,8,28,25,29,11,38,21,10,4,16,10,125),
+--(1135,22301104,1610612737,49,90,13,38,10,15,6,42,36,9,8,16,13,121),
+--(1136,22301105,1610612738,50,92,17,40,18,19,11,35,33,7,10,10,18,135),
+--(1137,22301106,1610612751,42,87,12,32,19,27,15,35,22,4,8,13,16,115),
+--(1138,22301107,1610612763,46,91,7,23,12,17,13,41,25,5,8,8,12,111),
+--(1139,22301108,1610612750,49,96,20,43,15,22,9,41,37,13,9,9,12,133),
+--(1140,22301109,1610612740,36,76,12,29,24,28,7,28,21,9,1,14,26,108),
+--(1141,22301110,1610612739,39,83,7,26,16,19,7,30,28,9,4,15,14,101),
+--(1142,22301111,1610612748,39,94,13,43,14,16,16,35,24,8,4,15,10,105),
+--(1143,22301112,1610612752,44,80,12,28,20,29,9,30,34,9,2,11,20,120),
+--(1144,22301124,1610612737,34,85,13,38,14,21,11,45,21,7,2,21,22,95),
+--(1145,22301113,1610612744,47,80,17,35,22,25,12,31,29,6,2,18,23,133),
+--(1146,22301114,1610612743,36,83,11,35,17,25,6,45,27,3,4,13,19,100),
+--(1147,22301115,1610612766,43,72,15,30,23,23,4,32,29,6,4,18,22,124),
+--(1148,22301116,1610612754,46,88,15,35,19,21,8,31,30,8,5,13,23,126),
+--(1149,22301117,1610612757,41,94,9,29,17,24,16,39,29,7,5,12,23,108),
+--(1150,22301118,1610612738,38,89,12,44,13,18,12,39,25,6,4,7,11,101),
+--(1151,22301119,1610612741,44,93,7,23,13,16,19,38,27,11,5,16,19,108),
+--(1152,22301120,1610612745,34,90,14,44,22,25,12,33,25,7,2,9,13,104),
+--(1153,22301121,1610612765,32,79,8,30,18,24,10,28,22,13,4,17,14,90),
+--(1154,22301122,1610612749,41,94,12,42,17,21,12,33,21,8,6,13,24,111),
+--(1155,22301123,1610612740,44,86,9,29,12,12,11,30,28,11,2,17,17,109),
+--(1156,22301097,1610612742,40,84,12,34,16,21,8,33,30,9,9,17,17,108),
+--(1157,22301125,1610612750,33,85,10,29,11,14,8,36,23,9,6,18,20,87),
+--(1158,22301126,1610612746,51,91,13,35,16,18,8,43,32,9,4,14,22,131),
+--(1159,22301127,1610612739,39,90,11,35,8,12,11,29,24,11,3,18,11,97),
+--(1160,22301128,1610612751,38,73,11,27,26,33,11,37,20,3,7,18,11,113),
+--(1161,22301129,1610612763,36,87,9,26,15,21,15,29,21,9,2,18,18,96),
+--(1162,22301130,1610612737,37,87,12,37,24,29,11,27,30,8,2,16,18,110),
+--(1163,22301131,1610612742,46,85,15,39,40,45,6,41,21,4,6,17,26,147),
+--(1164,22301132,1610612739,42,88,11,30,23,27,7,29,27,10,2,11,16,118),
+--(1165,22301133,1610612754,44,86,9,32,20,21,4,33,27,4,6,6,24,117),
+--(1166,22301134,1610612738,49,87,16,38,10,13,5,35,34,11,8,12,12,124),
+--(1167,22301135,1610612766,45,83,17,40,11,14,7,29,29,12,9,18,14,118),
+--(1168,22301136,1610612741,38,75,6,20,16,22,8,29,20,7,5,21,17,98),
+--(1169,22301137,1610612761,49,96,11,31,21,28,8,41,33,9,4,13,26,130),
+--(1170,22301138,1610612740,40,85,16,39,17,19,8,34,26,8,7,12,17,113),
+--(1171,22301139,1610612749,35,75,12,34,27,32,9,29,27,3,7,14,16,109),
+--(1172,22301140,1610612755,52,114,12,39,17,19,8,38,31,15,3,10,20,133),
+--(1173,22301141,1610612751,30,86,7,30,10,13,7,39,17,5,5,16,14,77),
+--(1174,22301142,1610612744,49,92,14,35,6,6,11,36,32,9,8,13,19,118),
+--(1175,22301143,1610612747,39,84,11,31,28,32,10,31,27,10,2,15,14,117),
+--(1176,22301144,1610612766,39,89,10,32,16,21,8,31,24,8,3,11,16,104),
+--(1177,22301145,1610612765,34,84,14,30,20,24,9,35,20,3,5,16,17,102),
+--(1178,22301146,1610612754,54,99,16,45,16,23,15,29,33,9,8,13,23,140),
+--(1179,22301147,1610612737,45,113,10,46,11,14,17,42,28,13,2,15,23,111),
+--(1180,22301148,1610612738,37,93,17,52,0,0,12,26,27,11,4,12,8,91),
+--(1181,22301149,1610612741,47,88,10,28,13,19,12,27,20,4,5,9,18,117),
+--(1182,22301150,1610612745,45,86,15,35,13,18,6,31,29,8,7,12,21,118),
+--(1183,22301151,1610612763,36,104,6,30,9,11,17,32,21,10,5,7,13,87),
+--(1184,22301152,1610612750,43,90,18,41,26,32,10,34,30,9,8,8,14,130),
+--(1185,22301153,1610612760,39,80,11,30,23,31,6,36,21,11,8,13,18,112),
+--(1186,22301154,1610612743,46,94,14,37,5,11,13,30,30,12,12,9,10,111),
+--(1187,22301155,1610612744,47,80,26,41,14,21,4,38,37,3,12,15,17,134),
+--(1188,22301156,1610612746,41,87,12,26,11,11,10,53,28,5,3,18,22,105),
+--(1189,22301157,1610612740,36,87,11,36,27,29,13,32,25,13,2,9,9,110),
+--(1190,22301158,1610612739,37,82,15,37,21,29,12,35,27,11,10,13,15,110),
+--(1191,22301159,1610612737,43,82,18,40,10,16,7,31,35,7,2,16,20,114),
+--(1192,22301160,1610612751,38,86,11,36,19,24,14,42,25,4,15,13,16,106),
+--(1193,22301161,1610612742,43,87,15,44,10,13,8,31,27,8,8,7,13,111),
+--(1194,22301162,1610612749,43,84,15,40,16,20,10,33,27,9,4,12,20,117),
+--(1195,22301163,1610612760,47,101,16,38,17,21,7,55,33,12,6,12,16,127),
+--(1196,22301164,1610612743,46,83,11,25,13,23,11,33,31,7,8,13,21,116),
+--(1197,22301165,1610612746,44,95,12,36,8,10,9,35,23,9,3,12,13,108),
+--(1198,22301166,1610612741,51,96,14,36,11,15,11,31,28,14,5,8,15,127),
+--(1199,22301167,1610612738,40,86,16,42,13,16,10,26,25,7,12,12,16,109),
+--(1200,22301168,1610612745,40,95,21,47,20,22,16,23,22,8,6,10,18,121),
+--(1201,22301169,1610612744,36,77,12,35,16,20,10,36,24,8,13,16,18,100),
+--(1202,22301170,1610612740,49,86,22,40,15,18,5,35,35,7,2,13,16,135),
+--(1203,22301171,1610612753,43,95,8,27,19,25,10,35,25,7,7,11,21,113),
+--(1204,22301172,1610612741,48,98,14,35,19,28,17,39,28,9,6,13,25,129),
+--(1205,22301173,1610612738,54,104,14,41,9,13,16,37,34,12,1,6,20,131),
+--(1206,22301174,1610612739,50,95,13,32,16,23,11,30,28,9,2,9,14,129),
+--(1207,22301175,1610612751,41,82,11,32,14,19,16,29,22,3,4,12,19,107),
+--(1208,22301176,1610612748,45,86,17,41,18,23,6,31,37,7,2,4,16,125),
+--(1209,22301177,1610612747,42,81,13,37,26,34,10,29,25,5,6,19,17,123),
+--(1210,22301178,1610612737,40,90,9,30,17,25,9,31,23,4,1,14,25,106),
+--(1211,22301179,1610612749,42,85,11,30,12,13,8,34,27,7,3,17,15,107),
+--(1212,22301180,1610612743,49,97,13,36,9,10,6,27,31,9,4,7,19,120),
+--(1213,22301181,1610612742,36,83,8,29,9,12,9,40,20,5,5,20,9,89),
+--(1214,22301182,1610612744,40,86,13,34,16,21,11,42,27,6,5,16,15,109),
+--(1215,22301183,1610612745,44,92,11,39,17,20,10,38,25,3,5,8,20,116),
+--(1216,22301184,1610612746,43,96,10,39,13,19,20,24,23,9,7,13,17,109),
+--(1217,22301185,1610612756,40,76,12,32,16,17,6,35,25,4,4,18,16,108),
+--(1218,22301186,1610612738,51,89,16,32,14,21,10,38,29,10,15,14,13,132),
+--(1219,22301187,1610612766,46,91,19,40,9,11,10,37,36,10,9,9,11,120),
+--(1220,22301188,1610612737,39,89,12,36,25,27,9,23,25,6,5,15,12,115),
+--(1221,22301189,1610612748,46,87,9,36,17,19,13,33,29,13,7,19,16,118),
+--(1222,22301190,1610612741,49,101,8,31,13,16,15,29,25,15,3,12,21,119),
+--(1223,22301191,1610612749,30,75,7,27,21,23,7,27,16,10,4,17,18,88),
+--(1224,22301192,1610612751,32,83,9,34,13,17,4,38,19,8,6,12,14,86),
+--(1225,22301193,1610612743,46,89,12,36,22,26,16,38,32,9,5,17,17,126),
+--(1226,22301194,1610612750,36,70,9,26,25,31,12,24,22,7,5,24,20,106),
+--(1227,22301195,1610612747,48,87,11,29,17,18,7,32,32,12,3,14,13,124),
+--(1228,22301196,1610612742,32,97,8,39,14,17,12,29,19,8,2,14,15,86),
+--(1229,22301197,1610612765,36,92,8,33,15,20,11,29,17,7,3,14,9,95),
+--(1230,22301198,1610612744,45,94,14,43,19,23,12,30,35,10,6,9,14,123),
+--(1231,22301199,1610612745,50,103,11,38,5,14,17,42,31,7,8,18,13,116),
+--(1232,22301200,1610612757,31,98,7,45,13,17,23,31,18,11,2,17,19,82)
+
+delete from Statistics_Player
+
+insert into Statistics_Player values
 (1627752,22300061,'00:29:53',6,8,4,6,2,2,1,2,1,0,1,1,0,18,-14.0),
 (2544,22300061,'00:29:01',10,16,1,4,0,1,1,7,5,1,0,0,1,21,7.0),
 (203076,22300061,'00:34:09',6,17,1,2,4,4,1,7,4,0,2,2,3,17,-17.0),
@@ -26451,4 +30155,4 @@ insert into Statistics_Player values
 (1630222,22301200,'00:05:39',0,1,0,1,0,0,0,0,0,0,0,1,2,0,-8.0),
 (201580,22301200,'00:07:52',4,7,0,1,1,2,3,4,2,0,0,2,1,9,-1.0),
 (1641732,22301200,'00:04:17',3,3,0,0,2,2,0,1,1,0,1,0,0,8,1.0),
-(1641771,22301200,'00:03:38',1,1,0,0,0,0,0,0,0,0,0,0,1,2,5.0),
+(1641771,22301200,'00:03:38',1,1,0,0,0,0,0,0,0,0,0,0,1,2,5.0)
