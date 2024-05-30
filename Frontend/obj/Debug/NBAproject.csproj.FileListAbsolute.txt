@@ -20,3 +20,13 @@ C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.csproj.CoreCompileInputs.cache
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.exe
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.pdb
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.csproj.AssemblyReference.cache
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.Form1.resources
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.Properties.Resources.resources
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.csproj.GenerateResource.cache
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.csproj.CoreCompileInputs.cache
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.exe
+C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.pdb
+C:\Users\le13k\Documents\NBAStats\Frontend\bin\Debug\NBAproject.exe.config
+C:\Users\le13k\Documents\NBAStats\Frontend\bin\Debug\NBAproject.exe
+C:\Users\le13k\Documents\NBAStats\Frontend\bin\Debug\NBAproject.pdb
