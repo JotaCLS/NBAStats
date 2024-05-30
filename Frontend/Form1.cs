@@ -494,12 +494,16 @@ namespace NBAproject
             sb.AppendLine($"Minutes: {minutes}:{seconds:D2}");
             sb.AppendLine($"FGM: {stats.FGM:F2}");
             sb.AppendLine($"FGA: {stats.FGA:F2}");
+            sb.AppendLine($"FG%: {(stats.FGM/stats.FGA)*100:F2}");
             sb.AppendLine($"3PTM: {stats.ThreePTM:F2}");
             sb.AppendLine($"3PTA: {stats.ThreePTA:F2}");
+            sb.AppendLine($"3PT%: {(stats.ThreePTM / stats.ThreePTA) * 100:F2}");
             sb.AppendLine($"FTM: {stats.FTM:F2}");
             sb.AppendLine($"FTA: {stats.FTA:F2}");
+            sb.AppendLine($"FT%: {(stats.FTM / stats.FTA) * 100:F2}");
             sb.AppendLine($"Offensive Rebounds: {stats.OffReb:F2}");
             sb.AppendLine($"Defensive Rebounds: {stats.DefReb:F2}");
+            sb.AppendLine($"Rebounds: {stats.OffReb+stats.DefReb:F2}");
             sb.AppendLine($"Assists: {stats.Assists:F2}");
             sb.AppendLine($"Steals: {stats.Steals:F2}");
             sb.AppendLine($"Blocks: {stats.Blocks:F2}");
@@ -835,5 +839,14 @@ namespace NBAproject
             }
         }
 
+        private void label20_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged_1(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

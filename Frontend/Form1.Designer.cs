@@ -59,6 +59,10 @@
             this.Viewer = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label20 = new System.Windows.Forms.Label();
+            this.coachAgeBox = new System.Windows.Forms.TextBox();
+            this.label19 = new System.Windows.Forms.Label();
+            this.PlayerId = new System.Windows.Forms.TextBox();
             this.PlayerWeight = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.PlayerHeight = new System.Windows.Forms.TextBox();
@@ -79,8 +83,6 @@
             this.Search = new System.Windows.Forms.Button();
             this.SearchTeam = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.PlayerId = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.Viewer.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -373,6 +375,8 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label20);
+            this.tabPage2.Controls.Add(this.coachAgeBox);
             this.tabPage2.Controls.Add(this.label19);
             this.tabPage2.Controls.Add(this.PlayerId);
             this.tabPage2.Controls.Add(this.PlayerWeight);
@@ -401,6 +405,40 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "TeamManaging";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(883, 62);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(26, 13);
+            this.label20.TabIndex = 53;
+            this.label20.Text = "Age";
+            this.label20.Click += new System.EventHandler(this.label20_Click);
+            // 
+            // coachAgeBox
+            // 
+            this.coachAgeBox.Location = new System.Drawing.Point(883, 78);
+            this.coachAgeBox.Name = "coachAgeBox";
+            this.coachAgeBox.Size = new System.Drawing.Size(100, 20);
+            this.coachAgeBox.TabIndex = 52;
+            this.coachAgeBox.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(462, 55);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(50, 13);
+            this.label19.TabIndex = 51;
+            this.label19.Text = "Player ID";
+            // 
+            // PlayerId
+            // 
+            this.PlayerId.Location = new System.Drawing.Point(465, 78);
+            this.PlayerId.Name = "PlayerId";
+            this.PlayerId.Size = new System.Drawing.Size(100, 20);
+            this.PlayerId.TabIndex = 50;
             // 
             // PlayerWeight
             // 
@@ -520,7 +558,7 @@
             // 
             // CoachEdit
             // 
-            this.CoachEdit.Location = new System.Drawing.Point(751, 98);
+            this.CoachEdit.Location = new System.Drawing.Point(777, 78);
             this.CoachEdit.Name = "CoachEdit";
             this.CoachEdit.Size = new System.Drawing.Size(100, 20);
             this.CoachEdit.TabIndex = 36;
@@ -529,7 +567,7 @@
             // Coach
             // 
             this.Coach.AutoSize = true;
-            this.Coach.Location = new System.Drawing.Point(748, 81);
+            this.Coach.Location = new System.Drawing.Point(774, 61);
             this.Coach.Name = "Coach";
             this.Coach.Size = new System.Drawing.Size(38, 13);
             this.Coach.TabIndex = 35;
@@ -580,22 +618,6 @@
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Admin";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // PlayerId
-            // 
-            this.PlayerId.Location = new System.Drawing.Point(465, 78);
-            this.PlayerId.Name = "PlayerId";
-            this.PlayerId.Size = new System.Drawing.Size(100, 20);
-            this.PlayerId.TabIndex = 50;
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(462, 55);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(50, 13);
-            this.label19.TabIndex = 51;
-            this.label19.Text = "Player ID";
             // 
             // Form1
             // 
@@ -671,6 +693,8 @@
         private System.Windows.Forms.TextBox PlayerAge;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox PlayerId;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox coachAgeBox;
     }
 }
 
