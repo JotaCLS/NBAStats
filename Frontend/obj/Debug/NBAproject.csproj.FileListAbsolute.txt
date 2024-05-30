@@ -14,7 +14,6 @@ C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\bin\
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\bin\Debug\NBAproject.pdb
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.csproj.AssemblyReference.cache
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.csproj.SuggestedBindingRedirects.cache
-C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.Form1.resources
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.Properties.Resources.resources
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.csproj.GenerateResource.cache
 C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.csproj.CoreCompileInputs.cache
@@ -30,3 +29,4 @@ C:\Users\le13k\Documents\NBAStats\Frontend\obj\Debug\NBAproject.pdb
 C:\Users\le13k\Documents\NBAStats\Frontend\bin\Debug\NBAproject.exe.config
 C:\Users\le13k\Documents\NBAStats\Frontend\bin\Debug\NBAproject.exe
 C:\Users\le13k\Documents\NBAStats\Frontend\bin\Debug\NBAproject.pdb
+C:\Users\joaoc\Desktop\Faculdade\2º Ano- 2º Semestre\BD\NBAStats\Frontend\obj\Debug\NBAproject.game_list_admin.resources

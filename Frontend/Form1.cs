@@ -12,15 +12,15 @@ using System.Windows.Forms;
 
 namespace NBAproject
 {
-    public partial class Form1 : Form
+    public partial class game_list_admin : Form
     {
         private SqlConnection cn;
         private int currentTeam;
         bool search = false;
 
-        public Form1()
+        public game_list_admin()
         {
-            
+
             InitializeComponent();
             loadData();
             InitializeComboBox1();
@@ -80,6 +80,7 @@ namespace NBAproject
 
             currentTeam = 0;
             ShowTeam();
+            ShowSponsor();
         }
 
 
@@ -123,12 +124,12 @@ namespace NBAproject
 
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
-                    
-                     
-                     
-                    squad_list.Items.Clear(); 
-                    
-                    
+
+
+
+                    squad_list.Items.Clear();
+
+
 
                     while (reader.Read())
                     {
@@ -140,11 +141,11 @@ namespace NBAproject
                         player.PlayerHeight = reader["playerHeight"].ToString();
                         player.PlayerWeight = reader["playerWeight"].ToString();
 
-                        
-                        
+
+
                         squad_list.Items.Add(player);
-                        
-                        
+
+
                     }
                 }
             }
@@ -201,11 +202,11 @@ namespace NBAproject
 
                 game.HomeTeamName = reader["HomeTeamName"].ToString();
                 game.HomeTeamPoints = reader["HomeTeamPoints"].ToString();
-                
-                
+
+
                 game.AwayTeamName = reader["AwayTeamName"].ToString();
                 game.AwayTeamPoints = reader["AwayTeamPoints"].ToString();
-                
+
 
                 games_list.Items.Add(game);
             }
@@ -221,8 +222,46 @@ namespace NBAproject
             {
                 currentTeam = teams.SelectedIndex;
                 ShowTeam();
+                ShowSponsor();
             }
         }
+
+        private void ShowSponsor()
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                Team team = (Team)teams.Items[currentTeam];
+
+                int teamId = int.Parse(team.TeamId);
+                using (SqlCommand cmd = new SqlCommand("SELECT dbo.GetSponsorName(@TeamId)", cn))
+                {
+                    cmd.Parameters.AddWithValue("@TeamId", teamId);
+                    string sponsorName = (string)cmd.ExecuteScalar();
+
+                    if (!string.IsNullOrEmpty(sponsorName))
+                    {
+                        Sponsor.Text = sponsorName; // Exibe o nome do patrocinador na caixa de texto Sponsor
+                    }
+                    else
+                    {
+                        // Se não houver patrocinador para a equipe selecionada, limpe o texto da caixa de texto Sponsor
+                        Sponsor.Text = "";
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -275,7 +314,7 @@ namespace NBAproject
             comboBox2.Items.Add("Pacific");
             comboBox2.Items.Add("Southwest");
 
-            this.comboBox2.SelectedIndexChanged += new System.EventHandler(comboBox2_SelectedIndexChanged); 
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(comboBox2_SelectedIndexChanged);
         }
 
         private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
@@ -380,7 +419,7 @@ namespace NBAproject
         private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             ComboBox comboBox = (ComboBox)sender;
-            
+
             string selectedConference = (string)comboBox1.SelectedItem;
 
             filtrarConference(selectedConference);
@@ -486,7 +525,7 @@ namespace NBAproject
         {
             StringBuilder sb = new StringBuilder();
 
-            
+
             int totalSeconds = (int)(stats.Minutes * 60);
             int minutes = totalSeconds / 60;
             int seconds = totalSeconds % 60;
@@ -494,16 +533,12 @@ namespace NBAproject
             sb.AppendLine($"Minutes: {minutes}:{seconds:D2}");
             sb.AppendLine($"FGM: {stats.FGM:F2}");
             sb.AppendLine($"FGA: {stats.FGA:F2}");
-            sb.AppendLine($"FG%: {(stats.FGM/stats.FGA)*100:F2}");
             sb.AppendLine($"3PTM: {stats.ThreePTM:F2}");
             sb.AppendLine($"3PTA: {stats.ThreePTA:F2}");
-            sb.AppendLine($"3PT%: {(stats.ThreePTM / stats.ThreePTA) * 100:F2}");
             sb.AppendLine($"FTM: {stats.FTM:F2}");
             sb.AppendLine($"FTA: {stats.FTA:F2}");
-            sb.AppendLine($"FT%: {(stats.FTM / stats.FTA) * 100:F2}");
             sb.AppendLine($"Offensive Rebounds: {stats.OffReb:F2}");
             sb.AppendLine($"Defensive Rebounds: {stats.DefReb:F2}");
-            sb.AppendLine($"Rebounds: {stats.OffReb+stats.DefReb:F2}");
             sb.AppendLine($"Assists: {stats.Assists:F2}");
             sb.AppendLine($"Steals: {stats.Steals:F2}");
             sb.AppendLine($"Blocks: {stats.Blocks:F2}");
@@ -650,7 +685,7 @@ namespace NBAproject
         private void Search_Click(object sender, EventArgs e)
         {
             string teamName = SearchTeam.Text.Trim();
-            
+
             if (string.IsNullOrEmpty(teamName))
             {
                 MessageBox.Show("Please enter a team name to search.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
@@ -677,14 +712,14 @@ namespace NBAproject
                 CoachAge.Text = reader["coachAge"].ToString();
                 CoachId.Text = reader["Id"].ToString();
 
-                
+
                 reader.Close();
                 search = true;
                 LoadSquadSearch(teamId, DateTime.Now.Year, search);
             }
             else
             {
-                reader.Close(); 
+                reader.Close();
                 MessageBox.Show("Team not found.", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
 
@@ -705,11 +740,11 @@ namespace NBAproject
                 using (SqlDataReader reader = cmd.ExecuteReader())
                 {
 
-                    
-                    
+
+
                     player_list.Items.Clear();
-                    
-                    
+
+
 
 
                     while (reader.Read())
@@ -723,9 +758,9 @@ namespace NBAproject
                         player.PlayerWeight = reader["playerWeight"].ToString();
 
 
-                        
+
                         player_list.Items.Add(player);
-                        
+
 
                     }
                 }
@@ -768,7 +803,7 @@ namespace NBAproject
             }
             finally
             {
-                
+
                 cn.Close();
             }
         }
@@ -854,7 +889,7 @@ namespace NBAproject
             try
             {
                 string coachName = CoachEdit.Text.Trim();
-                string coachAge =  CoachAge.Text.Trim();
+                string coachAge = CoachAge.Text.Trim();
                 string teamName = SearchTeam.Text.Trim();
 
                 using (SqlCommand cmd = new SqlCommand("AddCoachToTeam", cn))
@@ -864,7 +899,7 @@ namespace NBAproject
                     cmd.Parameters.AddWithValue("@CoachAge", coachAge);
                     cmd.Parameters.AddWithValue("@TeamName", teamName);
 
-                   
+
 
                     cmd.ExecuteNonQuery();
                 }
@@ -887,7 +922,7 @@ namespace NBAproject
                 return;
 
             try
-            {   
+            {
                 string coachId = CoachId.Text.Trim();
                 string coachName = CoachEdit.Text.Trim();
                 string coachAge = CoachAge.Text.Trim();
@@ -942,6 +977,554 @@ namespace NBAproject
             {
                 cn.Close();
             }
+        }
+
+        private void SearchGamesByTeam_Click(object sender, EventArgs e)
+        {
+            string teamName = searchTeamAdmin.Text.Trim();
+
+
+            if (string.IsNullOrEmpty(teamName))
+            {
+                MessageBox.Show("Please enter a team name to search.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            LoadGamesAdmin(teamName);
+            
+        }
+
+        
+
+        private void LoadGamesAdmin(string teamName)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            SqlCommand cmd = new SqlCommand("GetGamesByTeamName", cn);
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Parameters.AddWithValue("@TeamName", teamName);
+            SqlDataReader reader = cmd.ExecuteReader();
+            gamesListAdmin.Items.Clear();
+
+            while (reader.Read())
+            {
+                Game game = new Game();
+                game.GameId = reader["GameId"].ToString();
+                game.Date = reader["gameDate"].ToString();
+                game.SeasonId = reader["season_Id"].ToString();
+
+
+                game.HomeTeamName = reader["HomeTeamName"].ToString();
+                game.HomeTeamPoints = reader["HomeTeamPoints"].ToString();
+
+
+                game.AwayTeamName = reader["AwayTeamName"].ToString();
+                game.AwayTeamPoints = reader["AwayTeamPoints"].ToString();
+
+
+
+                gamesListAdmin.Items.Add(game);
+            }
+
+            cn.Close();
+        }
+
+        private void g_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (gamesListAdmin.SelectedItem != null)
+            {
+                Game selectedGame = (Game)gamesListAdmin.SelectedItem;
+                DisplayGameDetails(selectedGame);
+                LoadSquadGame(selectedGame);
+            }
+        }
+
+        private void LoadSquadGame(Game selectedGame)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("GetPlayersByGameId", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", selectedGame.GameId);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    squadAdmin.Items.Clear(); // Clear any existing items
+
+                    while (reader.Read())
+                    {
+                        Player player = new Player();
+                        player.PlayerId = reader["Id"].ToString();
+                        player.PlayerName = reader["PlayerName"].ToString();
+                        player.PlayerPosition = reader["PlayerPosition"].ToString();
+                        player.PlayerWeight = reader["PlayerWeight"].ToString();
+                        player.PlayerHeight = reader["PlayerHeight"].ToString();
+                        player.PlayerAge = reader["PlayerAge"].ToString(); 
+                        
+
+                        squadAdmin.Items.Add(player); // Add player to the list
+                    }
+
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void DisplayGameDetails(Game game)
+        {
+            GameDate.Text = game.Date;
+            HomeTeamName.Text = game.HomeTeamName;
+            AwayTeamName.Text = game.AwayTeamName;
+            HomeTeamPoints.Text = game.HomeTeamPoints;
+            AwayTeamPoints.Text = game.AwayTeamPoints;
+            GameId.Text = game.GameId;
+            loadGameStatistics(HomeTeamName.Text, AwayTeamName.Text);
+        }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                DateTime date = DateTime.Parse(GameDate.Text.Trim());
+                string homeTeamName = HomeTeamName.Text.Trim();
+                string awayTeamName = AwayTeamName.Text.Trim();
+                string awayTeamPoints = AwayTeamPoints.Text.Trim();
+                string homeTeamPoints = HomeTeamPoints.Text.Trim();
+
+
+
+                string teamName = searchTeamAdmin.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("AddGame", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@Date", date);
+                    cmd.Parameters.AddWithValue("@HomeTeamName", homeTeamName);
+                    cmd.Parameters.AddWithValue("@AwayTeamName", awayTeamName);
+                    cmd.Parameters.AddWithValue("@HomeTeamPoints", homeTeamPoints);
+                    cmd.Parameters.AddWithValue("@AwayTeamPoints", awayTeamPoints);
+
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadGamesAdmin(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+
+                cn.Close();
+            }
+        }
+
+        private void button2_Click_1(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                string gameId = GameId.Text.Trim();
+                DateTime date = DateTime.Parse(GameDate.Text.Trim());
+                string homeTeamName = HomeTeamName.Text.Trim();
+                string awayTeamName = AwayTeamName.Text.Trim();
+                string awayTeamPoints = AwayTeamPoints.Text.Trim();
+                string homeTeamPoints = HomeTeamPoints.Text.Trim();
+                string teamName = searchTeamAdmin.Text.Trim();
+
+
+
+
+
+                using (SqlCommand cmd = new SqlCommand("EditGame", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+                    cmd.Parameters.AddWithValue("@Date", date);
+                    cmd.Parameters.AddWithValue("@HomeTeamName", homeTeamName);
+                    cmd.Parameters.AddWithValue("@AwayTeamName", awayTeamName);
+                    cmd.Parameters.AddWithValue("@HomeTeamPoints", homeTeamPoints);
+                    cmd.Parameters.AddWithValue("@AwayTeamPoints", awayTeamPoints);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadGamesAdmin(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                string gameId = GameId.Text.Trim();
+                string teamName = searchTeamAdmin.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("DeleteGame", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void loadGameStatistics(string homeTeamName, string awayTeamName)
+        {
+            string gameId = GameId.Text.Trim();
+
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("GetGameStatistics", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+                    cmd.Parameters.AddWithValue("@HomeTeamName", homeTeamName);
+                    cmd.Parameters.AddWithValue("@AwayTeamName", awayTeamName);
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        if (reader.Read())
+                        {
+                            // Reading statistics for the home team
+                            FgmHome.Text = reader["home_fgm"].ToString();
+                            FgaHome.Text = reader["home_fga"].ToString();
+                            ThreeptmHome.Text = reader["home_threeptm"].ToString();
+                            ThreeptaHome.Text = reader["home_threepta"].ToString();
+                            FtmHome.Text = reader["home_ftm"].ToString();
+                            FtaHome.Text = reader["home_fta"].ToString();
+                            OffRebHome.Text = reader["home_offReb"].ToString();
+                            DefRebHome.Text = reader["home_defReb"].ToString();
+                            AssistsHome.Text = reader["home_assists"].ToString();
+                            StealsHome.Text = reader["home_steals"].ToString();
+                            BlocksHome.Text = reader["home_blocks"].ToString();
+                            TovHome.Text = reader["home_tov"].ToString();
+                            FoulsHome.Text = reader["home_fouls"].ToString();
+                        }
+
+                        if (reader.NextResult() && reader.Read())
+                        {
+                            FgmAway.Text = reader["away_fgm"].ToString();
+                            FgaAway.Text = reader["away_fga"].ToString();
+                            ThreeptmAway.Text = reader["away_threeptm"].ToString();
+                            ThreeptaAway.Text = reader["away_threepta"].ToString();
+                            FtmAway.Text = reader["away_ftm"].ToString();
+                            FtaAway.Text = reader["away_fta"].ToString();
+                            OffRebAway.Text = reader["away_offReb"].ToString();
+                            DefRebAway.Text = reader["away_defReb"].ToString();
+                            AssistsAway.Text = reader["away_assists"].ToString();
+                            StealsAway.Text = reader["away_steals"].ToString();
+                            BlocksAway.Text = reader["away_blocks"].ToString();
+                            TovAway.Text = reader["away_tov"].ToString();
+                            FoulsAway.Text = reader["away_fouls"].ToString();
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void edit_statistics_home_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                string gameId = GameId.Text.Trim();
+                int homeFGM = int.Parse(FgmHome.Text.Trim());
+                int homeFGA = int.Parse(FgaHome.Text.Trim());
+                int home3PTM = int.Parse(ThreeptmHome.Text.Trim());
+                int home3PTA = int.Parse(ThreeptaHome.Text.Trim());
+                int homeFTM = int.Parse(FtmHome.Text.Trim());
+                int homeFTA = int.Parse(FtaHome.Text.Trim());
+                int homeOffReb = int.Parse(OffRebHome.Text.Trim());
+                int homeDefReb = int.Parse(DefRebHome.Text.Trim());
+                int homeAssists = int.Parse(AssistsHome.Text.Trim());
+                int homeSteals = int.Parse(StealsHome.Text.Trim());
+                int homeBlocks = int.Parse(BlocksHome.Text.Trim());
+                int homeTOV = int.Parse(TovHome.Text.Trim());
+                int homeFouls = int.Parse(FoulsHome.Text.Trim());
+                string homeTeamName = HomeTeamName.Text.Trim();
+                string awayTeamName = AwayTeamName.Text.Trim();
+
+
+                using (SqlCommand cmd = new SqlCommand("EditHomeTeamStatistics", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+                    cmd.Parameters.AddWithValue("@HomeTeamName", homeTeamName);
+                    cmd.Parameters.AddWithValue("@FGM", homeFGM);
+                    cmd.Parameters.AddWithValue("@FGA", homeFGA);
+                    cmd.Parameters.AddWithValue("@ThreePTM", home3PTM);
+                    cmd.Parameters.AddWithValue("@ThreePTA", home3PTA);
+                    cmd.Parameters.AddWithValue("@FTM", homeFTM);
+                    cmd.Parameters.AddWithValue("@FTA", homeFTA);
+                    cmd.Parameters.AddWithValue("@OffReb", homeOffReb);
+                    cmd.Parameters.AddWithValue("@DefReb", homeDefReb);
+                    cmd.Parameters.AddWithValue("@Assists", homeAssists);
+                    cmd.Parameters.AddWithValue("@Steals", homeSteals);
+                    cmd.Parameters.AddWithValue("@Blocks", homeBlocks);
+                    cmd.Parameters.AddWithValue("@TOV", homeTOV);
+                    cmd.Parameters.AddWithValue("@Fouls", homeFouls);
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                MessageBox.Show("Home team statistics updated successfully.");
+                loadGameStatistics(homeTeamName, awayTeamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                string gameId = GameId.Text.Trim();
+                int awayFGM = int.Parse(FgmAway.Text.Trim());
+                int awayFGA = int.Parse(FgaAway.Text.Trim());
+                int away3PTM = int.Parse(ThreeptmAway.Text.Trim());
+                int away3PTA = int.Parse(ThreeptaAway.Text.Trim());
+                int awayFTM = int.Parse(FtmAway.Text.Trim());
+                int awayFTA = int.Parse(FtaAway.Text.Trim());
+                int awayOffReb = int.Parse(OffRebAway.Text.Trim());
+                int awayDefReb = int.Parse(DefRebAway.Text.Trim());
+                int awayAssists = int.Parse(AssistsAway.Text.Trim());
+                int awaySteals = int.Parse(StealsAway.Text.Trim());
+                int awayBlocks = int.Parse(BlocksAway.Text.Trim());
+                int awayTOV = int.Parse(TovAway.Text.Trim());
+                int awayFouls = int.Parse(FoulsAway.Text.Trim());
+                string homeTeamName = HomeTeamName.Text.Trim();
+                string awayTeamName = AwayTeamName.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("EditAwayTeamStatistics", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+                    cmd.Parameters.AddWithValue("@AwayTeamName", awayTeamName);
+                    cmd.Parameters.AddWithValue("@FGM", awayFGM);
+                    cmd.Parameters.AddWithValue("@FGA", awayFGA);
+                    cmd.Parameters.AddWithValue("@ThreePTM", away3PTM);
+                    cmd.Parameters.AddWithValue("@ThreePTA", away3PTA);
+                    cmd.Parameters.AddWithValue("@FTM", awayFTM);
+                    cmd.Parameters.AddWithValue("@FTA", awayFTA);
+                    cmd.Parameters.AddWithValue("@OffReb", awayOffReb);
+                    cmd.Parameters.AddWithValue("@DefReb", awayDefReb);
+                    cmd.Parameters.AddWithValue("@Assists", awayAssists);
+                    cmd.Parameters.AddWithValue("@Steals", awaySteals);
+                    cmd.Parameters.AddWithValue("@Blocks", awayBlocks);
+                    cmd.Parameters.AddWithValue("@TOV", awayTOV);
+                    cmd.Parameters.AddWithValue("@Fouls", awayFouls);
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                MessageBox.Show("Away team statistics updated successfully.");
+                loadGameStatistics(homeTeamName, awayTeamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void listBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            if (squadAdmin.SelectedItem != null)
+            {
+                Player selectedPlayer = (Player)squadAdmin.SelectedItem;
+                int gameId = int.Parse(GameId.Text.Trim());
+                int playerId = int.Parse(selectedPlayer.PlayerId);
+                PlayerIdAdmin.Text = playerId.ToString();
+
+
+                LoadPlayerStatistics(gameId, playerId);
+            }
+        }
+
+        
+
+
+        private void LoadPlayerStatistics(int gameId, int playerId)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                using (SqlCommand cmd = new SqlCommand("GetPlayerStatisticsAdmin", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+                    cmd.Parameters.AddWithValue("@PlayerId", playerId);
+                    SqlDataReader reader = cmd.ExecuteReader();
+
+                    if (reader.Read())
+                    {
+                        FgmPlayer.Text = reader["fgm"].ToString();
+                        FgaPlayer.Text = reader["fga"].ToString();
+                        ThreeptmPlayer.Text = reader["threeptm"].ToString();
+                        ThreeptaPlayer.Text = reader["threepta"].ToString();
+                        FtmPlayer.Text = reader["ftm"].ToString();
+                        FtaPlayer.Text = reader["fta"].ToString();
+                        OffRebPlayer.Text = reader["offReb"].ToString();
+                        DefRebPlayer.Text = reader["defReb"].ToString();
+                        AssistsPlayer.Text = reader["assists"].ToString();
+                        StealsPlayer.Text = reader["steals"].ToString();
+                        BlocksPlayer.Text = reader["blocks"].ToString();
+                        TovPlayer.Text = reader["tov"].ToString();
+                        FoulsPlayer.Text = reader["fouls"].ToString();
+                    }
+
+                    reader.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void label44_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void BlocksPlayer_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                int gameId = int.Parse(GameId.Text.Trim());
+
+                int playerId = int.Parse(PlayerIdAdmin.Text.Trim());
+
+                int fgm = int.Parse(FgmPlayer.Text.Trim());
+                int fga = int.Parse(FgaPlayer.Text.Trim());
+                int threeptm = int.Parse(ThreeptmPlayer.Text.Trim());
+                int threepta = int.Parse(ThreeptaPlayer.Text.Trim());
+                int ftm = int.Parse(FtmPlayer.Text.Trim());
+                int fta = int.Parse(FtaPlayer.Text.Trim());
+                int offReb = int.Parse(OffRebPlayer.Text.Trim());
+                int defReb = int.Parse(DefRebPlayer.Text.Trim());
+                int assists = int.Parse(AssistsPlayer.Text.Trim());
+                int steals = int.Parse(StealsPlayer.Text.Trim());
+                int blocks = int.Parse(BlocksPlayer.Text.Trim());
+                int tov = int.Parse(TovPlayer.Text.Trim());
+                int fouls = int.Parse(FoulsPlayer.Text.Trim());
+
+                using (SqlCommand cmd = new SqlCommand("EditPlayerStatistics", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@GameId", gameId);
+                    cmd.Parameters.AddWithValue("@PlayerId", playerId);
+                    cmd.Parameters.AddWithValue("@FGM", fgm);
+                    cmd.Parameters.AddWithValue("@FGA", fga);
+                    cmd.Parameters.AddWithValue("@ThreePTM", threeptm);
+                    cmd.Parameters.AddWithValue("@ThreePTA", threepta);
+                    cmd.Parameters.AddWithValue("@FTM", ftm);
+                    cmd.Parameters.AddWithValue("@FTA", fta);
+                    cmd.Parameters.AddWithValue("@OffReb", offReb);
+                    cmd.Parameters.AddWithValue("@DefReb", defReb);
+                    cmd.Parameters.AddWithValue("@Assists", assists);
+                    cmd.Parameters.AddWithValue("@Steals", steals);
+                    cmd.Parameters.AddWithValue("@Blocks", blocks);
+                    cmd.Parameters.AddWithValue("@TOV", tov);
+                    cmd.Parameters.AddWithValue("@Fouls", fouls);
+
+                    cmd.ExecuteNonQuery();
+                }
+
+                MessageBox.Show("Player statistics updated successfully.");
+                LoadPlayerStatistics(gameId, playerId);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void Sponsor_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
