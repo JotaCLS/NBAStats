@@ -60,7 +60,7 @@ namespace NBAproject
             if (!verifySGBDConnection())
                 return;
 
-            SqlCommand cmd = new SqlCommand("SELECT id, teamName, cityName, wins_losses, division_id FROM Team", cn);
+            SqlCommand cmd = new SqlCommand("SELECT * from dbo.GetTeams()", cn);
             SqlDataReader reader = cmd.ExecuteReader();
             teams.Items.Clear();
 
@@ -670,6 +670,8 @@ namespace NBAproject
             {
                 string teamId = reader["id"].ToString();
                 CoachEdit.Text = reader["coachName"].ToString();
+                CoachAge.Text = reader["coachAge"].ToString();
+                CoachId.Text = reader["Id"].ToString();
 
                 
                 reader.Close();
@@ -835,5 +837,107 @@ namespace NBAproject
             }
         }
 
+        private void Coach_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                string coachName = CoachEdit.Text.Trim();
+                string coachAge =  CoachAge.Text.Trim();
+                string teamName = SearchTeam.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("AddCoachToTeam", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@CoachName", coachName);
+                    cmd.Parameters.AddWithValue("@CoachAge", coachAge);
+                    cmd.Parameters.AddWithValue("@TeamName", teamName);
+
+                   
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+
+                cn.Close();
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {   
+                string coachId = CoachId.Text.Trim();
+                string coachName = CoachEdit.Text.Trim();
+                string coachAge = CoachAge.Text.Trim();
+                string teamName = SearchTeam.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("UpdateCoach", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@CoachId", coachId);
+                    cmd.Parameters.AddWithValue("@CoachName", coachName);
+                    cmd.Parameters.AddWithValue("@CoachAge", coachAge);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (!verifySGBDConnection())
+                return;
+
+            try
+            {
+                int coachId = int.Parse(CoachId.Text.Trim());
+                string teamName = SearchTeam.Text.Trim();
+
+                using (SqlCommand cmd = new SqlCommand("DeleteCoachById", cn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+                    cmd.Parameters.AddWithValue("@CoachId", coachId);
+                    cmd.Parameters.AddWithValue("@TeamName", teamName);
+
+                    cmd.ExecuteNonQuery();
+                }
+                LoadTeamDetails(teamName);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
+            }
+            finally
+            {
+                cn.Close();
+            }
+        }
     }
 }

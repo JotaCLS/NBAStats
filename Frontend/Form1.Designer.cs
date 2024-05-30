@@ -59,6 +59,8 @@
             this.Viewer = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label19 = new System.Windows.Forms.Label();
+            this.PlayerId = new System.Windows.Forms.TextBox();
             this.PlayerWeight = new System.Windows.Forms.TextBox();
             this.label18 = new System.Windows.Forms.Label();
             this.PlayerHeight = new System.Windows.Forms.TextBox();
@@ -79,8 +81,13 @@
             this.Search = new System.Windows.Forms.Button();
             this.SearchTeam = new System.Windows.Forms.TextBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.PlayerId = new System.Windows.Forms.TextBox();
-            this.label19 = new System.Windows.Forms.Label();
+            this.CoachId = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.CoachAge = new System.Windows.Forms.TextBox();
+            this.label21 = new System.Windows.Forms.Label();
+            this.AddCoach = new System.Windows.Forms.Button();
+            this.EditCoach = new System.Windows.Forms.Button();
+            this.DeleteCoach = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             this.Viewer.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -373,6 +380,13 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.DeleteCoach);
+            this.tabPage2.Controls.Add(this.EditCoach);
+            this.tabPage2.Controls.Add(this.AddCoach);
+            this.tabPage2.Controls.Add(this.label21);
+            this.tabPage2.Controls.Add(this.CoachAge);
+            this.tabPage2.Controls.Add(this.label20);
+            this.tabPage2.Controls.Add(this.CoachId);
             this.tabPage2.Controls.Add(this.label19);
             this.tabPage2.Controls.Add(this.PlayerId);
             this.tabPage2.Controls.Add(this.PlayerWeight);
@@ -401,6 +415,22 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "TeamManaging";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.Location = new System.Drawing.Point(462, 55);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(50, 13);
+            this.label19.TabIndex = 51;
+            this.label19.Text = "Player ID";
+            // 
+            // PlayerId
+            // 
+            this.PlayerId.Location = new System.Drawing.Point(465, 78);
+            this.PlayerId.Name = "PlayerId";
+            this.PlayerId.Size = new System.Drawing.Size(100, 20);
+            this.PlayerId.TabIndex = 50;
             // 
             // PlayerWeight
             // 
@@ -520,7 +550,7 @@
             // 
             // CoachEdit
             // 
-            this.CoachEdit.Location = new System.Drawing.Point(751, 98);
+            this.CoachEdit.Location = new System.Drawing.Point(732, 71);
             this.CoachEdit.Name = "CoachEdit";
             this.CoachEdit.Size = new System.Drawing.Size(100, 20);
             this.CoachEdit.TabIndex = 36;
@@ -529,11 +559,12 @@
             // Coach
             // 
             this.Coach.AutoSize = true;
-            this.Coach.Location = new System.Drawing.Point(748, 81);
+            this.Coach.Location = new System.Drawing.Point(729, 55);
             this.Coach.Name = "Coach";
             this.Coach.Size = new System.Drawing.Size(38, 13);
             this.Coach.TabIndex = 35;
             this.Coach.Text = "Coach";
+            this.Coach.Click += new System.EventHandler(this.Coach_Click);
             // 
             // player_list
             // 
@@ -581,21 +612,67 @@
             this.tabPage3.Text = "Admin";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
-            // PlayerId
+            // CoachId
             // 
-            this.PlayerId.Location = new System.Drawing.Point(465, 78);
-            this.PlayerId.Name = "PlayerId";
-            this.PlayerId.Size = new System.Drawing.Size(100, 20);
-            this.PlayerId.TabIndex = 50;
+            this.CoachId.Location = new System.Drawing.Point(732, 124);
+            this.CoachId.Name = "CoachId";
+            this.CoachId.Size = new System.Drawing.Size(100, 20);
+            this.CoachId.TabIndex = 52;
             // 
-            // label19
+            // label20
             // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(462, 55);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(50, 13);
-            this.label19.TabIndex = 51;
-            this.label19.Text = "Player ID";
+            this.label20.AutoSize = true;
+            this.label20.Location = new System.Drawing.Point(729, 108);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(47, 13);
+            this.label20.TabIndex = 53;
+            this.label20.Text = "CoachId";
+            // 
+            // CoachAge
+            // 
+            this.CoachAge.Location = new System.Drawing.Point(732, 173);
+            this.CoachAge.Name = "CoachAge";
+            this.CoachAge.Size = new System.Drawing.Size(100, 20);
+            this.CoachAge.TabIndex = 54;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Location = new System.Drawing.Point(729, 157);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(57, 13);
+            this.label21.TabIndex = 55;
+            this.label21.Text = "CoachAge";
+            // 
+            // AddCoach
+            // 
+            this.AddCoach.Location = new System.Drawing.Point(665, 222);
+            this.AddCoach.Name = "AddCoach";
+            this.AddCoach.Size = new System.Drawing.Size(75, 23);
+            this.AddCoach.TabIndex = 56;
+            this.AddCoach.Text = "AddCoach";
+            this.AddCoach.UseVisualStyleBackColor = true;
+            this.AddCoach.Click += new System.EventHandler(this.button1_Click_1);
+            // 
+            // EditCoach
+            // 
+            this.EditCoach.Location = new System.Drawing.Point(746, 222);
+            this.EditCoach.Name = "EditCoach";
+            this.EditCoach.Size = new System.Drawing.Size(75, 23);
+            this.EditCoach.TabIndex = 57;
+            this.EditCoach.Text = "EditCoach";
+            this.EditCoach.UseVisualStyleBackColor = true;
+            this.EditCoach.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // DeleteCoach
+            // 
+            this.DeleteCoach.Location = new System.Drawing.Point(827, 222);
+            this.DeleteCoach.Name = "DeleteCoach";
+            this.DeleteCoach.Size = new System.Drawing.Size(75, 23);
+            this.DeleteCoach.TabIndex = 58;
+            this.DeleteCoach.Text = "DeleteCoach";
+            this.DeleteCoach.UseVisualStyleBackColor = true;
+            this.DeleteCoach.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form1
             // 
@@ -671,6 +748,13 @@
         private System.Windows.Forms.TextBox PlayerAge;
         private System.Windows.Forms.Label label19;
         private System.Windows.Forms.TextBox PlayerId;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.TextBox CoachAge;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.TextBox CoachId;
+        private System.Windows.Forms.Button DeleteCoach;
+        private System.Windows.Forms.Button EditCoach;
+        private System.Windows.Forms.Button AddCoach;
     }
 }
 
