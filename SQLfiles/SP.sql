@@ -1,5 +1,5 @@
-GO
-ALTER PROCEDURE [dbo].[AddCoachToTeam]
+
+CREATE PROCEDURE [dbo].[AddCoachToTeam]
     @CoachName NVARCHAR(100),
     @CoachAge NVARCHAR(100),
     @TeamName NVARCHAR(100)
@@ -39,8 +39,8 @@ BEGIN
     INSERT INTO Squad_Coach (squadId, coachId) VALUES (@SquadId, @CoachId);
 END;
 
-GO
-ALTER PROCEDURE [dbo].[AddGame]
+
+CREATE PROCEDURE [dbo].[AddGame]
     @Date DATE,
     @HomeTeamName NVARCHAR(100),
     @AwayTeamName NVARCHAR(100),
@@ -121,8 +121,7 @@ BEGIN
     END CATCH
 END;
 
-GO
-ALTER PROCEDURE [dbo].[AddPlayer]
+CREATE PROCEDURE [dbo].[AddPlayer]
     @PlayerName NVARCHAR(50),
     @PlayerAge INT,
     @PlayerPosition NVARCHAR(20),
@@ -157,8 +156,7 @@ BEGIN
     WHERE team_id = @TeamId;
 END
 
-GO
-ALTER PROCEDURE [dbo].[CalculateTotalPointsPerPlayer]
+CREATE PROCEDURE [dbo].[CalculateTotalPointsPerPlayer]
 AS
 BEGIN
     DECLARE @playerId INT,
@@ -219,8 +217,7 @@ BEGIN
     DEALLOCATE cursor_name;
 END
 
-GO
-ALTER PROCEDURE [dbo].[DeleteCoachById]
+CREATE PROCEDURE [dbo].[DeleteCoachById]
     @CoachId INT,
     @TeamName NVARCHAR(100)
 AS
@@ -258,8 +255,7 @@ BEGIN
     END CATCH
 END;
 
-GO
-ALTER PROCEDURE [dbo].[DeleteGame]
+CREATE PROCEDURE [dbo].[DeleteGame]
     @GameId INT
 AS
 BEGIN
@@ -288,8 +284,7 @@ BEGIN
     END CATCH
 END;
 
-GO
-ALTER PROCEDURE [dbo].[DeletePlayerById]
+CREATE PROCEDURE [dbo].[DeletePlayerById]
     @PlayerId INT
 AS
 BEGIN
@@ -304,8 +299,7 @@ BEGIN
     END
 END
 
-GO
-ALTER PROCEDURE [dbo].[EditAwayTeamStatistics]
+CREATE PROCEDURE [dbo].[EditAwayTeamStatistics]
     @GameId INT,
     @AwayTeamName NVARCHAR(100),
     @FGM INT,
@@ -351,8 +345,7 @@ BEGIN
     WHERE game_id = @GameId AND team_id = @AwayTeamId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[EditGame]
+CREATE PROCEDURE [dbo].[EditGame]
     @GameId INT,
     @Date DATE,
     @HomeTeamName NVARCHAR(100),
@@ -415,8 +408,7 @@ BEGIN
     END CATCH
 END;
 
-GO
-ALTER PROCEDURE [dbo].[EditHomeTeamStatistics]
+CREATE PROCEDURE [dbo].[EditHomeTeamStatistics]
     @GameId INT,
     @HomeTeamName NVARCHAR(100),
     @FGM INT,
@@ -462,8 +454,7 @@ BEGIN
     WHERE game_id = @GameId AND team_id = @HomeTeamId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[EditPlayer]
+CREATE PROCEDURE [dbo].[EditPlayer]
     @PlayerId INT,
     @PlayerName NVARCHAR(50),
     @PlayerAge INT,
@@ -481,8 +472,7 @@ BEGIN
     WHERE id = @PlayerId;
 END
 
-GO
-ALTER PROCEDURE [dbo].[EditPlayerStatistics]
+CREATE PROCEDURE [dbo].[EditPlayerStatistics]
     @GameId INT,
     @PlayerId INT,
     @FGM INT,
@@ -522,8 +512,7 @@ BEGIN
         AND playerid = @PlayerId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetGamesByTeam]
+CREATE PROCEDURE [dbo].[GetGamesByTeam]
     @TeamId INT
 AS
 BEGIN
@@ -584,8 +573,7 @@ BEGIN
     SET NOCOUNT OFF;
 END
 
-GO
-ALTER PROCEDURE [dbo].[GetGameStatistics]
+CREATE PROCEDURE [dbo].[GetGameStatistics]
     @GameId INT,
     @HomeTeamName NVARCHAR(100),
     @AwayTeamName NVARCHAR(100)
@@ -642,8 +630,7 @@ BEGIN
     WHERE s.game_id = @GameId AND s.team_id = @AwayTeamId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetPlayersByGameId]
+CREATE PROCEDURE [dbo].[GetPlayersByGameId]
     @GameId INT
 AS
 BEGIN
@@ -664,8 +651,7 @@ BEGIN
         sp.gameid = @GameId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetPlayerStatistics]
+CREATE PROCEDURE [dbo].[GetPlayerStatistics]
     @PlayerId INT
 AS
 BEGIN
@@ -692,8 +678,7 @@ BEGIN
         playerid = @PlayerId
 END
 
-GO
-ALTER PROCEDURE [dbo].[GetPlayerStatisticsAdmin]
+CREATE PROCEDURE [dbo].[GetPlayerStatisticsAdmin]
     @GameId INT,
     @PlayerId INT
 AS
@@ -721,8 +706,7 @@ BEGIN
         AND sp.playerid = @PlayerId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetSquadByTeam]
+CREATE PROCEDURE [dbo].[GetSquadByTeam]
     @TeamId INT,
     @Year INT
 AS
@@ -732,8 +716,7 @@ BEGIN
     WHERE TeamId = @TeamId AND squadYear = @Year;
 END
 
-GO
-ALTER PROCEDURE [dbo].[GetSquadByTeamIdAndYear]
+CREATE PROCEDURE [dbo].[GetSquadByTeamIdAndYear]
     @TeamId INT,
     @Year INT
 AS
@@ -746,8 +729,7 @@ BEGIN
     WHERE S.team_id = @TeamId AND S.squadYear = @Year;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetTeamByName]
+CREATE PROCEDURE [dbo].[GetTeamByName]
     @TeamName NVARCHAR(100)
 AS
 BEGIN
@@ -787,8 +769,7 @@ BEGIN
         T.teamName = @TeamName;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetTeamDetails]
+CREATE PROCEDURE [dbo].[GetTeamDetails]
     @teamId INT
 AS
 BEGIN
@@ -813,8 +794,7 @@ BEGIN
         t.id = @teamId;
 END;
 
-GO
-ALTER PROCEDURE [dbo].[GetTeamsByConference]
+CREATE PROCEDURE [dbo].[GetTeamsByConference]
     @ConferenceName NVARCHAR(50)
 AS
 BEGIN
@@ -825,8 +805,7 @@ BEGIN
     WHERE C.conferenceName = @ConferenceName;
 END
 
-GO
-ALTER PROCEDURE [dbo].[GetTeamsByDivision]
+CREATE PROCEDURE [dbo].[GetTeamsByDivision]
     @DivisionName NVARCHAR(50)
 AS
 BEGIN
@@ -836,8 +815,7 @@ BEGIN
     WHERE D.divisionName = @DivisionName;
 END
 
-GO
-ALTER PROCEDURE [dbo].[SearchTeamByName]
+CREATE PROCEDURE [dbo].[SearchTeamByName]
     @TeamName NVARCHAR(100)
 AS
 BEGIN
@@ -846,8 +824,7 @@ BEGIN
     WHERE teamName LIKE '%' + @TeamName + '%';
 END;
 
-GO
-ALTER PROCEDURE [dbo].[UpdateCoach]
+CREATE PROCEDURE [dbo].[UpdateCoach]
     @CoachId INT,
     @CoachName NVARCHAR(100),
     @CoachAge INT  
