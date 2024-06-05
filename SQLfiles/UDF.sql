@@ -1,3 +1,4 @@
+
 GO
 ALTER FUNCTION [dbo].[GetTeams]()
 RETURNS TABLE
