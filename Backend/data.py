@@ -126,24 +126,24 @@ squad_player_header = ['squad_id', 'player_id']
 squad_coach_header = ['squad_id', 'coach_id']
 
 def team_data():
-    squad_id = 1
+    squad_id = 31
     
     team_file = open('teamdata.csv', 'w', newline='')
     team_writer = csv.writer(team_file)
     team_writer.writerow(team_header)
-    player_file = open('playerdata.csv', 'w', newline='')
+    player_file = open('playerdata2.csv', 'w', newline='')
     player_writer = csv.writer(player_file)
     player_writer.writerow(player_header)
-    squad_file = open('squaddata.csv', 'w', newline='')
+    squad_file = open('squaddata2.csv', 'w', newline='')
     squad_writer = csv.writer(squad_file)
     squad_writer.writerow(squad_header)
-    coach_file = open('coachdata.csv', 'w', newline='')
+    coach_file = open('coachdata2.csv', 'w', newline='')
     coach_writer = csv.writer(coach_file)
     coach_writer.writerow(coach_header)
-    squad_player_file = open('squadplayerdata.csv', 'w', newline='')
+    squad_player_file = open('squadplayerdata2.csv', 'w', newline='')
     squad_player_writer = csv.writer(squad_player_file)
     squad_player_writer.writerow(squad_player_header)
-    squad_coach_file = open('squadcoachdata.csv', 'w', newline='')
+    squad_coach_file = open('squadcoachdata2.csv', 'w', newline='')
     squad_coach_writer = csv.writer(squad_coach_file)
     squad_coach_writer.writerow(squad_coach_header)
     standings = leaguestandings.LeagueStandings().get_dict()
@@ -160,12 +160,12 @@ def team_data():
         # print(Team_data)
         team_writer.writerow(Team_data)
 
-        Squad_data = [squad_id, 2024, team_id]
+        Squad_data = [squad_id, 2023, team_id]
         # print(Squad_data)
         squad_writer.writerow(Squad_data)
         
-        roster = commonteamroster.CommonTeamRoster(team_id=team_id).get_dict()
-        # print(roster['resultSets'][0])
+        roster = commonteamroster.CommonTeamRoster(team_id=team_id, season='2022-23').get_dict()
+        print(roster['resultSets'][0])
         for player in roster['resultSets'][0]['rowSet']:
             Player_data = [player[14], player[3], int(str(player[11]).split('.')[0]), player[7], int(feet_inches_to_cm(player[8])), int(pounds_to_kg(int(player[9])))]
             # print(Player_data)
@@ -205,7 +205,7 @@ def feet_inches_to_cm(feet_inches_str):
     return total_cm
 
 def main():
-    game_data()
+    # game_data()
     team_data()
     print('Done')
 

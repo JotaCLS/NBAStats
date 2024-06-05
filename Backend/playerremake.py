@@ -56,7 +56,8 @@ for player in splist:
 
 not_in_player_data = list(dict.fromkeys(not_in_player_data))
 
-file = open('playerremake.txt', 'w')
+file = open('playerremake.csv', 'w', newline='')
+writer = csv.writer(file)
 
 # id, playerName, playerPosition, playerAge, playerHeight, playerWeight
 
@@ -70,5 +71,5 @@ for player in not_in_player_data:
     weight = pounds_to_kg(int(player_data['WEIGHT'][0]))
     player_data = f'({id}, \'{name}\', {age}, \'{position}\', {height:.0f}, {weight:.0f}),'
     print(player_data)
-    file.write(player_data + '\n')
+    writer.writerow([id, name, position, age, height, weight])
     
