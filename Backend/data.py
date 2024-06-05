@@ -63,19 +63,14 @@ def game_data():
         games = []
 
         print(f'Games on {game_date}:')
-        # print('-------------------')
-
+        
         for game in gameHeader:
             games.append(game[2])
             
         games = list(dict.fromkeys(games))
-        #print(games)
-        #print('-------------------')
-
+        
         for game in games:
             box = boxscoretraditionalv2.BoxScoreTraditionalV2(game_id=game).get_dict()
-            # print(box.get('resultSets')[0]['headers'])
-            # print('-------------------')
             
             players = box.get('resultSets')[0]['rowSet']
             for player in players:
@@ -83,21 +78,15 @@ def game_data():
                     continue
                 mins = player[9].split(':')
                 Statistics_Player = [player[4], int(player[0]), str(f'00:{int(mins[0].split('.')[0]):02d}:{mins[1]}'), player[10], player[11], player[13], player[14], player[16], player[17], player[19], player[20], player[22], player[23], player[24], player[25], player[26], player[27], player[28]]
-                # print(Statistics_Player)
                 sp_writer.writerow(Statistics_Player)
                 
             awayTeam = box.get('resultSets')[1]['rowSet'][0]
             homeTeam = box.get('resultSets')[1]['rowSet'][1]
             
-            # print(awayTeam)
-            # print(homeTeam)
             winner = awayTeam[1] if awayTeam[23] > homeTeam[23] else homeTeam[1]
             Game_Stats = [int(awayTeam[0]), game_date, winner, 1]
-            # print(Game_Stats)
             gw_writer.writerow(Game_Stats)
 
-            # print(awayTeam)
-            # print('-------------------')
             Statistics_Away_Team = [sat_id, int(awayTeam[0]), awayTeam[1], awayTeam[6], awayTeam[7], awayTeam[9], awayTeam[10], awayTeam[12], awayTeam[13], awayTeam[15], awayTeam[16], awayTeam[18], awayTeam[19], awayTeam[20], awayTeam[21], awayTeam[22], awayTeam[23]]
             Statistics_Home_Team = [sht_id, int(homeTeam[0]), homeTeam[1], homeTeam[6], homeTeam[7], homeTeam[9], homeTeam[10], homeTeam[12], homeTeam[13], homeTeam[15], homeTeam[16], homeTeam[18], homeTeam[19], homeTeam[20], homeTeam[21], homeTeam[22], homeTeam[23]]
             sat_id = sat_id + 1
@@ -106,12 +95,6 @@ def game_data():
             sat_writer.writerow(Statistics_Away_Team)
             sht_writer.writerow(Statistics_Home_Team)
 
-            # print(Statistics_Away_Team)
-            # print(Statistics_Home_Team)
-            # print('\n-------------------\n')
-
-        #     break
-        # break
 
     sat_file.close()    
     sht_file.close()
@@ -148,46 +131,36 @@ def team_data():
     squad_coach_writer.writerow(squad_coach_header)
     standings = leaguestandings.LeagueStandings().get_dict()
     nba_teams = standings['resultSets'][0]['rowSet']
-    # print(nba_teams)
-
+    
 
     for team in nba_teams:
-        # print(team)
         team_id = team[2]
         team_name = team[4]
         team_city = team[3]
         Team_data = [team_id, team_name, team_city, team[16], divisions.index(team[9]) + 1]
-        # print(Team_data)
         team_writer.writerow(Team_data)
 
         Squad_data = [squad_id, 2023, team_id]
-        # print(Squad_data)
         squad_writer.writerow(Squad_data)
         
         roster = commonteamroster.CommonTeamRoster(team_id=team_id, season='2022-23').get_dict()
         print(roster['resultSets'][0])
         for player in roster['resultSets'][0]['rowSet']:
             Player_data = [player[14], player[3], int(str(player[11]).split('.')[0]), player[7], int(feet_inches_to_cm(player[8])), int(pounds_to_kg(int(player[9])))]
-            # print(Player_data)
             player_writer.writerow(Player_data)
 
             Squad_Player_data = [squad_id, player[14]]
-            # print(Squad_Player_data)
             squad_player_writer.writerow(Squad_Player_data)
-            # break
-
+            
         coach = roster['resultSets'][1]['rowSet'][0]
         Coach_data = [coach[2], coach[5], int(-1)]
-        # print(Coach_data)
         coach_writer.writerow(Coach_data)
 
         Squad_Coach_data = [squad_id, coach[2]]
-        # print(Squad_Coach_data)
         squad_coach_writer.writerow(Squad_Coach_data)
 
         squad_id = squad_id + 1
-        # break
-
+        
     team_file.close()
     player_file.close()
     squad_file.close()
@@ -205,7 +178,6 @@ def feet_inches_to_cm(feet_inches_str):
     return total_cm
 
 def main():
-    # game_data()
     team_data()
     print('Done')
 
